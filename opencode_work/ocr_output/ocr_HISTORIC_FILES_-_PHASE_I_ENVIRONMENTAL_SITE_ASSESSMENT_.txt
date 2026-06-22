@@ -1,0 +1,2075 @@
+--- PAGE 1 ---
+Here's the extracted information from the document:
+
+**Full Text:**
+EEC ENVIRONMENTAL Corporate Office Tel: (714) 667-2300 Fax: (714) 667-2310 One City Boulevard West, Suite 1800 Orange, California 92868 www.eecenvironmental.com PHASE I ENVIRONMENTAL SITE ASSESSMENT 17631 Cameron Lane and 17642 Beach Boulevard Huntington Beach, California March 18, 2020 Prepared for: City of Huntington Beach 2000 Main Street, Public Works Department Huntington Beach, California 92648 Prepared by: EEC Environmental One City Boulevard West, Suite 1800 Orange, California 92868 EEC S-3506.01B Laura Holder Project Manager Emily Vavricka Project Scientist ENVIRONMENTAL | ENGINEERING | COMPLIANCE | SAFETY | TECHNOLOGY
+
+**Addresses:**
+*   **EEC Environmental (Corporate Office / Prepared by):**
+    *   One City Boulevard West, Suite 1800, Orange, California 92868
+*   **Subject Property Addresses:**
+    *   17631 Cameron Lane, Huntington Beach, California
+    *   17642 Beach Boulevard, Huntington Beach, California
+*   **City of Huntington Beach (Prepared for):**
+    *   2000 Main Street, Public Works Department, Huntington Beach, California 92648
+
+**APN Numbers:**
+*   None explicitly mentioned.
+
+**Permit Numbers:**
+*   None explicitly mentioned.
+
+**Project/File Number:**
+*   EEC S-3506.01B
+
+**Contaminant Names:**
+*   None mentioned on this page (this is a cover page).
+
+**Concentrations:**
+*   None mentioned on this page (this is a cover page).
+--- PAGE 2 ---
+```json
+{
+  "document_title": "Phase I Environmental Site Assessment",
+  "document_date": "March 18, 2020",
+  "table_of_contents": [
+    {
+      "item_number": "ES",
+      "item_title": "EXECUTIVE SUMMARY",
+      "page_number": "1"
+    },
+    {
+      "item_number": "ES.1",
+      "item_title": "FINDINGS",
+      "page_number": "1"
+    },
+    {
+      "item_number": "ES.2",
+      "item_title": "CONCLUSIONS",
+      "page_number": "2"
+    },
+    {
+      "item_number": "1.0",
+      "item_title": "INTRODUCTION",
+      "page_number": "4"
+    },
+    {
+      "item_number": "1.1",
+      "item_title": "OBJECTIVE",
+      "page_number": "4"
+    },
+    {
+      "item_number": "1.2",
+      "item_title": "DEFINITIONS",
+      "page_number": "4"
+    },
+    {
+      "item_number": "1.3",
+      "item_title": "SCOPE OF WORK",
+      "page_number": "5"
+    },
+    {
+      "item_number": "1.4",
+      "item_title": "LIMITATIONS",
+      "page_number": "6"
+    },
+    {
+      "item_number": "1.4.1",
+      "item_title": "Data Failure",
+      "page_number": "6"
+    },
+    {
+      "item_number": "1.4.2",
+      "item_title": "Data Gaps",
+      "page_number": "6"
+    },
+    {
+      "item_number": "2.0",
+      "item_title": "USER PROVIDED INFORMATION",
+      "page_number": "7"
+    },
+    {
+      "item_number": "3.0",
+      "item_title": "SITE DESCRIPTION",
+      "page_number": "8"
+    },
+    {
+      "item_number": "3.1",
+      "item_title": "PHYSICAL SETTING",
+      "page_number": "8"
+    },
+    {
+      "item_number": "3.1.1",
+      "item_title": "Topography",
+      "page_number": "8"
+    },
+    {
+      "item_number": "3.1.2",
+      "item_title": "Geology and Hydrogeology",
+      "page_number": "8"
+    },
+    {
+      "item_number": "4.0",
+      "item_title": "SITE RECONNAISSANCE",
+      "page_number": "9"
+    },
+    {
+      "item_number": "4.1",
+      "item_title": "GENERAL OBSERVATIONS",
+      "page_number": "9"
+    },
+    {
+      "item_number": "4.2",
+      "item_title": "USE OF HAZARDOUS SUBSTANCES AND PETROLEUM PRODUCTS",
+      "page_number": "9"
+    },
+    {
+      "item_number": "4.3",
+      "item_title": "STORAGE TANKS AND CONTAINERS",
+      "page_number": "10"
+    },
+    {
+      "item_number": "4.3.1",
+      "item_title": "Underground Storage Tanks",
+      "page_number": "10"
+    },
+    {
+      "item_number": "4.3.2",
+      "item_title": "Aboveground Storage Tanks",
+      "page_number": "10"
+    },
+    {
+      "item_number": "4.3.3",
+      "item_title": "Drums",
+      "page_number": "10"
+    },
+    {
+      "item_number": "4.4",
+      "item_title": "POLYCHLORINATED BIPHENYLS",
+      "page_number": "10"
+    },
+    {
+      "item_number": "4.5",
+      "item_title": "WASTE MANAGEMENT AND DISPOSAL",
+      "page_number": "10"
+    },
+    {
+      "item_number": "4.5.1",
+      "item_title": "Hazardous Waste",
+      "page_number": "10"
+    },
+    {
+      "item_number": "4.5.2",
+      "item_title": "Nonhazardous Waste",
+      "page_number": "10"
+    },
+    {
+      "item_number": "4.5.3",
+      "item_title": "Solid Waste",
+      "page_number": "10"
+    },
+    {
+      "item_number": "4.5.4",
+      "item_title": "Stormwater and Wastewater",
+      "page_number": "10"
+    },
+    {
+      "item_number": "4.6",
+      "item_title": "WELLS",
+      "page_number": "11"
+    },
+    {
+      "item_number": "4.7",
+      "item_title": "ADJOINING PROPERTIES",
+      "page_number": "11"
+    },
+    {
+      "item_number": "5.0",
+      "item_title": "PROPERTY HISTORY",
+      "page_number": "11"
+    },
+    {
+      "item_number": "5.1",
+      "item_title": "AERIAL PHOTOGRAPHS",
+      "page_number": "12"
+    },
+    {
+      "item_number": "5.2",
+      "item_title": "TOPOGRAPHIC MAPS",
+      "page_number": "13"
+    },
+    {
+      "item_number": "5.3",
+      "item_title": "CITY DIRECTORIES",
+      "page_number": "15"
+    },
+    {
+      "item_number": "5.4",
+      "item_title": "FIRE INSURANCE MAPS",
+      "page_number": "19"
+    },
+    {
+      "item_number": "5.5",
+      "item_title": "PREVIOUS ENVIRONMENTAL STUDIES OR DOCUMENTATION",
+      "page_number": "19"
+    },
+    {
+      "item_number": "5.6",
+      "item_title": "PROPERTY TITLE RECORDS",
+      "page_number": "19"
+    },
+    {
+      "item_number": "6.0",
+      "item_title": "INTERVIEWS",
+      "page_number": "19"
+    },
+    {
+      "item_number": "7.0",
+      "item_title": "REGULATORY AGENCY FILE REVIEWS",
+      "page_number": "20"
+    },
+    {
+      "item_number": "7.1",
+      "item_title": "FEDERAL",
+      "page_number": "20"
+    },
+    {
+      "item_number": "7.1.1",
+      "item_title": "United States Environmental Protection Agency",
+      "page_number": "20"
+    },
+    {
+      "item_number": "7.1.2",
+      "item_title": "Pipeline and Hazardous Materials Safety Administration",
+      "page_number": "20"
+    },
+    {
+      "item_number": "7.2",
+      "item_title": "STATE",
+      "page_number": "20"
+    },
+    {
+      "item_number": "7.2.1",
+      "item_title": "California Geologic Energy Management Division",
+      "page_number": "20"
+    },
+    {
+      "item_number": "7.2.2",
+      "item_title": "California Department of Toxic Substances Control",
+      "page_number": "20"
+    },
+    {
+      "item_number": "7.2.3",
+      "item_title": "State of California Regional Water Quality Control Board, Santa Ana Region",
+      "page_number": "20"
+    },
+    {
+      "item_number": "7.3",
+      "item_title": "REGIONAL",
+      "page_number": "21"
+    }
+  ],
+  "footers": [
+    {
+      "text": "S-3506.01B, Huntington Beach, CA",
+      "page_indicator": "ii"
+    },
+    {
+      "text": "EEC"
+    }
+  ],
+  "contaminant_names": [
+    "POLYCHLORINATED BIPHENYLS",
+    "Hazardous Waste"
+  ],
+  "addresses": [
+    "Huntington Beach, CA"
+  ],
+  "apn_numbers": [],
+  "permit_numbers": [],
+  "concentrations": []
+}
+```
+--- PAGE 3 ---
+Here's the extracted information from the provided OCR:
+
+**Text:**
+Phase I Environmental Site Assessment
+March 18, 2020
+7.3.1 South Coast Air Quality Management District.
+7.4 COUNTY.
+7.4.1 Orange County Health Care Agency
+7.5 LOCAL.
+7.5.1 City of Huntington Beach...
+7.5.2 Huntington Beach Fire Department.
+8.0 ENVIRONMENTAL DATABASE SEARCH
+9.0 VAPOR ENCROACHMENT SCREENING
+10.0 NON-ASTM CONSIDERATIONS
+10.1 ASBESTOS
+10.2 LEAD-BASED PAINT.
+10.3 RADON
+10.4 MOLD
+10.5 FLOOD ZONE
+10.6 FEDERAL WETLANDS.
+11.0 FINDINGS AND CONCLUSIONS
+11.1 FINDINGS
+11.2 CONCLUSIONS.
+12.0 QUALIFICATIONS OF ENVIRONMENTAL PROFESSIONALS
+12.1 CERTIFICATION.
+13.0 REFERENCES.
+
+Tables
+Table 5-1 Historical Land Use Based on Aerial Photographs
+Table 5-2 Historical Land Use Based on Topographic Maps.
+Table 5-3 Historical Land Use Based on City Directories
+Table 8-1 Environmental Database Search Results
+
+Figures
+Figure 1 Site Location Map
+Figure 2 Site Vicinity Map
+
+Photographs
+
+Appendices
+Appendix A EEC Standard Limitations
+Appendix B User Provided Information
+Appendix C Aerial Photographs
+Appendix D Historical Topographic Maps
+Appendix E City Directory Report
+Appendix F Historical Sanborn Maps
+Appendix G Environmental Lien Search
+Appendix H Agency Correspondence
+Appendix I EDR Database Search Report
+Appendix J Environmental Professional Résumés
+
+S-3506.01B, Huntington Beach, CA
+iii
+EEC
+
+**Addresses:** None found on this page.
+
+**APN numbers:** None found on this page.
+
+**Permit numbers:** None found on this page.
+
+**Contaminant names:**
+*   ASBESTOS
+*   LEAD-BASED PAINT
+*   RADON
+*   MOLD
+
+**Concentrations:** None found on this page.
+--- PAGE 4 ---
+**Extracted Information:**
+
+*   **All Text:**
+    ```
+    Phase | Environmental Site Assessment
+    March 18, 2020
+    ES
+    EXECUTIVE SUMMARY
+    The City of Huntington Beach retained EEC Environmental (EEC) to conduct a Phase I Environmental Site
+    Assessment (ESA) at 17631 Cameron Lane and 17642 Beach Boulevard in Huntington Beach, Orange
+    County, California (subject property). The objective of the Phase I ESA is to assess the environmental
+    condition of the subject property and identify recognized environmental conditions (RECs), as defined by
+    the American Society for Testing and Materials (ASTM), in connection with the subject property. This
+    Phase I ESA in being conducted in association with potential redevelopment of the property.
+    The assessment was conducted in accordance with the U.S. Environmental Protection Agency (USEPA)
+    Standards and Practices for All Appropriate Inquiries (40 CFR 312); ASTM Standard Practice for
+    Environmental Site Assessments: Phase I Environmental Site Assessment Process (ASTM Designation
+    E1527-13); and EEC's Standard Limitations. In addition, the Phase I ESA includes all the appropriate
+    inquiries to support the innocent landowner defense pursuant to the Comprehensive Environmental
+    Response, Compensation, and Liability Act.
+    The approximately 1.6-acre subject property consists of two residential lots identified as Assessor Parcel
+    Numbers (APNs) 167-042-08 (17631 Cameron Lane) and 167-042-09 (17642 Beach Boulevard) in
+    Huntington Beach, Orange County, California (Figure 1, Site Location Map; Figure 2, Site Vicinity Map).
+    The lot addressed as 17631 Cameron Lane is currently developed with an unoccupied single-family
+    residence. The lot addressed as 17642 Beach Boulevard was formerly developed with two single-family
+    residences that were demolished by 1994. Aside from the existing single-family residence, the remainder
+    of the subject property is undeveloped and almost entirely covered with vegetation.
+    Historical documentation indicated that the subject property was undeveloped land prior to being
+    developed with two residences along Beach Boulevard in the 1930s. In 1947, an additional residence
+    was developed along Cameron Lane. From the 1930s to the 1950s, the subject property may have also
+    been used for agricultural purposes (row crops). In the 1960s, the southeast portion of the subject
+    property appeared to be used for storage purposes; though the specific use was not determined. By
+    1994, the two residences along Beach Boulevard were demolished. Since then, the subject property has
+    been vacant land, with the exception of the existing residence along Cameron Lane.
+    ES.1 Findings
+    Based on site observations and information gathered, the Phase I ESA revealed the following in
+    connection with the subject property:
+    •
+    Depth to groundwater is approximately 18 to 24 feet below ground surface (bgs) and the
+    groundwater gradient is expected to be southwest.
+    EEC was unable to access the subject property building; therefore, a visual inspection to
+    determine the presence of mold or conditions conducive to mold could not be performed.
+    A cesspool was documented at one of the residences along Beach Boulevard. The cesspool was
+    abandoned in-place and is likely still present at the subject property. The potential exists that
+    two additional abandoned cesspools may be present in connection with the two additional
+    residences on the subject property. These features are not considered a REC, but may be
+    encountered during any future redevelopment activities.
+    S-3506.01B, Huntington Beach, CA
+    1
+    EEC
+    ```
+
+*   **Addresses:**
+    *   17631 Cameron Lane, Huntington Beach, Orange County, California
+    *   17642 Beach Boulevard, Huntington Beach, Orange County, California
+
+*   **APN Numbers:**
+    *   167-042-08
+    *   167-042-09
+
+*   **Permit Numbers:**
+    *   None explicitly stated as "permit numbers."
+    *   *Note:* "S-3506.01B" appears to be a document or report identifier.
+    *   *Note:* "40 CFR 312" is a regulation code, and "ASTM Designation E1527-13" is a standard designation.
+
+*   **Contaminant Names:**
+    *   Mold (mentioned as something that could not be visually inspected for)
+    *   Cesspool (mentioned as a documented feature, which can be a source of contamination)
+
+*   **Concentrations:**
+    *   Depth to groundwater: Approximately 18 to 24 feet below ground surface (bgs)
+    *   No other specific chemical or pollutant concentrations are provided in this summary.
+--- PAGE 5 ---
+**Extracted Information from Page 5 of the Phase I Environmental Site Assessment Report:**
+
+**Full Text:**
+Phase I Environmental Site Assessment
+March 18, 2020
+*   According to the Orange County Water District, Well W-4150 was identified on the subject property parcel addressed as 17642 Beach Boulevard. The domestic well was drilled in 1956 and the status is unknown. According to City of Huntington Beach representatives, this was an irrigation well.
+*   Based on a review of aerial photographs, the subject property may have been used for agricultural purposes (row crops) during the 1930s to 1950s. Given this usage, it is possible that pesticides and/or herbicides were once used onsite. Former pesticide/herbicide use generally does not typically represent a REC when the materials were purchased and applied in a customary manner. However, EEC recommends that if the subject property will be developed for residential use, it would be prudent to perform soil sampling to determine if potential residual pesticides and/or herbicides pose a health and safety risk for future occupants.
+*   Due to the date of the building construction (1947), there is a potential that asbestos-containing materials (ACMs) and lead-based paint (LBP) exist at the subject property. However, only a complete, intrusive sampling survey for ACMs and LBP can definitively determine their presence. Therefore, an ACM and LBP survey is recommended prior to any activities that would cause disturbance to the building materials in the onsite residence. Additionally, EEC recommends that if the subject property will be developed for residential use, it would be prudent to perform soil sampling for lead in the area of the current and former residences, to determine if potential leaching from paint chips poses a health and safety risk for future occupants.
+*   During site reconnaissance, the topography at the southeast portion of the subject property appeared uneven. The reason could not be determined; however, it should be noted that according to a 1963 aerial photograph, this portion of the subject property appeared to be used for storage purposes. About five small structures were observed and the land surface appeared to be graded at this time. The specific use of this portion of the subject property was not identified using standard sources reviewed for this assessment. Based on the lack of information related to the specific use and the uneven topography observed during site reconnaissance, EEC considers this data failure to be a significant data gap that prevents the identification of RECs on this portion of the subject property. To address this data gap, EEC recommends a geophysical survey and soil sampling may be necessary to rule out potential environmental concerns.
+
+ES.2 Conclusions
+EEC has performed this Phase I ESA in conformance with the scope and limitations of ASTM Practice E1527-13 of the HB Navigation Center site located at 17631 Cameron Lane and 17642 Beach Boulevard, the subject property. Any exceptions to, or deletions from, this practice are described in Section 1.4, Limitations, of this report. This assessment did not reveal any RECs in connection with the subject property. However, based on the significant data gap identified at the southeast portion of the subject property and the potential for future residential use of the subject property, EEC recommends the following:
+*   A geophysical survey and soil sampling on the southeast corner of the subject property (east portion of 17642 Beach Boulevard parcel) to evaluate the potential for buried materials and/or residual contamination.
+S-3506.01B, Huntington Beach, CA
+2
+EEC
+
+**Addresses:**
+*   17642 Beach Boulevard (Subject property parcel)
+*   17631 Cameron Lane (HB Navigation Center site)
+*   Huntington Beach, CA (City and State)
+
+**APN Numbers:**
+*   None explicitly mentioned on this page.
+
+**Permit Numbers:**
+*   None explicitly mentioned on this page.
+
+**Contaminant Names:**
+*   Pesticides
+*   Herbicides
+*   Asbestos-containing materials (ACMs)
+*   Lead-based paint (LBP)
+*   Lead (from paint chips)
+*   Buried materials (potential source of contamination)
+*   Residual contamination
+
+**Concentrations:**
+*   No specific contaminant concentrations are mentioned on this page. The text refers to the *potential* for contaminants but does not provide measured values.
+--- PAGE 6 ---
+Here's the extracted information from the provided OCR text:
+
+**Text:**
+Phase I Environmental Site Assessment
+March 18, 2020
+• Perform an asbestos and lead-based paint survey at the existing residence (17631 Cameron Lane parcel) prior to any activities that would cause disturbance to the building materials.
+• Soil sampling on both parcels to assess for potential residual pesticides and herbicides from former agricultural use and to assess for potential lead in the location of the current and former building exteriors.
+S-3506.01B, Huntington Beach, CA
+3
+EEC
+
+**Addresses:**
+*   17631 Cameron Lane (implied parcel address)
+*   Huntington Beach, CA (associated with "S-3506.01B")
+
+**Contaminant Names:**
+*   asbestos
+*   lead-based paint
+*   pesticides
+*   herbicides
+*   lead
+
+**Other identified entities:**
+*   **Document Title/Type:** Phase I Environmental Site Assessment
+*   **Date:** March 18, 2020
+*   **File/Project Number:** S-3506.01B
+*   **Page Number:** 3
+*   **Acronym/Company Identifier:** EEC
+--- PAGE 7 ---
+*   **All Text:**
+    Phase I Environmental Site Assessment
+    March 18, 2020
+    1.0
+    1.1
+    INTRODUCTION
+    Objective
+    The City of Huntington Beach retained EEC Environmental (EEC) to conduct a Phase I Environmental Site
+    Assessment (ESA) at 17631 Cameron Lane and 17642 Beach Boulevard in Huntington Beach, Orange
+    County, California (subject property). The objective of the Phase I ESA is to assess the environmental
+    condition of the subject property and identify recognized environmental conditions as defined by the
+    American Society for Testing and Materials (ASTM), in connection with the subject property. This Phase I
+    ESA in being conducted in association with with potential redevelopment of the property.
+    1.2
+    Definitions
+    The term recognized environmental condition (REC) is defined by the ASTM as "the presence or likely
+    presence of any hazardous substances or petroleum products in, on, or at a property: (1) due to release
+    to the environment; (2) under conditions indicative of a release to the environment; or (3) under
+    conditions that pose a material threat of a future release to the environment" (ASTM E1527-13 §3.2.78).
+    The term controlled recognized environmental condition (CREC) is defined by the ASTM as "a recognized
+    environmental condition resulting from a past release of hazardous substances or petroleum products
+    that has been addressed to the satisfaction of the applicable regulatory authority (for example, as
+    evidenced by the issuance of a no further action letter or equivalent, or meeting risk-based criteria
+    established by regulatory authority), with hazardous substances or petroleum products allowed to
+    remain in place subject to the implementation of required controls (for example, property use
+    restrictions, activity and use limitations, institutional controls, or engineering controls)" (ASTM E1527-13
+    §3.2.18).
+    The term historical recognized environmental condition (HREC) is defined by ASTM as "a past release of
+    any hazardous substances or petroleum products that has occurred in connection with the property and
+    has been addressed to the satisfaction of the applicable regulatory authority or meeting unrestricted
+    use criteria established by a regulatory authority, without subjecting the property to any required
+    controls (for example, property use restrictions, activity and use limitations, institutional controls, or
+    engineering controls). Before calling the past release a historical recognized environmental condition,
+    the environmental professional must determine whether the past release is a recognized environmental
+    condition at the time the Phase I Environmental Site Assessment is conducted (for example, if there has
+    been a change in the regulatory criteria)" (ASTM E1527-13 §3.2.42).
+    The term vapor encroachment condition (VEC) is defined by ASTM as the "presence or likely presence of
+    COC [chemical of concern] vapors in the vadose zone of the TP [target property] caused by the release
+    of vapors from contaminated soil and/or groundwater either on or near the TP as identified by Tier 1 or
+    Tier 2 procedures" (ASTM E2600-15 §1.1.1).
+    The term de minimis condition is defined by ASTM as "a condition that generally does not present a
+    threat to human health or the environment and that generally would not be the subject of an
+    enforcement action if brought to the attention of appropriate governmental agencies" (ASTM E1527-13
+    §3.2.22).
+    S-3506.01B, Huntington Beach, CA
+    4
+    EEC
+
+*   **Addresses:**
+    *   17631 Cameron Lane and 17642 Beach Boulevard in Huntington Beach, Orange County, California
+    *   Huntington Beach, CA
+
+*   **APN Numbers:**
+    *   None found
+
+*   **Permit Numbers:**
+    *   None found
+
+*   **Contaminant Names:**
+    *   hazardous substances
+    *   petroleum products
+    *   COC [chemical of concern]
+    *   vapors (from contaminated soil and/or groundwater)
+
+*   **Concentrations:**
+    *   None found
+--- PAGE 8 ---
+Here's the extracted information from the provided OCR text:
+
+**Full Text:**
+Phase I Environmental Site Assessment
+March 18, 2020
+1.3 Scope of Work
+The assessment was conducted in accordance with the U.S. Environmental Protection Agency (USEPA)
+Standards and Practices for All Appropriate Inquiries (40 CFR 312); ASTM Standard Practice for
+Environmental Site Assessments: Phase I Environmental Site Assessment Process (ASTM Designation
+E1527-13); and EEC's Standard Limitations. According to ASTM E1527-13, "the purpose of E1527 is to set
+forth a practice that constitutes all appropriate inquiries into the previous ownership and uses of the
+property consistent with good commercial and customary practice as defined at 42 U.S.C. 9601 (35)(B)."
+The Phase I ESA includes all the appropriate inquiries to support the innocent landowner defense
+pursuant to the Comprehensive Environmental Response, Compensation, and Liability Act.
+The assessment included the following tasks:
+• Site reconnaissance to identify potential environmental concerns, such as historical and active
+underground storage tanks (USTs), aboveground storage tanks (ASTs), clarifiers, sumps, pits,
+lagoons, hazardous chemical storage areas, equipment that may contain polychlorinated
+biphenyls (PCBs), soil or pavement staining, and distressed vegetation.
+• Review of the physical setting of the subject property, including general geology, topography,
+and hydrogeology.
+• Visually evaluate neighboring properties to determine the potential for off-site contamination.
+• Regulatory environmental file review of federal, tribal, state, regional, county, and city agency
+files related to the subject property(ies) and nearby properties of potential concern.
+• Review of regulatory environmental database summary of federal, state, and tribal regulatory
+agency records associated with the subject property and off-site properties located within the
+ASTM-specified search distances from the subject property.
+• Interviews with past and present owners, key site managers, and occupants of the subject
+property and state and/or local government officials to assist with identification of RECs in
+connection with the subject property.
+• Review of reasonably ascertainable historical sources that may include aerial photographs,
+historical topographic maps, city directories, fire insurance maps, property tax files, recorded
+land title records, and building department and zoning/land use records to identify previous
+land use that may represent a REC.
+• Review of available subject property environmental information, such as environmental reports
+and permits, to identify evidence of RECs.
+• A review of recorded land title records, regulatory agency records, and State Institutional
+Controls/Engineering Controls databases for environmental liens or activity and use limitations
+(AULs).
+• Review, in accordance with ASTM E2600-10, potential vapor encroachment conditions VECs at
+the subject property.
+• Prepare a report documenting the methodology, findings and conclusions of the Phase I ESA.
+Additionally, the Phase I ESA included the following non-ASTM E1527-13 tasks:
+• Review of available information related to asbestos-containing materials, lead-based paint,
+radon, wetlands, flood zones, and seismic hazards.
+• A limited visual inspection for the presence of water intrusion and suspect fungal growth (mold).
+S-3506.01B, Huntington Beach, CA
+5
+EEC
+
+**Addresses:**
+*   Huntington Beach, CA (appears with S-3506.01B, likely a project or site address reference)
+
+**APN Numbers:**
+*   None explicitly stated.
+
+**Permit Numbers:**
+*   None explicitly stated, though "permits" are mentioned as a type of environmental information reviewed.
+
+**Contaminant Names:**
+*   polychlorinated biphenyls (PCBs)
+*   asbestos-containing materials
+*   lead-based paint
+*   radon
+*   fungal growth (mold)
+
+**Concentrations:**
+*   None explicitly stated.
+--- PAGE 9 ---
+**Extracted Text:**
+Phase I Environmental Site Assessment
+1.4 Limitations
+March 18, 2020
+The conclusions presented in this report are professional opinions based solely upon visual observations of the subject property and subject property vicinity and EEC's interpretation of the available historical information and documents reviewed, as described in this report. The conclusions are intended exclusively for the purpose outlined in this report, for the specified subject property location, and for the project indicated. The opinions presented in this report apply to past and present conditions at the subject property and are not applicable to future conditions or events.
+In accordance with Section 312.24, Reviews of Historical Sources of Information, of the All Appropriate Inquiries rule, all obvious uses of the subject property shall be identified from the present to "as far back as it can be shown that the property contained structures or from the time the property was first used for residential, agricultural, commercial, industrial, or governmental purposes." This task requires review of only as many historical sources as are necessary and are both reasonably ascertainable and likely to be useful. Historical sources could include aerial photographs, historical topographic maps, city directories, fire insurance maps, property tax files, recorded land title records, and building department and zoning/land use records. This ESA does not include physical testing for such non-scope considerations as an evaluation for the potential presence of lead in drinking water, radon gas, asbestos, or lead-based paint at the subject property. EEC's Standard Limitations are found in Appendix A.
+
+1.4.1 Data Failure
+The ASTM standard requires that all obvious uses of the subject property be identified from the present back to the property's first developed use, or back to 1940, whichever is earlier. Data failure is defined by ASTM as a failure to achieve historical research objectives after reviewing standard historical sources identified that are reasonably ascertainable and likely to be useful. The objective is to identify the history of use of the subject property and surrounding areas to identify past uses that may have led to RECs. This includes identifying the use of the subject property at five year intervals back to the property's first developed use, or back to 1940, whichever is earlier.
+During site reconnaissance, the topography at the southeast portion of the subject property appeared uneven. The reason could not be determined; however, it should be noted that according to a 1963 aerial photograph, this portion of the subject property appeared to be used for storage purposes. About five small structures were observed and the land surface appeared to be graded. The specific use of this portion of the subject property was not identified using standard sources reviewed for this assessment. Based on the lack of information related to the specific use and the uneven topography observed during site reconnaissance, EEC considers this data failure to be a significant data gap that prevents the identification of RECs on this portion of the subject property.
+
+1.4.2 Data Gaps
+The term data gap is defined by ASTM as "a lack of or inability to obtain information required by this practice despite good faith efforts by the environmental professional (EP) to gather such information. Data gaps may result from incompleteness in any of the activities required by this practice, including, but not limited to site reconnaissance (for example, an inability to conduct the site visit), and interviews (for example, an inability to interview key site manager, regulatory officials, etc.)." The ASTM standard
+S-3506.01B, Huntington Beach, CA
+6
+EEC
+
+---
+
+**Addresses:**
+*   Huntington Beach, CA
+
+**APN Numbers:**
+*   None found.
+
+**Permit Numbers:**
+*   None found.
+
+**Contaminant Names:**
+*   lead in drinking water
+*   radon gas
+*   asbestos
+*   lead-based paint
+
+**Concentrations:**
+*   None found.
+--- PAGE 10 ---
+**Extracted Text:**
+Phase I Environmental Site Assessment
+March 18, 2020
+requires that the report identify significant data gaps that affect the ability of the EP to ascertain RECS
+and to identify the sources of information that were consulted to address the data gaps.
+Site Reconnaissance Limitations
+During the site inspection, the following limitations were encountered:
+• The residence was locked during the site reconnaissance and the interior could not be seen from
+windows.
+• The subject property was almost entirely covered in vegetation, which was dense and tall in
+certain areas, especially the north portion of the subject property. Additionally, a patch of agave
+plants was located at the southeast corner of the property, along the sidewalk parallel to
+Cameron Lane. The vegetation prevented visibility of the ground surface in these areas.
+EEC was unable to assess environmental conditions in the areas that could not be observed. However, it
+is EEC's opinion that the site reconnaissance limitations did not prevent the identification of RECs in
+connection with the subject property, based on its history of use for residential purposes. The southeast
+portion of the subject property was used for other purposes during the 1960s, and failure to determine
+the specific use is a significant data gap (as discussed above); however, the limited visibility of the
+ground surface near the sidewalk is not expected to affect this data gap.
+Unavailable Documentation
+At the time of this Phase I ESA report, the following information was not available for review:
+• The User Questionnaire was not completed as of the date of this report.
+It is EEC's opinion that the unavailable User Questionnaire did not prevent identification of RECs at the
+subject property.
+2.0 USER PROVIDED INFORMATION
+The term user is defined by ASTM as "the party seeking to use Practice E1527 to complete an
+environmental site assessment of the property. A user may include, without limitation, a potential
+purchaser of property, a potential tenant of property, an owner of property, a lender, or a property
+manager" (ASTM E1527-13 §3.2.98). The City of Huntington Beach is the user of this report. According to
+the ASTM standard, certain tasks should be performed by or on behalf of the user. The results of these
+tasks can be provided to the environmental professional to assist in identifying RECs in connection with
+the subject property.
+The tasks include the following: review title and judicial records for environmental liens and activity and
+use limitations (AULs), communicate specialized knowledge related to RECs, communicate actual
+knowledge related to environmental liens or AULs prior to the site reconnaissance, indicate if the
+purchase price of the subject property is lower than the fair market value due to contamination,
+communicate commonly known or reasonably ascertainable information within the local community
+about the subject property related to RECs in connection with the subject property prior to site
+reconnaissance, consider the degree of obviousness of the presence or likely presence of releases at the
+S-3506.01B, Huntington Beach, CA
+7
+EEC
+
+**Extracted Information:**
+
+*   **Addresses:**
+    *   Cameron Lane (street name)
+    *   City of Huntington Beach, CA (city, state)
+*   **APN Numbers:** None explicitly mentioned. "S-3506.01B" appears to be a document or project identifier rather than an APN.
+*   **Permit Numbers:** None explicitly mentioned.
+*   **Contaminant Names:**
+    *   Contamination (general term)
+    *   Releases (general term referring to environmental contaminants)
+*   **Concentrations:** None explicitly mentioned.
+--- PAGE 11 ---
+**Full Text from OCR:**
+"Phase I Environmental Site Assessment
+March 18, 2020
+subject property and the ability to detect the releases by appropriate investigation, and communicate
+the reason for the Phase I ESA. A User Questionnaire was provided to the City of Huntington Beach to
+request this information (Appendix B, User Provided Information).
+EEC has not received the completed User Questionnaire as of the date of this report. However, the City
+of Huntington Beach provided information related to the proposed use of the site, which will be placing
+nine to 12 modular buildings with elevated foundations over pavement or gravel, for the use of
+temporary housing. The proposed long-term use is for residential use. The City also provided building
+records and Fire Department records, which are summarized in Sections 7.5.1 and 7.5.2.
+3.0 SITE DESCRIPTION
+The approximately 1.6-acre subject property consists of two residential lots identified as Assessor Parcel
+Numbers (APNs) 167-042-08 (17631 Cameron Lane) and 167-042-09 (17642 Beach Boulevard) in
+Huntington Beach, Orange County, California (Figure 1, Site Location Map; Figure 2, Site Vicinity Map).
+The lot addressed as 17631 Cameron Lane is currently developed with an unoccupied single-family
+residence. The lot addressed as 17642 Beach Boulevard was formerly developed with two single-family
+residences that were demolished by 1994. Aside from the existing single-family residence, the remainder
+of the subject property is undeveloped and almost entirely covered with vegetation.
+3.1 Physical Setting
+3.1.1 Topography
+The most recent topographic map coverage of the subject property is provided by the U.S. Geological
+Survey (USGS) 7.5-minute, Newport Beach, California quadrangle map, dated 2012 (Figure 1). According
+to the USGS topographic map, the subject property is located at an elevation of approximately 25 to 30
+feet above mean sea level (msl). The topography in the general subject property area slopes gently to
+the north-northeast.
+3.1.2 Geology and Hydrogeology
+According to an Additional Site Assessment Report for a site located approximately 500 feet northwest
+of the subject property, the general area is underlain by recent alluvial debris and floodplain deposits
+beneath which are marine deposits consisting of clays, silty clays, silty sands, and fine to coarse gravel
+(Atlas Environmental Engineering, Inc., 2018). According to United States Department of Agriculture Soil
+Conservation Service information provided by EDR, the soil types mapped at the subject property are
+Myford Sandy Loam and Omni Silt Loam.
+According to a Quarterly Status Report, Second Quarter 2019 for the site identified above, depth to
+groundwater at the subject property was measured at 17.88 to 24.20 feet below ground surface (bgs)
+and the groundwater flow direction is southwest (Atlas Environmental Engineering, Inc., 2019).
+S-3506.01B, Huntington Beach, CA
+8
+EEC"
+
+**Extracted Information:**
+
+*   **Addresses:**
+    *   17631 Cameron Lane, Huntington Beach, Orange County, California
+    *   17642 Beach Boulevard, Huntington Beach, Orange County, California
+    *   Huntington Beach, CA (from footer)
+
+*   **APN Numbers:**
+    *   167-042-08
+    *   167-042-09
+
+*   **Permit Numbers:**
+    *   None explicitly stated.
+
+*   **Contaminant Names:**
+    *   None explicitly stated. (Geological materials like clays, silty clays, silty sands, fine to coarse gravel, Myford Sandy Loam, and Omni Silt Loam are mentioned, but these are natural formations/soil types, not contaminants).
+
+*   **Concentrations:**
+    *   Elevation of subject property: approximately 25 to 30 feet above mean sea level (msl)
+    *   Depth to groundwater: 17.88 to 24.20 feet below ground surface (bgs)
+--- PAGE 12 ---
+**Full Text:**
+Phase I Environmental Site Assessment
+March 18, 2020
+4.0 SITE RECONNAISSANCE
+On February 27, 2020, Laura Holder with EEC conducted site reconnaissance of the subject property and
+surrounding area to examine current conditions. Site reconnaissance included observations of existing
+conditions at the subject property, including evidence of current and past use of hazardous materials,
+and a perimeter survey from public rights-of-way. Ms. Holder was accompanied by Mr. Jim Merid with
+the City of Huntington Beach during the site reconnaissance.
+4.1 General Observations
+During the site reconnaissance, the subject property consisted of two adjacent residential lots; the
+southernmost lot previously had two residences that were demolished by 1994 and the northernmost
+lot is still developed with a residence. The existing unoccupied single-family residence is accessed from
+Cameron Lane to the east. A small concrete-paved driveway was observed on the south side of the
+residence. EEC was unable to obtain access to the interior of the residence during the site
+reconnaissance and the interior could not be viewed through windows as it was blocked by curtains. A
+fenced storage area was observed off the northwest corner of the residence. The area contained wood
+pieces, construction cones, and new boxes of roofing material. An apparent screened porch area was
+observed at the west end of the residence. A chain-link fenced enclosure was observed at the west
+exterior of the residence. Two metal frames with hooks were observed; one at the west exterior of the
+residence and another in the yard to the west. These features appeared to be possibly part of a clothes-
+drying line. A small, concrete feature was observed on the ground surface, to the west of the residence.
+The use of this was not apparent; however, they appeared to be associated with the structures that
+were previously located to the rear (west) of the residence (such as garages and/or sheds). An apparent
+gas meter and an additional utility connection were observed at the west end of the lot, along the
+sidewalk parallel to Beach Boulevard. The southernmost lot is undeveloped and covered in vegetation.
+No evidence of the former development was observed, with the exception of a few scattered pieces of
+concrete. The topography on the east portion of this lot was uneven in some areas.
+Aside from the residence, the subject property was almost entirely covered in vegetation, which was
+dense and tall in certain areas, especially the north portion of the subject property. A patch of agave
+plants was observed at the southeast corner of the property. The vegetation prevented visibility of the
+ground surface.
+During the site inspection, EEC did not observe any odors, pools of liquid, pits, ponds, lagoons, stained
+soil, or distressed vegetation on the subject property. Observations and details regarding specific site
+features are described in Sections 4.2 through 4.6 below.
+4.2 Use of Hazardous Substances and Petroleum Products
+EEC reviewed environmental records and conducted an inspection of the property to identify the use of
+hazardous substances and petroleum products. No evidence of current use of hazardous substances or
+petroleum products at the subject property was obtained during this assessment.
+S-3506.01B, Huntington Beach, CA
+9
+EEC
+
+**Extracted Information:**
+
+*   **Addresses:**
+    *   City of Huntington Beach
+    *   Cameron Lane
+    *   Beach Boulevard
+    *   Huntington Beach, CA (from footer)
+
+*   **APN Numbers:**
+    *   None explicitly mentioned.
+
+*   **Permit Numbers:**
+    *   S-3506.01B (This appears to be a report or project identifier rather than a traditional permit number.)
+
+*   **Contaminant Names:**
+    *   hazardous materials (general category)
+    *   hazardous substances (general category)
+    *   petroleum products (general category)
+
+*   **Concentrations:**
+    *   None mentioned.
+--- PAGE 13 ---
+**Extracted Information:**
+
+**All Text:**
+Phase I Environmental Site Assessment
+March 18, 2020
+4.3 Storage Tanks and Containers
+4.3.1 Underground Storage Tanks
+No visual evidence indicating the presence of USTs was identified at the subject property. In addition, no records indicating the presence of former USTs were found during file reviews.
+4.3.2 Aboveground Storage Tanks
+No visual evidence indicating the presence of ASTs was identified at the subject property. In addition, no records indicating the presence of former ASTs were found during file reviews.
+4.3.3 Drums
+No drums were observed at the subject property during the site inspection.
+4.4 Polychlorinated Biphenyls
+PCBs are chemicals that are widely used in industry for their heat-transfer properties. PCBs were historically used in electrical transformers, hydraulic fluids, and electrical equipment, such as fluorescent-light ballasts. PCBs are stable compounds that persist in the environment after a spill or improper disposal. PCBs are carcinogenic substances, and their use has been prohibited in most products since 1978. No potential PCB-containing equipment was observed on the subject property.
+4.5 Waste Management and Disposal
+4.5.1 Hazardous Waste
+No evidence of hazardous waste at the subject property was obtained during this assessment.
+4.5.2 Nonhazardous Waste
+Non-hazardous waste was not observed at the subject property, as it is currently unoccupied.
+4.5.3 Solid Waste
+The subject property was visually examined for graded or filled areas, mounds, and depressions that might indicate that disposal of solid waste, such as fill of unknown origin, trash, and demolition debris that may have taken place. No evidence of solid waste disposal was observed on the subject property. However, it should be noted that the topography at the southeast portion of the subject property appeared uneven. The reason could not be determined; however, it should be noted that according to a 1963 aerial photograph, this portion of the subject property appeared to be used for storage purposes. About five small structures were observed and the land surface appeared to be graded.
+4.5.4 Stormwater and Wastewater
+Stormwater collected on the subject property percolates to groundwater or flows to drains on nearby surface streets.
+S-3506.01B, Huntington Beach, CA
+10
+EEC
+
+**Addresses:**
+*   Huntington Beach, CA
+
+**APN Numbers:**
+*   None found.
+
+**Permit Numbers:**
+*   None found.
+
+**Contaminant Names:**
+*   Polychlorinated Biphenyls (PCBs)
+*   Hazardous Waste
+*   Non-hazardous Waste
+*   Solid Waste
+*   USTs (Underground Storage Tanks - as a potential source of contamination)
+*   ASTs (Aboveground Storage Tanks - as a potential source of contamination)
+*   Drums (as a potential source of contamination)
+
+**Concentrations:**
+*   None found.
+--- PAGE 14 ---
+**Full OCR Text:**
+
+Phase I Environmental Site Assessment
+March 18, 2020
+The subject property is unoccupied and does not generate wastewater. Wastewater previously
+generated at the subject property was likely disposed of through sewer lines connected to the City
+Wastewater System. City records indicate that the former residence on the subject property had a
+cesspool that appeared to be abandoned in-place. It is possible that the other former residence and the
+existing residence formerly had a cesspool as well, which may also have been abandoned in-place.
+No evidence of industrial wastewater discharge, such as clarifiers, grease traps, or wastewater
+treatment systems, was obtained for the subject property during this assessment.
+4.6 Wells
+According to the Orange County Water District, Well W-4150 was identified on the subject property
+parcel addressed as 17642 Beach Boulevard. The domestic well was drilled in 1956 and the status is
+unknown. According to City of Huntington Beach representatives, this was an irrigation well. According
+to EDR, the nearest water well is approximately 685 feet west-southwest from the subject property. This
+well is identified as Well 01 of the Liberty Park Water Association, serving a population of 300. No
+groundwater production or monitoring wells were observed on the subject property during the site
+reconnaissance.
+4.7 Adjoining Properties
+North A multi-tenant office building (17610 and 17612 Beach Boulevard), beyond which is a small
+retail strip center (17552 Beach Boulevard) and Walgreens (17522 Beach Boulevard). No dry cleaners
+were observed in the retail strip center.
+Northeast, East, and Southeast - Cameron Lane, beyond which are apartment complexes (17592 to
+17682 Cameron Lane).
+South Medical office buildings (17672 and 17682 Beach Boulevard), beyond which are additional
+medical office buildings (17692 and 17732 Beach Boulevard and 8041 Newman Avenue) and Newman
+Avenue.
+West and Southwest - Beach Boulevard, beyond which is a single-family residence (at the southwest
+corner of Speer Avenue and Beach Boulevard) to the west and Sit Means Sit Dog Training (17661 Beach
+Boulevard) and Tacos Jerez/Golden Boy Donuts (17671 Beach Boulevard) to the west and southwest.
+Northwest - Beach Boulevard, beyond which is Huntington Beach Honda (17555 Beach Boulevard).
+5.0 PROPERTY HISTORY
+Historical documentation indicated that the subject property was undeveloped land prior to being
+developed with two residences along Beach Boulevard in the 1930s. In 1947, an additional residence
+was developed along Cameron Lane. From the 1930s to the 1950s, the subject property may have also
+been used for agricultural purposes. In the 1960s, the southeast portion of the subject property
+appeared to be used for storage purposes; though the specific use was not determined. By 1994, the
+two residences along Beach Boulevard were demolished. Since then, the subject property has been
+vacant land, with the exception of the existing residence along Cameron Lane.
+S-3506.01B, Huntington Beach, CA
+11
+EEC
+
+---
+
+**Extracted Information:**
+
+**Addresses:**
+*   17642 Beach Boulevard (Subject Property)
+*   17610 Beach Boulevard (Adjoining Property - North)
+*   17612 Beach Boulevard (Adjoining Property - North)
+*   17552 Beach Boulevard (Adjoining Property - North)
+*   17522 Beach Boulevard (Adjoining Property - North)
+*   Cameron Lane (Adjoining Property - Northeast, East, Southeast)
+*   17592 Cameron Lane (Adjoining Property - Northeast, East, Southeast)
+*   17682 Cameron Lane (Adjoining Property - Northeast, East, Southeast)
+*   17672 Beach Boulevard (Adjoining Property - South)
+*   17682 Beach Boulevard (Adjoining Property - South)
+*   17692 Beach Boulevard (Adjoining Property - South)
+*   17732 Beach Boulevard (Adjoining Property - South)
+*   8041 Newman Avenue (Adjoining Property - South)
+*   Newman Avenue (Adjoining Property - South)
+*   Speer Avenue (Adjoining Property - West and Southwest)
+*   17661 Beach Boulevard (Adjoining Property - West and Southwest)
+*   17671 Beach Boulevard (Adjoining Property - West and Southwest)
+*   17555 Beach Boulevard (Adjoining Property - Northwest)
+*   Huntington Beach, CA (General Location)
+
+**APN Numbers:**
+*   None found.
+
+**Permit Numbers:**
+*   None found.
+
+**Contaminant Names:**
+*   None explicitly named as specific contaminants. "Wastewater" and "cesspool" are mentioned as potential sources of concern but not specific chemical names.
+
+**Concentrations:**
+*   None found.
+
+**Other Relevant Identifiers/Numbers:**
+*   **Well ID:** Well W-4150
+*   **Well ID:** Well 01
+*   **Report/Project ID:** S-3506.01B
+--- PAGE 15 ---
+**Extracted Text:**
+Phase I Environmental Site Assessment
+5.1
+Aerial Photographs
+March 18, 2020
+The type and layout of structures visible in an aerial photograph of a property can often indicate the general type of on-site activity and land use; however, specific elements of a property operation cannot normally be determined from the photographs. EEC reviewed aerial photographs provided by EDR for the years of 1938, 1947, 1953, 1963, 1972, 1977, 1987, 1990, 1994, 2005, 2009, 2012, and 2016 (Appendix C, Aerial Photographs). Table 5-1, Historical Land Use Based on Aerial Photographs, summarizes the land use history of the subject property and vicinity based on a review of aerial photographs.
+Table 5-1, Historical Land Use Based on Aerial Photographs
+Year
+Subject Property
+1938
+The subject property is developed with two apparent residences that have driveway entrances from Beach Boulevard to the west. An apparent garage and storage structure is visible behind (east) of one of the residences. The remainder of the subject property is undeveloped or an agricultural field.
+1947
+An additional residential structure is visible on the subject property, in the area of the existing residences. An additional apparent residence is visible on the east portion of the subject property, near Cameron Lane.
+1953
+There are no significant changes from the previous photograph.
+1963
+There are no significant changes to the subject property except that the land surrounding the residences no longer appears to be possible agricultural fields. The southeast corner of the property appears to be used for storage purposes. Additionally, a few small structures are visible to the rear (west) of the residence along Cameron Lane.
+1972
+There are no significant changes from the previous photograph.
+Vicinity
+Surrounding properties consist of rural residences, agricultural fields, and paved roads. Additionally, an apparent concrete-paved parking lot is visible on the south adjoining property.
+There are no significant changes from the previous photograph.
+There are no significant changes from the previous photograph, except that two small structures are visible on the south adjoining property, immediately north of the existing apparent concrete-paved parking lot. Additionally, an apparent residence or commercial building is visible at the rear (east) end of the parking lot.
+Adjoining properties appear generally unchanged, with the exception of the north adjoining property, which is developed with a commercial building and associated parking lot. The density of residential development in the surrounding area has increased, and includes a large new residential tract in the general area to the northeast.
+Surrounding properties to the north and south along Beach Boulevard are developed for commercial retail use, including at least two gasoline service stations at the intersection of Beach Boulevard and Slater Avenue. The density of residential development in the surrounding area continues to increase, with apartments visible to the east and new residential tracts to the northwest, east, and southwest.
+S-3506.01B, Huntington Beach, CA
+12
+EEC
+
+**Extracted Information:**
+
+*   **Addresses:**
+    *   Beach Boulevard
+    *   Cameron Lane
+    *   Slater Avenue
+    *   Huntington Beach, CA (City and State mentioned in the document footer, not a specific property address in the table)
+*   **APN Numbers:** None found.
+*   **Permit Numbers:** None found.
+*   **Contaminant Names:**
+    *   Gasoline (mentioned in context of service stations)
+*   **Concentrations:** None found.
+--- PAGE 16 ---
+Here's the extracted information from the provided image:
+
+**Full Text from OCR:**
+Phase I Environmental Site Assessment
+March 18, 2020
+
+1977
+There are no significant changes
+from the previous photograph,
+except that an unpaved road
+extends across the subject property.
+There are no significant changes from the previous
+photograph, except that commercial use on the surrounding
+properties to the north and northwest has increased and
+density of commercial and residential development in the
+general surrounding area has increased.
+
+1987
+There are no significant changes
+from the previous photograph.
+There are no significant changes from the previous
+photograph, except that two commercial buildings replaced
+an existing commercial building on the south adjoining
+property and additional commercial development is visible
+in the general surrounding area to the south-southeast.
+
+1990
+There are no significant changes
+from the previous photograph.
+There are no significant changes from the previous
+photograph.
+
+1994
+The residential structures on the
+west side of the subject property
+(along Beach Boulevard) are no
+longer present.
+No significant changes are noted from the previous
+photograph.
+
+2005
+There are no significant changes
+from the previous photograph.
+There are no significant changes from the previous
+photograph.
+
+2009
+There are no significant changes
+from the previous photograph.
+There are no significant changes from the previous
+photograph.
+
+2012
+There are no significant changes
+from the previous photograph.
+There are no significant changes from the previous
+photograph.
+
+2016
+There are no significant changes
+from the previous photograph.
+There are no significant changes from the previous
+photograph.
+
+5.2 Topographic Maps
+
+The general land use of a property can often be discerned from the type and layout of structures and
+features depicted on a historical topographic map. However, discrete elements of a subject property
+operation cannot normally be determined from the map. EEC reviewed historical USGS topographic
+maps for the years of 1896, 1901, 1902, 1932, 1935, 1942, 1949, 1950/1951, 1965, 1972, 1981, and
+2012 (Appendix D, Historical Topographic Maps). A summary of the land use history of the subject
+property and vicinity based on a review of topographic maps is provided in Table 5-2, Historical Land Use
+Based on Topographic Maps.
+
+Table 5-2, Historical Land Use Based on Topographic Maps
+
+Quadrangle, Year
+Subject Property
+Vicinity
+
+Las Bolsas and
+Santa Ana, 1896
+The subject property is unimproved.
+Surrounding properties consist of unimproved
+land and paved roads. Marshland is depicted
+immediately north of the subject property.
+
+Santa Ana, 1901
+The subject property is unimproved.
+There are no significant changes from the
+previous map, except that small, possibly
+residential structures are depicted in the
+surrounding area to the east, south, west, and
+northwest.
+
+Corona, 1902
+There are no significant changes from
+the previous map.
+There are no significant changes from the
+previous map.
+
+S-3506.01B, Huntington Beach, CA
+13
+EEC
+
+---
+
+**Extracted Information:**
+
+*   **Text:** All text from the OCR output above.
+*   **Addresses:**
+    *   Beach Boulevard (mentioned in 1994 description)
+    *   S-3506.01B, Huntington Beach, CA
+*   **APN Numbers:** None explicitly mentioned.
+*   **Permit Numbers:** None explicitly mentioned.
+*   **Contaminant Names:** None mentioned.
+*   **Concentrations:** None mentioned.
+--- PAGE 17 ---
+Here's the extracted information from the provided OCR text:
+
+**Full Text:**
+Phase I Environmental Site Assessment
+March 18, 2020
+Newport Beach, 1932
+The subject property is developed with one small, possibly residential structure. The subject property area is labeled as Liberty Park. Paved roads are depicted immediately east and west of the subject property (Cameron Lane and Beach Boulevard, respectively). Surrounding properties to the north, east, south, and west are developed with small, possibly residential structures. The south and southwest adjoining properties are also developed with larger buildings that are possibly commercial or agricultural. An apparent cemetery is depicted in the general surrounding area, to the south.
+Seal Beach and Newport Beach, 1935
+There are no significant changes from the previous map. There are no significant changes from the previous map.
+Santa Ana, 1942
+The subject property depicted as unimproved land. However, aerial photographs and previous and subsequent maps indicate it was actually developed with residential structures at this time. There are no significant changes from the previous map.
+Seal Beach and Newport Beach, 1949
+The subject property is developed with three small, possibly residential structures: two facing Beach Boulevard to the west and one facing Cameron Lane to the east. There are no significant changes from the previous map, except that the amount of residential structures appears to have increased.
+Seal Beach, 1950 and Newport Beach, 1951
+There are no significant changes from the previous map. There are no significant changes from the previous map.
+Seal Beach and Newport Beach, 1965
+The structure along Cameron Lane is no longer depicted; however, aerial photographs indicate it was still present at the time. A commercial building is depicted on the north adjoining property. The density of development of the surrounding area has increased, with additional residences depicted. Areas of the outlying surrounding area are shaded pink, indicating general urban development. The cemetery to the south has expanded in size and is labeled The Good Shepherd Cemetery.
+Seal Beach and Newport Beach, 1972
+There are no significant changes from the previous map. There are no significant changes from the previous map, except that an apparent apartment building is depicted on the east adjoining property. Additional development of the general surrounding area is also depicted, including a trailer park to the southwest and several commercial buildings to the north and southeast.
+Seal Beach and Newport Beach, 1981
+There are no significant changes from the previous map. Additional commercial development is depicted on the north, south, northeast, and northwest adjoining properties. The general surrounding area is also more densely developed for commercial and residential purposes.
+Seal Beach and Newport Beach, 2012
+This map does not depict individual features; therefore, no pertinent information is included on the map. This map does not depict individual features; therefore, no pertinent information is included on the map.
+S-3506.01B, Huntington Beach, CA
+14
+EEC
+
+**Addresses:**
+*   **Cities/Locations:**
+    *   Newport Beach
+    *   Seal Beach
+    *   Santa Ana
+    *   Huntington Beach, CA
+*   **Street Names:**
+    *   Cameron Lane
+    *   Beach Boulevard
+*   **Place Names/Parks/Cemeteries:**
+    *   Liberty Park
+    *   The Good Shepherd Cemetery
+
+**APN Numbers:**
+*   None explicitly found. The "S-3506.01B" at the bottom left looks like a document or project ID rather than an APN.
+
+**Permit Numbers:**
+*   None found.
+
+**Contaminant Names:**
+*   None found. The document is a "Phase I Environmental Site Assessment," which typically identifies potential contaminants, but this specific text is a historical review of property development.
+
+**Concentrations:**
+*   None found.
+--- PAGE 18 ---
+## Extracted Information from Page 18:
+
+**Document Title:** Phase I Environmental Site Assessment
+
+**Date:** March 18, 2020
+
+**Section:** 5.3 City Directories
+
+**Overview:** City directories from 1964 to 2014 were reviewed (Appendix E, City Directory Report). A summary of information pertaining to the subject property and adjoining properties ascertained from the directory review is listed in Table 5-3, Historical Land Use Based on City Directories. Subject property listings are shown in bold.
+
+---
+
+### Table 5-3, Historical Land Use Based on City Directories
+
+| Year | Address: Occupant |
+| :--- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------**Explanation of entities searched for:**
+
+*   **Addresses:** Standard street address format (e.g., house number, street name, street type).
+*   **APN Numbers:** Assessor's Parcel Number, a unique identifier for real estate property. Often formatted with hyphens or spaces.
+*   **Permit Numbers:** Identification numbers for permits.
+*   **Contaminant Names:** Names of chemical substances or pollutants (e.g., benzene, lead, arsenic).
+*   **Concentrations:** Numerical values followed by units of measurement (e.g., mg/kg, ppm, %, ug/L).
+
+---
+
+### Extracted Information:
+
+**General Text:**
+Phase I Environmental Site Assessment
+March 18, 2020
+5.3 City Directories
+City directories from 1964 to 2014 were reviewed (Appendix E, City Directory Report). A summary of information pertaining to the subject property and adjoining properties ascertained from the directory review is listed in Table 5-3, Historical Land Use Based on City Directories. Subject property listings are shown in bold.
+Table 5-3, Historical Land Use Based on City Directories
+Year
+Address: Occupant
+S-3506.01B, Huntington Beach, CA
+15
+EEC
+
+**Addresses:**
+*   17610 Beach Boulevard
+*   17612 Beach Boulevard
+*   17659 Beach Boulevard
+*   17685 Beach Boulevard
+*   17690 Beach Boulevard
+*   17591 Cameron Street
+*   17610 Cameron Street
+*   17612 Cameron Street
+*   17631 Cameron Street
+*   17676 Cameron Street
+*   17680 Cameron Street
+*   17682 Cameron Street
+*   17686 Cameron Street
+*   17692 Cameron Street
+*   17611 Beach Boulevard
+*   17642 Beach Boulevard
+*   17684 Cameron Street
+*   17688 Cameron Street
+*   17690 Cameron Street
+*   17662 Beach Boulevard
+*   17622 Cameron Street
+
+**APN Numbers:** None found.
+
+**Permit Numbers:** None found.
+
+**Contaminant Names:** None found.
+
+**Concentrations:** None found.
+--- PAGE 19 ---
+**Document Information:**
+*   **Document Title:** Phase I Environmental Site Assessment
+*   **Date:** March 18, 2020
+*   **Page Number:** 16
+*   **Footer Left:** S-3506.01B, Huntington Beach, CA
+*   **Footer Right:** EEC
+
+**Extracted Data from Table:**
+
+**Year: 1975**
+*   17680 Cameron Street: Residential Listings
+*   17682 Cameron Street: Residential Listing
+*   17686 Cameron Street: Residential Listing
+*   17688 Cameron Street: Residential Listing
+*   17555 Beach Boulevard: Sea & Sun RV Inc.
+*   17610 Beach Boulevard: Medical Office Building
+*   17611 Beach Boulevard: Cal-Va Dairy Store
+*   17612 Beach Boulevard: Office Building
+*   17642 Beach Boulevard: Rivera Aniceto G. (residential listing)
+*   17659 Beach Boulevard: Residential Listing
+*   17662 Beach Boulevard: Residential Listing
+*   17685 Beach Boulevard: Liberty Park Liquor
+*   17692 Beach Boulevard: Medical Office Building
+*   17610 Cameron Street: Residential Listing
+*   17612 Cameron Street: Residential Listings
+*   17622 Cameron Street: Apartments
+*   17631 Cameron Street: Wiffler, Linus J. (residential listing)
+*   17676 Cameron Street: Apartments
+*   17680 Cameron Street: Residential Listings
+*   17686 Cameron Street: Residential Listing
+*   17688 Cameron Street: Residential Listing
+*   17690 Cameron Street: Residential Listing
+
+**Year: 1982**
+*   17552 Beach Boulevard: Office Building
+*   17555 Beach Boulevard: Sea & Sun Subaru
+*   17610 Beach Boulevard: Medical Office Building
+*   17612 Beach Boulevard: Office Building
+*   17642 Beach Boulevard: Rivera Aniceto G. (residential listing)
+*   17661 Beach Boulevard: Beach Garden Nursery
+*   17671 Beach Boulevard: Beach Mobile Home Sales, Sun Computers
+*   17672-17682 Beach Boulevard: Medical Office Buildings
+*   17610 Cameron Street: Apartments
+*   17616 Cameron Street: Apartments
+*   17622 Cameron Street: Apartments
+*   17631 Cameron Street: No listing
+*   17671 Cameron Street: Residential Listing
+*   17676 Cameron Street: Apartments
+*   17680 Cameron Street: Apartments
+*   17682 Cameron Street: Residential Listing
+*   17692 Cameron Street: Apartments
+
+**Year: 1987**
+*   17552 Beach Boulevard: Office Building
+*   17555 Beach Boulevard: Sea & Sun Subaru
+*   17610 Beach Boulevard: Office Building
+*   17612 Beach Boulevard: Office Building
+*   17642 Beach Boulevard: Rivera Aniceto G. (residential listing)
+*   17661 Beach Boulevard: Beach Garden Nursery
+*   17671 Beach Boulevard: Talbrook Escrow
+*   17672-17682 Beach Boulevard: Office Building
+*   17610 Cameron Street: Apartments
+*   17616 Cameron Street: Apartments
+*   17622 Cameron Street: Apartments
+*   17631 Cameron Street: No listing
+
+**No APN numbers, permit numbers, contaminant names, or concentrations were found in this section.**
+--- PAGE 20 ---
+Here's the extracted information from the OCR text:
+
+**1. All Text:**
+*   Phase I Environmental Site Assessment
+*   March 18, 2020
+*   Year
+*   Address: Occupant
+*   17676 Cameron Street: Apartments
+*   17680 Cameron Street: Apartments
+*   17682 Cameron Street: Apartments
+*   17692 Cameron Street: Apartments
+*   17552 Beach Boulevard: Pro Rentals Music
+*   17555 Beach Boulevard: Escondido Subaru, Sea & Sun RV Inc.
+*   17610 Beach Boulevard: Office Building
+*   17612 Beach Boulevard: Office Building
+*   17661 Beach Boulevard: Beach Garden Nursery
+*   17672 Beach Boulevard: Office Building
+*   17681 Beach Boulevard: Mobile Success
+*   17682 Beach Boulevard: Barber William
+*   17685 Beach Boulevard: Liberty Park Liquor
+*   17692 Beach Boulevard: Medical Office Building
+*   17610 Cameron Street: Apartments
+*   17616 Cameron Street: Residential Listing
+*   17622 Cameron Street: Residential Listing
+*   17676 Cameron Street: Residential Listing
+*   17682 Cameron Street: Residential Listing
+*   17541 Beach Boulevard: Colorado Ski Company Inc.
+*   17552 Beach Boulevard: Medical Office Listings
+*   17555 Beach Boulevard: S and J Auto
+*   17610 Beach Boulevard: Office Building
+*   17612 Beach Boulevard: Office Building
+*   17661 Beach Boulevard: Japan Karate Do Marutani Do Jo
+*   17671 Beach Boulevard: Golden Boy Donut Shop
+*   17672 Beach Boulevard: Office Building
+*   17682 Beach Boulevard: Office Building
+*   17685 Beach Boulevard: Liberty Park Liquor
+*   17692 Beach Boulevard: Ling, V.T. and Tran, Tong
+*   17610 Cameron Street: Apartments
+*   17616 Cameron Street: Apartments
+*   17622 Cameron Street: Apartments
+*   17631 Cameron Street: Occupant Unknown
+*   17676 Cameron Street: Apartments
+*   17680 Cameron Street: Residential Listings
+*   17682 Cameron Street: Apartments
+*   17692 Cameron Street: Apartments
+*   17541 Enterprise Rent-a-Car of LA
+*   17552 Beach Boulevard: Golden State Physical Therapy, Warren Steven
+*   17555 Beach Boulevard: S and J Auto, Woods Willie E.
+*   17610 Beach Boulevard: Office Building
+*   17612 Beach Boulevard: Office Building
+*   17640 Beach Boulevard: Accelerated Claims Management
+*   17661 Beach Boulevard: Fabes Natural Gourmet
+*   17671 Beach Boulevard: Golden Boy Donut Shop
+*   17672 Beach Boulevard: Bodycenter Huntington Beach
+*   17682 Beach Boulevard: Natural Health Network
+*   17685 Beach Boulevard: Creative Concept, Psychic Palm Tarot Card Reading
+*   17610 Cameron Street: Apartments
+*   17616 Cameron Street: Apartments
+*   S-3506.01B, Huntington Beach, CA
+*   17
+*   EEC
+*   1992
+*   1995
+*   2000
+
+**2. Addresses:**
+*   17676 Cameron Street
+*   17680 Cameron Street
+*   17682 Cameron Street
+*   17692 Cameron Street
+*   17552 Beach Boulevard
+*   17555 Beach Boulevard
+*   17610 Beach Boulevard
+*   17612 Beach Boulevard
+*   17661 Beach Boulevard
+*   17672 Beach Boulevard
+*   17681 Beach Boulevard
+*   17685 Beach Boulevard
+*   17541 Beach Boulevard
+*   17671 Beach Boulevard
+*   17631 Cameron Street
+*   17640 Beach Boulevard
+*   Huntington Beach, CA (from footer)
+
+**3. APN Numbers:**
+*   None found.
+
+**4. Permit Numbers:**
+*   None found.
+
+**5. Contaminant Names:**
+*   None found.
+
+**6. Concentrations:**
+*   None found.
+--- PAGE 21 ---
+Here's the extracted information from the document:
+
+**All Text:**
+Phase I Environmental Site Assessment
+March 18, 2020
+Year
+Address: Occupant
+17622 Cameron Street: Apartments
+17631 Cameron Street: Occupant Unknown
+17676 Cameron Street: Apartments
+17680 Cameron Street: Apartments
+17682 Cameron Street: Apartments
+17692 Cameron Street: Apartments
+2005
+17541 Enterprise Rent-a-Car of LA
+17552 Beach Boulevard: JW Devy Motorcars Inc., National Health Labs, Warren Steven
+17555 Beach Boulevard: Huntington Honda
+17610 Beach Boulevard: Office Building
+17612 Beach Boulevard: Office Building
+17621 Beach Boulevard: Tapia, V.
+17662 Beach Boulevard: Avant, Joel A.
+17671 Beach Boulevard: Golden Boy Donut Shop
+17672 Beach Boulevard: Bodycenter Huntington Beach, Wellness Surgeries Center
+17682 Beach Boulevard: Dean Jenny Creative
+17685 Beach Boulevard: Cable Unlimited
+17692 Beach Boulevard: Office Listings
+17610 Cameron Street: Apartments
+17616 Cameron Street: Apartments
+17622 Cameron Street: Apartments
+17631 Cameron Street: Gomez, Flores R. (residential listing)
+17676 Cameron Street: Apartments
+17680 Cameron Street: Apartments
+17682 Cameron Street: Apartments
+17692 Cameron Street: Apartments
+2010
+17541 Enterprise Commercial Trucks
+17552 Beach Boulevard: Fir Ave 1 Moreno Valley A Cal, Jim Devy Motorcars Inc., Peruvian Kitchen Acurio Inc., USave Rental Car
+17555 Beach Boulevard: Huntington Honda
+17610 Beach Boulevard: Office Building
+17612 Beach Boulevard: Office Building
+17621 Beach Boulevard: Tapia, V.
+17661 Beach Boulevard: Stardogs Daycare, Uptown Paw Resort
+17671 Beach Boulevard: Golden Boy Donut Shop
+17672 Beach Boulevard: Coastal Surgery Center
+17681 Beach Boulevard: Tacos Jerez
+17682 Beach Boulevard: Dean Jenny Creative, Advanced Realty & Loans Inc.
+17685 Beach Boulevard: Cable Unlimited, Sleep 4 Less
+17610 Cameron Street: Apartments
+17616 Cameron Street: Apartments
+17622 Cameron Street: Apartments
+17631 Cameron Street: Occupant Unknown
+17676 Cameron Street: Apartments
+17680 Cameron Street: Apartments
+17682 Cameron Street: Apartments
+17692 Cameron Street: Apartments
+2014
+17541 Enterprise Holdings Inc., Enterprise Rentacar
+17552 Beach Boulevard: Fir Ave 1 Moreno Valley A Cal, Guo Liang
+17555 Beach Boulevard: Huntington Honda
+17610 Beach Boulevard: Epic Motors LLC (tenant of office building)
+S-3506.01B, Huntington Beach, CA
+18
+EEC
+
+**Addresses and Occupants (Grouped by Year for clarity, as presented in the document):**
+
+**Pre-2005 (Implied from the first block under "Year" header, without a specific year label):**
+*   **17622 Cameron Street:** Apartments
+*   **17631 Cameron Street:** Occupant Unknown
+*   **17676 Cameron Street:** Apartments
+*   **17680 Cameron Street:** Apartments
+*   **17682 Cameron Street:** Apartments
+*   **17692 Cameron Street:** Apartments
+
+**2005:**
+*   **17541 Enterprise Rent-a-Car of LA**
+*   **17552 Beach Boulevard:** JW Devy Motorcars Inc., National Health Labs, Warren Steven
+*   **17555 Beach Boulevard:** Huntington Honda
+*   **17610 Beach Boulevard:** Office Building
+*   **17612 Beach Boulevard:** Office Building
+*   **17621 Beach Boulevard:** Tapia, V.
+*   **17662 Beach Boulevard:** Avant, Joel A.
+*   **17671 Beach Boulevard:** Golden Boy Donut Shop
+*   **17672 Beach Boulevard:** Bodycenter Huntington Beach, Wellness Surgeries Center
+*   **17682 Beach Boulevard:** Dean Jenny Creative
+*   **17685 Beach Boulevard:** Cable Unlimited
+*   **17692 Beach Boulevard:** Office Listings
+*   **17610 Cameron Street:** Apartments
+*   **17616 Cameron Street:** Apartments
+*   **17622 Cameron Street:** Apartments
+*   **17631 Cameron Street:** Gomez, Flores R. (residential listing)
+*   **17676 Cameron Street:** Apartments
+*   **17680 Cameron Street:** Apartments
+*   **17682 Cameron Street:** Apartments
+*   **17692 Cameron Street:** Apartments
+
+**2010:**
+*   **17541 Enterprise Commercial Trucks**
+*   **17552 Beach Boulevard:** Fir Ave 1 Moreno Valley A Cal, Jim Devy Motorcars Inc., Peruvian Kitchen Acurio Inc., USave Rental Car
+*   **17555 Beach Boulevard:** Huntington Honda
+*   **17610 Beach Boulevard:** Office Building
+*   **17612 Beach Boulevard:** Office Building
+*   **17621 Beach Boulevard:** Tapia, V.
+*   **17661 Beach Boulevard:** Stardogs Daycare, Uptown Paw Resort
+*   **17671 Beach Boulevard:** Golden Boy Donut Shop
+*   **17672 Beach Boulevard:** Coastal Surgery Center
+*   **17681 Beach Boulevard:** Tacos Jerez
+*   **17682 Beach Boulevard:** Dean Jenny Creative, Advanced Realty & Loans Inc.
+*   **17685 Beach Boulevard:** Cable Unlimited, Sleep 4 Less
+*   **17610 Cameron Street:** Apartments
+*   **17616 Cameron Street:** Apartments
+*   **17622 Cameron Street:** Apartments
+*   **17631 Cameron Street:** Occupant Unknown
+*   **17676 Cameron Street:** Apartments
+*   **17680 Cameron Street:** Apartments
+*   **17682 Cameron Street:** Apartments
+*   **17692 Cameron Street:** Apartments
+
+**2014:**
+*   **17541 Enterprise Holdings Inc., Enterprise Rentacar**
+*   **17552 Beach Boulevard:** Fir Ave 1 Moreno Valley A Cal, Guo Liang
+*   **17555 Beach Boulevard:** Huntington Honda
+*   **17610 Beach Boulevard:** Epic Motors LLC (tenant of office building)
+
+**APN Numbers:** None found.
+**Permit Numbers:** None found.
+**Contaminant Names:** None found.
+**Concentrations:** None found.
+--- PAGE 22 ---
+**Extracted Information:**
+
+**All Text:**
+Phase I Environmental Site Assessment
+March 18, 2020
+Year
+Address: Occupant
+17612 Beach Boulevard: Office Building
+17621 Beach Boulevard: Tapia, V.
+17661 Beach Boulevard: Stardogs Daycare, Uptown Paw Resort
+17671 Beach Boulevard: Golden Boy Donut Shop
+17681 Beach Boulevard: Tacos Jerez
+17685 Beach Boulevard: Cable Unlimited, Coastline Mattress, Seacoast Liquor
+17692 Beach Boulevard: Office Listings
+17610 Cameron Street: Apartments
+17616 Cameron Street: Apartments
+17622 Cameron Street: Apartments
+17631 Cameron Street: Occupant Unknown
+17676 Cameron Street: Apartments
+17680 Cameron Street: Apartments
+17682 Cameron Street: Apartments
+17692 Cameron Street: Apartments
+The city directories also identified gasoline service stations at nearby properties (17472, 17501 and 17721 Beach Boulevard). These sites are further discussed in Section 8.0.
+5.4 Fire Insurance Maps
+EDR was contracted to conduct a search for Sanborn fire insurance maps (Appendix F, Historical Sanborn Maps). Fire insurance maps depict land use history for many portions of the United States and assist in determining whether there may be potential environmental contamination on or near a subject property. These maps, which have been periodically updated since the late 19th Century, often provide valuable insight into historical property uses. Based on the Sanborn Map Report, the subject property is an Unmapped Property.
+5.5 Previous Environmental Studies or Documentation
+No previous environmental studies or documentation were provided to EEC for review.
+5.6 Property Title Records
+EDR was contracted to conduct a search for environmental liens and AULs pertaining to the subject property. According to the lien search, title to the subject property is currently vested in Mitsuru Yamada Trustee. Title was received from Mitsuru Yamada on September 17, 1988. No environmental liens or AULs were identified for the subject property in the Environmental Lien Search Report (Appendix G, Environmental Lien Search Report).
+6.0 INTERVIEWS
+During this assessment, Ms. Holder with EEC provided an interview questionnaire form to Mr. Merid with the City of Huntington Beach. Mr. Merid forwarded the form to the subject property owner. On March 18, 2020, the subject property owner responded that they have been associated with the subject property since 1998. Based on information provided by the owner, they are not aware of any information related to the history or potential environmental concerns at the subject property.
+S-3506.01B, Huntington Beach, CA
+19
+EEC
+
+**Addresses:**
+*   17612 Beach Boulevard
+*   17621 Beach Boulevard
+*   17661 Beach Boulevard
+*   17671 Beach Boulevard
+*   17681 Beach Boulevard
+*   17685 Beach Boulevard
+*   17692 Beach Boulevard
+*   17610 Cameron Street
+*   17616 Cameron Street
+*   17622 Cameron Street
+*   17631 Cameron Street
+*   17676 Cameron Street
+*   17680 Cameron Street
+*   17682 Cameron Street
+*   17692 Cameron Street
+*   17472 Beach Boulevard (nearby property)
+*   17501 Beach Boulevard (nearby property)
+*   17721 Beach Boulevard (nearby property)
+*   Huntington Beach, CA
+
+**APN Numbers:**
+*   None explicitly mentioned.
+
+**Permit Numbers:**
+*   None explicitly mentioned.
+
+**Contaminant Names:**
+*   The text mentions "potential environmental contamination" and "potential environmental concerns" but does not name specific contaminants.
+
+**Concentrations:**
+*   None explicitly mentioned.
+
+**Other Relevant Information:**
+*   **Document Title:** Phase I Environmental Site Assessment
+*   **Date:** March 18, 2020
+*   **Document ID:** S-3506.01B
+*   **Page Number:** 19
+--- PAGE 23 ---
+**Document Title:** Phase I Environmental Site Assessment
+**Date:** March 18, 2020
+**Page Number:** 20
+**Project ID:** S-3506.01B
+
+---
+
+**Full Text Extraction:**
+
+Phase I Environmental Site Assessment
+March 18, 2020
+
+**7.0 REGULATORY AGENCY FILE REVIEWS**
+
+EEC submitted written requests to various government agencies for information regarding historical land use and potential environmental issues and to evaluate the potential for the subject property to be impacted by off-site sources of contamination (Appendix H, Agency Correspondence).
+
+**7.1 Federal**
+
+**7.1.1 United States Environmental Protection Agency**
+On March 3, 2020, EEC accessed the USEPA MyPropertyInfo online database. According to the database, there are no records on file for the subject property.
+
+**7.1.2 Pipeline and Hazardous Materials Safety Administration**
+The Pipeline and Hazardous Materials Safety Administration, National Pipeline Mapping System Public Map Viewer was accessed on March 3, 2020 to determine if any hazardous liquid pipelines are located on or near the subject property. According to the map, there are no pipelines within ½ mile of the subject property.
+
+**7.2 State**
+
+**7.2.1 California Geologic Energy Management Division**
+The California Geologic Energy Management Division (CalGEM; formerly Division of Oil, Gas and Geothermal Resources) Well Finder was accessed on March, 2020. According to the website, the closest wells to the subject property are located approximately 2,000 feet to the northwest and southwest. The well to the northwest is identified as a plugged, dry hole and the well to the southwest is identified as an idle oil and gas well. The website also indicated that the Huntington Beach Oil Field is located approximately 1,700 feet to the south of the subject property, near Talbert Avenue. Based on distance from the subject property, the oil field and wells are not expected to represent an environmental concern.
+
+**7.2.2 California Department of Toxic Substances Control**
+On February 24, 2020, EEC requested a file review with the State of California Department of Toxic Substances Control (DTSC). EEC received a written response on February 24, 2020, which indicated that there were no files for the subject property addresses at their office. EEC also reviewed the DTSC EnviroStor website to determine if the subject property or any surrounding properties have land use restrictions. According to the website, no environmental liens or AULs were identified for the subject property or surrounding properties.
+
+**7.2.3 State of California Regional Water Quality Control Board, Santa Ana Region**
+On February 24, 2020, EEC requested a file review with the State of California Regional Water Quality Control Board – Santa Ana Region (SA-RWQCB). The SA-RWQCB responded on March 3, 2020 that there are no records on file for the subject property.
+
+S-3506.01B, Huntington Beach, CA
+20
+EEC
+
+---
+
+**Extracted Specific Information:**
+
+*   **Addresses:**
+    *   Huntington Beach, CA (as part of the document footer, not a subject property address)
+    *   Talbert Avenue (referenced as a nearby location to Huntington Beach Oil Field)
+
+*   **APN Numbers:** None found.
+
+*   **Permit Numbers:** None found.
+
+*   **Contaminant Names / Related Terms:**
+    *   off-site sources of contamination
+    *   hazardous liquid pipelines
+    *   oil and gas well (related to potential sources)
+    *   Toxic Substances (as part of agency name)
+    *   environmental liens
+    *   AULs (Activity and Use Limitations - related to restrictions due to contamination)
+
+*   **Concentrations:** None found.
+--- PAGE 24 ---
+**All Text:**
+Phase I Environmental Site Assessment
+March 18, 2020
+
+7.3 Regional
+7.3.1 South Coast Air Quality Management District
+On March 3, 2020, EEC accessed the South Coast Air Quality Management District (SCAQMD) Facility Information Detail (FIND) online database. According to the database, there are no records on file for the subject property.
+
+7.4 County
+7.4.1 Orange County Health Care Agency
+On February 24, 2020, EEC requested a file review with the OCHCA to review available files for the subject property. On February 27, 2020, the OCHCA responded that there are no records on file for the subject property.
+
+7.5 Local
+7.5.1 City of Huntington Beach
+Building records and City property information for the subject property were provided by Mr. Merid, in coordination with the Building Division. The City records are described below:
+
+**17642 Beach Boulevard**
+* 1/19/1956: Building permit to add a bath, closet, and porch to a dwelling. The permit indicated that a plumbing permit was also issued for a cesspool.
+* 9/17/1990: Permits to demolish a 600-square foot single-family dwelling and a 200-square foot garage. A plumbing permit is also on file for this date for backfilling a cesspool with sand slurry.
+
+**17631 Cameron Lane**
+* Property information that indicates this 0.79-acre parcel (167-472-08) was developed in 1947 with an 840-square foot building.
+
+7.5.2 Huntington Beach Fire Department
+Mr. Merid coordinated with the Huntington Beach Fire Department (HBFD) to determine if there are any records on file for the subject property. On March 3, 2020, the HBFD indicated that there are no records on file for the subject property. The HBFD also indicated there are no oil wells on the subject property.
+
+On March 3, 2020, EEC also requested HBFD records for several adjoining properties that were identified on environmental databases that indicated they generated hazardous waste or had USTs (17541, 17555, and 17610 Beach Boulevard).
+
+S-3506.01B, Huntington Beach, CA
+21
+EEC
+
+---
+
+**Extracted Information:**
+
+**Addresses:**
+*   17642 Beach Boulevard
+*   17631 Cameron Lane
+*   17541 Beach Boulevard (adjoining property)
+*   17555 Beach Boulevard (adjoining property)
+*   17610 Beach Boulevard (adjoining property)
+
+**APN Numbers:**
+*   167-472-08
+
+**Permit Numbers:**
+*   No specific alphanumeric permit numbers are listed. However, the following permit *records* with dates are mentioned:
+    *   Building permit dated 1/19/1956
+    *   Plumbing permit issued 1/19/1956 (for cesspool)
+    *   Permits to demolish (600 sq ft dwelling, 200 sq ft garage) dated 9/17/1990
+    *   Plumbing permit dated 9/17/1990 (for backfilling a cesspool)
+
+**Contaminant Names:**
+*   Hazardous waste
+*   USTs (Underground Storage Tanks)
+*   Cesspool (mentioned in context of plumbing permits and backfilling)
+*   Oil wells (absence noted)
+
+**Concentrations:**
+*   None mentioned.
+--- PAGE 25 ---
+**Extracted Information:**
+
+**All Text:**
+Phase I Environmental Site Assessment
+March 18, 2020
+The HBFD provided the following records for 17541 and 17555 Beach Boulevard.
+• 6/1/1973: Permit for one 499-gallon propane tank and dispensing unit at Sea & Sun RV. Also on this date, an inspection approval form is on file for a 1,000-gallon waste oil tank located at the southwest exterior of the building.
+• 5/20/1975: Plot plan for proposed 499-gallon propane AST at Sea & Sun RV.
+• 8/3/1993: Fire Department Permit for removal of one 250-gallon waste oil UST and one 1,000-gallon waste oil UST.
+• 9/1/1993: Letter from the OCHCA regarding notification to initiate corrective action from a UST release. The letter indicated that an unauthorized release of waste oil occurred at the site and that corrective action is required, including a preliminary site assessment, initial abatement, corrective action plan, and corrective action implementation.
+• 2/23/1994: Letter from the OCHCA regarding completion of corrective action at the Former Cars Yes site. The letter states that the site investigation and remedial action for the UST is complete and that no further action is required.
+Additional information related to these sites are included in Section 8.0 below.
+8.0 ENVIRONMENTAL DATABASE SEARCH
+EEC contracted EDR to perform a regulatory database review for the subject property and surrounding properties up to 1.0 mile from the subject property (Appendix I, EDR Database Search Report). The purpose of the database review is to identify sites of potential environmental concern, such as leaking underground storage tank (LUST) sites; spills, leaks, investigation, and cleanup (SLIC) sites; historical gasoline service stations and dry cleaners; hazardous waste sites; landfills; and sites that are currently under investigation for environmental violations. The EDR database compilation report includes maps showing the locations of the environmental concerns.
+The subject property was not identified in any of the databases.
+EEC reviewed the regulatory database to determine if any nearby sites present a potential environmental concern to the subject property. Most of the sites were not determined to present a concern, due to their distance, presumed hydraulic gradient relative to the subject property, and/or their lack of reported releases. Adjoining properties and sites that warrant further explanation are discussed in the table below, Table 8-1, Environmental Database Search Results.
+Table 8-1, Environmental Database Search Results
+Site Name and Address | Database | Location and Presumed Hydraulic Gradient Relative to Subject Property | Description
+Dale T. Clark, D. C. 17672 Beach Boulevard, Suite E | HAZNET, HWTS | South adjoining property, cross- to downgradient | According to the databases, this site generated photoprocessing waste. No releases are reported; therefore, it is not expected to represent an environmental concern.
+S-3506.01B, Huntington Beach, CA
+22
+EEC
+
+**Addresses:**
+*   17541 and 17555 Beach Boulevard
+*   17672 Beach Boulevard, Suite E
+*   Huntington Beach, CA
+
+**APN Numbers:**
+*   None explicitly identified. "S-3506.01B" appears to be a project identifier, not an APN.
+
+**Permit Numbers:**
+*   A permit for one 499-gallon propane tank and dispensing unit (dated 6/1/1973)
+*   A Fire Department Permit for removal of one 250-gallon waste oil UST and one 1,000-gallon waste oil UST (dated 8/3/1993)
+
+**Contaminant Names:**
+*   Propane
+*   Waste oil
+*   Hazardous waste
+*   Photoprocessing waste
+*   Gasoline (implied by "historical gasoline service stations")
+
+**Concentrations:**
+*   No explicit concentration values (e.g., ppm, mg/L) are mentioned. Volumes are specified for tanks (499-gallon, 1,000-gallon, 250-gallon) but not concentrations of contaminants.
+--- PAGE 26 ---
+Here's the extracted information from the provided OCR text:
+
+**Document General Information:**
+*   **Document Title:** Phase I Environmental Site Assessment
+*   **Date:** March 18, 2020
+*   **Report ID:** S-3506.01B, Huntington Beach, CA
+*   **Page Number:** 23
+
+---
+
+**Site 1: Huntington Beach Dental Center**
+*   **Site Name and Address:** Huntington Beach Dental Center, 17692 Beach Boulevard Suite 310
+*   **Database(s):** RCRA NonGen, HAZNET, HWTS
+*   **Location and Presumed Hydraulic Gradient Relative to Subject Property:** South adjoining property, cross- to downgradient
+*   **Description:** This site does not presently generate hazardous waste. The site previously generated unspecified organic liquid mixture. No violations were found and no releases are reported; therefore, it is not expected to represent an environmental concern.
+*   **Contaminant Names:** unspecified organic liquid mixture
+*   **Concentrations:** Not specified.
+*   **APN Numbers:** None found.
+*   **Permit Numbers:** None found.
+
+---
+
+**Site 2: Personal Posters**
+*   **Site Name and Address:** Personal Posters, 17610 Beach Boulevard, Suite 40
+*   **Database(s):** HWTS
+*   **Location and Presumed Hydraulic Gradient Relative to Subject Property:** North adjoining property, cross-to upgradient
+*   **Description:** This site had an EPA identification number in connection with hazardous waste; however, no specific information was provided in the listing. No releases are reported; therefore, this site is not expected to represent an environmental concern.
+*   **Contaminant Names:** hazardous waste (general)
+*   **Concentrations:** Not specified.
+*   **APN Numbers:** None found.
+*   **Permit Numbers:** EPA identification number mentioned, but no specific number provided in the listing.
+
+---
+
+**Site 3: HB Fastprint**
+*   **Site Name and Address:** HB Fastprint, 17610 Beach Boulevard, Suites 23 and 24
+*   **Database(s):** HAZNET, HWTS, RCRA NonGen/NLR
+*   **Location and Presumed Hydraulic Gradient Relative to Subject Property:** North adjoining property, cross-to upgradient
+*   **Description:** According to the databases, this facility generated photochemicals/photoprocessing waste, unspecified organic liquid mixture, unspecified aqueous solution, and off-specification, aged, or surplus organics. No violations were identified and no releases are reported; therefore, this site is not expected to represent an environmental concern.
+*   **Contaminant Names:** photochemicals/photoprocessing waste, unspecified organic liquid mixture, unspecified aqueous solution, off-specification, aged, or surplus organics.
+*   **Concentrations:** Not specified.
+*   **APN Numbers:** None found.
+*   **Permit Numbers:** None found.
+
+---
+
+**Site 4: Huntington Beach Honda/Sea & Sun Subaru Inc./Sena Automotive Inc.**
+*   **Site Name and Address:** Huntington Beach Honda/Sea & Sun Subaru Inc./Sena Automotive Inc., 17541 and 17555 Beach Boulevard
+*   **Database(s):** HAZNET, HWTS, RCRA NonGen/NLR, CERS HAZ WASTE, CA FID UST, CERS, UST, SWEEPS UST, RCRA-SQG, FINDS, ECHO
+*   **Location and Presumed Hydraulic Gradient Relative to Subject Property:** Northwest adjoining property, crossgradient
+*   **Description:** The databases indicated that this site generated unspecified solvent mixture, unspecified aqueous solution, unspecified organic liquid mixture, aqueous solution with total organic residues less than 10 percent, and waste oil/mixed oil. The site received violations related to submittal of required emergency response information and training procedures. No violations were identified in connection with releases or potential releases of hazardous materials. According to the SWEEPS UST database, the site has two petroleum USTs. No releases were identified at this site, which is crossgradient and approximately 150 feet from the subject property. Potential releases of petroleum hydrocarbons from onsite USTs would not be expected to impact the subject property. Based on this information, the site is not expected to represent an environmental concern.
+*   **Contaminant Names:** unspecified solvent mixture, unspecified aqueous solution, unspecified organic liquid mixture, aqueous solution with total organic residues, waste oil/mixed oil, petroleum USTs (underground storage tanks), petroleum hydrocarbons.
+*   **Concentrations:** aqueous solution with total organic residues **less than 10 percent**.
+*   **APN Numbers:** None found.
+*   **Permit Numbers:** None found.
+--- PAGE 27 ---
+Here's the extracted information from the provided image:
+
+**General Information:**
+*   **Document Title:** Phase I Environmental Site Assessment
+*   **Date:** March 18, 2020
+*   **Page Number:** 24
+*   **Report/Project Identifier:** S-3506.01B, Huntington Beach, CA, EEC
+
+---
+
+**Table Data:**
+
+**Site Entry 1:**
+*   **Site Name and Address:** Former Cars Yes, 17541 Beach Boulevard
+*   **Database:** LUST, HIST, CORTESE, CERS
+*   **Location and Presumed Hydraulic Gradient Relative to Subject Property:** Approximately 250 feet northwest, crossgradient
+*   **Description:** The LUST database indicated that a release of waste oil impacted soil only at this site. The site was remediated by excavating impacted soil. The case was closed on February 23, 1994. Based on the case closed status of the release case, which impacted soil only, and the site's distance and crossgradient location relative to the subject property, it is not expected to represent an environmental concern.
+    *   **Contaminant(s):** waste oil
+
+**Site Entry 2:**
+*   **Site Name and Address:** Import Auto Repair/HB Auto Electric, 17721/17725 Beach Boulevard
+*   **Database:** HWTS, EDR Hist Auto, RCRA-SQG, FINDS, ECHO, CERS, HAZ WASTE, HAZNET, CERS, HWTS, LUST, UST
+*   **Location and Presumed Hydraulic Gradient Relative to Subject Property:** Approximately 280 feet southwest, downgradient
+*   **Description:** The EDR Hist Auto database indicated that this site was a gasoline service station from 1969 to 1971 and a general automotive repair shop in 1993 to 1997. Import Auto Repair generated oil/water separation sludge and tank bottom waste. The LUST database indicated that a release of waste oil impacted soil only at this site. The case was closed on November 29, 1989. Based on the case closed status of the release case, which impacted soil only, and the site's distance and downgradient location relative to the subject property, it is not expected to represent an environmental concern.
+    *   **Contaminant(s):** gasoline, oil/water separation sludge, tank bottom waste, waste oil
+
+**Site Entry 3:**
+*   **Site Name and Address:** G & M Oil/Chong Ki Pom Texaco/Insta Tune, 17501 Beach Boulevard
+*   **Database:** EDR Hist Auto, LUST, SWEEPS UST, CA FID UST, HIST, CORTESE, UST, SWEEPS UST, HAZNET, HWTS
+*   **Location and Presumed Hydraulic Gradient Relative to Subject Property:** Approximately 500 feet northwest, crossgradient
+*   **Description:** According to the EDR Hist Auto database, this site was a gasoline service station from 1982 to 1992 and a general automotive repair shop from 1992 to 1999. According to the LUST database, a release of gasoline was discovered in 1993 that impacted groundwater. The status of the case is remedial action underway. According to groundwater plume maps from October 2019 reviewed on the State Water Resources Control Board GeoTracker website, the contamination plume is centered on the site, and some contaminants have migrated onto the properties to the south and southwest, and to the north of the site. The contaminant plume is approximately 320 feet from the subject property at its closest proximity to the subject property. Based on this information and because the site is actively monitored by the SA-RWQCB, it is not anticipated to represent an environmental concern.
+    *   **Contaminant(s):** gasoline, contaminants
+    *   **Distance of plume from subject property:** approximately 320 feet (closest proximity)
+
+---
+**Note:** No APN numbers, permit numbers, or specific contaminant concentrations (e.g., ppm, ppb) were found in the provided text.
+--- PAGE 28 ---
+Here's the extracted information from the provided OCR text:
+
+**Full Text:**
+Phase I Environmental Site Assessment
+March 18, 2020
+
+**Site Name and Address**
+Mobil #11- EBX/G&M Oil Co. #124/ExxonMobil Oil Corporation #11341/Mobil Oil/J. Jarrett
+17472 Beach Boulevard
+
+Best 1 Hr Cleaners, /Professional Best One Hour Cleaner
+17461 Beach Boulevard
+
+**Database**
+HIST CORTESE, HAZNET, HWTS, RCRA-SQG, LUST, CERS HAZ WASTE, SWEEPS UST, CA FID UST, CERS TANKS, HIST CORTESE, CERS, HIST UST, RCRA NonGen/NLR, UST
+
+DRYCLEANERS, HAZNET, HWTS, RCRA-SQG, FINDS, ECHO, EMI, RCRA NonGen/NLR
+
+**Location and Presumed Hydraulic Gradient Relative to Subject Property**
+Approximately 700 feet north, crossgradient
+Approximately 900 feet north-northwest, crossgradient
+
+**Description**
+According to the LUST database, two releases of waste oil were reported. One of the releases impacted groundwater. The cases were closed on November 19, 1988 and February 22, 1989. Two additional release cases at this site involved gasoline that impacted soil and groundwater. The soil case was closed on March 10, 2006 and the groundwater case was closed on June 5, 2002. This site is currently an operating gasoline filling station. According to information reviewed on the State Water Resources Control Board GeoTracker website, this site has undergone remediation by excavation and soil vapor extraction. Based on the case closed status of the release cases and the site's distance and crossgradient location relative to the subject property, it is not anticipated to represent an environmental concern.
+
+According to the DRYCLEANERS database, this facility used dry cleaning equipment with perchloroethylene (PCE) and petroleum solvent. The facility generated halogenated solvents in 1995 to 2005 and both hydrocarbon and halogenated solvents beginning in 2007. As of 2010, it appears this facility no longer generated hazardous waste. Based on the site's distance and crossgradient location relative to the subject property, it is not anticipated to represent an environmental concern.
+
+The database compilation report also includes a list of unmappable sites (Orphans Summary). Data provided, such as city names, addresses, and zip codes, were cross-referenced with visual site reconnaissance and searches of online mapping tools to determine if the subject property or any nearby sites of potential environmental concern were listed. The subject property was not listed on the unmappable sites list. No nearby sites of potential environmental concern were identified on the unmappable sites list.
+
+**9.0 VAPOR ENCROACHMENT SCREENING**
+As part of this Phase I ESA, EEC conducted a vapor encroachment screening utilizing the ASTM E2600-15 Standard Guide for Vapor Encroachment Screening on Property Involved in Real Estate Transactions and the Buonicore Methodology for Identifying the Area of Concern Around a Property Potentially Impacted by Vapor Migration from Nearby Contaminated Sources (Buonicore, 2011). The area of concern (AOC) is
+S-3506.01B, Huntington Beach, CA
+25
+EEC
+
+---
+
+**Extracted Information by Category:**
+
+*   **Addresses:**
+    *   17472 Beach Boulevard
+    *   17461 Beach Boulevard
+    *   Huntington Beach, CA
+
+*   **Permit Numbers / File References:**
+    *   S-3506.01B
+    *   #124 (associated with ExxonMobil Oil Corporation)
+    *   #11341 (associated with Mobil Oil/J. Jarrett)
+    *   ASTM E2600-15 (Standard Guide reference)
+    *   Buonicore, 2011 (Methodology reference)
+
+*   **Contaminant Names:**
+    *   waste oil
+    *   gasoline
+    *   perchloroethylene (PCE)
+    *   petroleum solvent
+    *   halogenated solvents
+    *   hydrocarbon
+
+*   **Concentrations:**
+    *   None explicitly stated in numerical values.
+
+*   **APN Numbers:**
+    *   None explicitly stated in the provided text.
+--- PAGE 29 ---
+Here's the extracted information from the provided OCR text:
+
+**All Text:**
+Phase I Environmental Site Assessment
+March 18, 2020
+determined from the subject property boundary to the potential source of contamination. The AOC
+distance is determined based upon a conservative plume length estimate and the distance that
+volatilized vapors may travel along a path of least resistance from a plume. A 90th-percentile distance
+was utilized to determine the plume length in order to determine AOCs.
+EEC reviewed release cases and potential sources of releases (such as historical gasoline service stations
+and dry cleaners) within the 1,760-foot AOC for non-petroleum hydrocarbons and the 528-foot AOC for
+petroleum hydrocarbons. Using the Buonicore method, EEC reduced the AOC for release cases that
+were determined to be crossgradient or downgradient relative to the subject property. Using this
+method, the AOC for crossgradient sites with non-petroleum hydrocarbons is 365 feet and the AOC for
+crossgradient sites with petroleum hydrocarbons is 95 feet (dissolved petroleum hydrocarbons) or 165
+feet (with free product). The AOC for downgradient sites is 100 feet, unless it is a petroleum
+hydrocarbon release with dissolved petroleum hydrocarbons, in which case the AOC is 30 feet.
+Using the AOCs described above, EEC did not identify any VECs in connection with the subject property.
+10.0 NON-ASTM CONSIDERATIONS
+10.1 Asbestos
+Asbestos is a naturally occurring fibrous mineral that was extensively used in the past for its insulation
+qualities. Asbestos fibers can be found in thermal insulation, fire-proofing material, vinyl floor tiles,
+mastic, wallboard, ceiling tiles, roofing material, and numerous other materials. After asbestos was
+determined to be carcinogenic, its use was severely restricted in the late 1970s. Building materials are
+classified as asbestos-containing material (ACM) if they contain greater than 1% asbestos fibers. Such
+material is considered a hazardous material and must be properly disposed of when removed or
+managed under an operations and maintenance plan.
+An asbestos survey was not conducted as part of this assessment. Due to the date of the building
+construction (1947), there is a potential that ACMs exist at the subject property. However, only a
+complete, intrusive asbestos sampling survey can definitively determine the presence of ACMs.
+10.2 Lead-Based Paint
+A lead-based paint survey was not conducted as part of this assessment. Due to the date of the building
+construction (1947), there is a potential that lead-based paint exists at the subject property. However,
+only a complete, intrusive lead-based paint sampling survey can definitively determine the presence of
+lead-based paint.
+10.3 Radon
+Radon is an odorless, radioactive gas that occurs naturally in soil, rock, and building materials. It results
+from the natural radioactive decay of radium and uranium. In outdoor air, radon is generally diluted to
+such low concentrations that it is usually not of concern. In enclosed spaces, such as homes, offices,
+and/or basements, radon can accumulate and pose an environmental concern. Indoor levels of radon
+depend on a building's construction and the concentration of radon in the underlying soil and rock.
+S-3506.01B, Huntington Beach, CA
+26
+EEC
+
+**Addresses:**
+*   Huntington Beach, CA
+
+**APN Numbers:**
+*   None explicitly mentioned.
+
+**Permit Numbers:**
+*   None explicitly mentioned.
+
+**Contaminant Names:**
+*   non-petroleum hydrocarbons
+*   petroleum hydrocarbons
+*   Asbestos
+*   Lead-Based Paint
+*   Radon
+*   radium
+*   uranium
+
+**Concentrations (or related numerical values for contaminant presence/areas of concern):**
+*   1,760-foot AOC (for non-petroleum hydrocarbons)
+*   528-foot AOC (for petroleum hydrocarbons)
+*   365 feet (AOC for crossgradient sites with non-petroleum hydrocarbons)
+*   95 feet (AOC for crossgradient sites with dissolved petroleum hydrocarbons)
+*   165 feet (AOC for crossgradient sites with free product petroleum hydrocarbons)
+*   100 feet (AOC for downgradient sites)
+*   30 feet (AOC for downgradient petroleum hydrocarbon release with dissolved petroleum hydrocarbons)
+*   greater than 1% asbestos fibers (threshold for Asbestos-Containing Material)
+--- PAGE 30 ---
+Here's the extracted information from the provided text:
+
+**Addresses:**
+*   Orange County, California (General location)
+*   Huntington Beach, California (City)
+*   Beach Boulevard (Road name mentioned in relation to a cesspool)
+
+**APN Numbers:**
+*   None explicitly stated as APN numbers.
+
+**Permit Numbers:**
+*   Map Number 06059C0253J (Federal Emergency Management Agency Flood Insurance Rate Map number, functions as a unique identifier)
+
+**Contaminant Names:**
+*   Radon
+*   Mold
+
+**Concentrations:**
+*   **Radon:**
+    *   Indoor radon average less than two picocuries per liter (pCi/L) (for Zone 3 designation)
+    *   Standard of 4.0 pCi/L (USEPA recommendation threshold)
+    *   One site in subject property zip code had radon levels exceeding 4.0 pCi/L.
+    *   Federal testing at one site in subject property zip code did not exceed 4.0 pCi/L (specifically, 0.3 pCi/L was found at that site).
+
+**Other Relevant Details:**
+*   **Document Title:** Phase I Environmental Site Assessment
+*   **Date:** March 18, 2020
+*   **Radon Zone:** Zone 3 (designated by USEPA)
+*   **Flood Zone:** Zone X, area of reduced flood risk due to levee.
+*   **Wetlands:** No natural standing bodies of water or hydrophytic vegetation observed; U.S. Fish & Wildlife Service National Wetlands Inventory Wetlands Mapper did not identify riparian or wetlands areas.
+*   **Groundwater Depth:** Approximately 18 to 24 feet bgs (below ground surface)
+*   **Groundwater Gradient:** Expected to be southwest.
+*   **Cesspools:** One abandoned in-place cesspool documented, potential for two additional abandoned cesspools. Not considered a Recognized Environmental Condition (REC).
+*   **Document Number (Footer):** S-3506.01B
+*   **Page Number (Footer):** 27
