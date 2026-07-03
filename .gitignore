@@ -73,3 +73,6 @@ AG2OSINTNEOMAXX/scratch/
 .tmp.driveupload/
 "New Text Document*.txt"
 New Text Document*.txt
+
+# Ignore giant extracted directories inside new_program_scratch
+new_program_scratch/unzipped_data/
