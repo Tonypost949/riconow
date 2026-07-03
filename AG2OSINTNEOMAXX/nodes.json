@@ -142354,5 +142354,21 @@
       "mercy_house_presence": "No",
       "operational_notes": "Covers 22 counties; sheriff is primary law enforcement."
     }
+  },
+  {
+    "id": "YINCHANG LIN",
+    "label": "PERSON",
+    "properties": {
+      "name": "Yinchang Lin",
+      "source": "Enrichment Autopilot"
+    }
+  },
+  {
+    "id": "DIANA LIN",
+    "label": "PERSON",
+    "properties": {
+      "name": "Diana Lin",
+      "source": "Enrichment Autopilot"
+    }
   }
 ]

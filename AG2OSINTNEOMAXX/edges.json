@@ -166564,5 +166564,23 @@
     "target_id": "WY",
     "target_label": "STATE",
     "properties": {}
+  },
+  {
+    "source_id": "YINCHANG LIN",
+    "target_id": "BELAVITA LLC",
+    "type": "MANAGER_OF",
+    "properties": {
+      "confidence": 0.85,
+      "source": "Enrichment Autopilot"
+    }
+  },
+  {
+    "source_id": "DIANA LIN",
+    "target_id": "BELAVITA LLC",
+    "type": "MANAGER_OF",
+    "properties": {
+      "confidence": 0.85,
+      "source": "Enrichment Autopilot"
+    }
   }
 ]
