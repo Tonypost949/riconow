@@ -233,14 +233,60 @@ class ComprehensiveGraphExtractor:
                     if apn:
                         self.add_edge(seller, seller_label, GraphSchema.REL_CONNECTED_TO, apn, GraphSchema.NODE_PROPERTY, {"role": "PAST_SELLER", "date": sale_date})
 
+    def extract_from_us_coc_pattern_master(self, filepath):
+        if not os.path.exists(filepath):
+            return
+        with open(filepath, mode='r', encoding='utf-8', errors='ignore') as f:
+            for line in f:
+                line = line.strip()
+                if not line.startswith("|"):
+                    continue
+                parts = [p.strip() for p in line.split("|")]
+                if len(parts) < 9:
+                    continue
+                state_code = parts[1].replace("**", "").replace("*", "").strip().upper()
+                coc_number = parts[2].replace("**", "").replace("*", "").strip().upper()
+                coc_name = parts[3].replace("**", "").replace("*", "").strip()
+                counties_covered = parts[4].strip()
+                policing_status = parts[5].strip()
+                ej_flag = parts[6].strip()
+                mercy_house = parts[7].strip()
+                notes = parts[8].strip()
+                
+                if state_code == "STATE" or "---" in state_code or not state_code:
+                    continue
+                if coc_number == "COC NUMBER" or "---" in coc_number:
+                    continue
+                
+                state_code = self.clean_str(state_code)
+                coc_name_clean = self.clean_str(coc_name)
+                
+                if state_code:
+                    self.add_node(GraphSchema.NODE_STATE, state_code, {"state_code": state_code})
+                
+                if coc_name_clean:
+                    self.add_node(GraphSchema.NODE_ORGANIZATION, coc_name_clean, {
+                        "name": coc_name,
+                        "coc_number": coc_number,
+                        "counties_covered": counties_covered,
+                        "policing_status": policing_status,
+                        "environmental_justice_flag": ej_flag,
+                        "mercy_house_presence": mercy_house,
+                        "operational_notes": notes
+                    })
+                    if state_code:
+                        self.add_edge(coc_name_clean, GraphSchema.NODE_ORGANIZATION, GraphSchema.REL_LOCATED_IN, state_code, GraphSchema.NODE_STATE)
+
     def run_all(self):
         out_of_state_path = r"C:\Users\HP\OneDrive\Documents\opencode_work\out_of_state_llc_ppp_network.csv"
         national_audits_path = r"C:\Users\HP\OneDrive\Documents\opencode_work\national_audits_all_state_records.csv"
         hb_llc_path = r"C:\Users\HP\OneDrive\Documents\opencode_work\HB_Suspicious_LLC_Matrix.csv"
+        us_coc_path = r"C:\Users\HP\.gemini\antigravity\brain\71e7b1d1-f50b-477e-a713-942e8319b97d\us_coc_forensic_pattern_master.md"
         
         self.extract_from_out_of_state_llc_ppp_network(out_of_state_path)
         self.extract_from_national_audits_all_state_records(national_audits_path)
         self.extract_from_hb_suspicious_llc_matrix(hb_llc_path)
+        self.extract_from_us_coc_pattern_master(us_coc_path)
         
         output_dir = r"c:\Users\HP\OneDrive\Documents\AG2OSINTNEOMAXX"
         nodes_path = os.path.join(output_dir, "nodes.json")

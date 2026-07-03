@@ -163828,5 +163828,2741 @@
       "role": "PAST_SELLER",
       "date": "09/25/2006"
     }
+  },
+  {
+    "source_id": "ANCHORAGE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AK",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ALASKA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AK",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BIRMINGHAM/JEFFERSON, SAINT CLAIR, SHELBY COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MOBILE CITY & COUNTY/BALDWIN COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "FLORENCE/NORTHWEST ALABAMA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "HUNTSVILLE/NORTH ALABAMA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MONTGOMERY CITY & COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "GADSDEN/NORTHEAST ALABAMA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "TUSCALOOSA CITY & COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ALABAMA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LITTLE ROCK/CENTRAL ARKANSAS COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AR",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "FAYETTEVILLE/NORTHWEST ARKANSAS COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AR",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ARKANSAS BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AR",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "DELTA HILLS COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AR",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SOUTHEAST ARKANSAS COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AR",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "EASTERN ARKANSAS COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AR",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BOONE, BAXTER, MARION, NEWTON COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AR",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ARIZONA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AZ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "TUCSON/PIMA COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AZ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PHOENIX/MESA/MARICOPA COUNTY REGIONAL COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "AZ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SAN JOSE/SANTA CLARA CITY & COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SAN FRANCISCO COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "OAKLAND/ALAMEDA COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SACRAMENTO CITY & COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SANTA ROSA/PETALUMA/SONOMA COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "RICHMOND/CONTRA COSTA COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SALINAS/MONTEREY, SAN BENITO COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MARIN COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "WATSONVILLE/SANTA CRUZ CITY & COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MENDOCINO COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "TURLOCK/MODESTO/STANISLAUS COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "STOCKTON/SAN JOAQUIN COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "DALY/SAN MATEO COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "VISALIA, KINGS, TULARE COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "FRESNO/MADERA COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ROSEVILLE/ROCKLIN/PLACER, NEVADA COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "REDDING/SHASTA COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NAPA CITY & COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "VALLEJO/SOLANO COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "CHICO/PARADISE/BUTTE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MERCED CITY & COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "DAVIS/WOODLAND/YOLO COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "HUMBOLDT COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "COLUSA, GLEN, LAKE, TEHAMA, TRINITY COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "YUBA CITY, MARYSVILLE/SUTTER, YUBA COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "EL DORADO COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "TUOLUMNE, CALAVERAS, AMADOR COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "DEL NORTE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LOS ANGELES CITY & COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SAN DIEGO COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SANTA ANA/ANAHEIM/ORANGE COUNTY",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SANTA MARIA/SANTA BARBARA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BAKERSFIELD/KERN COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SAN BUENAVENTURA/VENTURA COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LONG BEACH COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PASADENA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "RIVERSIDE CITY & COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SAN BERNARDINO CITY & COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SAN DIEGO COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "CITY OF OXNARD COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "GLENDALE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "IMPERIAL COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SAN LUIS OBISPO COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "INYO, MONO, ALPINE COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "COLORADO BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CO",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "METROPOLITAN DENVER HOMELESS INITIATIVE",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CO",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "COLORADO SPRINGS/EL PASO COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CO",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NEW HAVEN COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CT",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "HARTFORD COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CT",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BRIDGEPORT/STRATFORD/FAIRFIELD COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CT",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "CONNECTICUT BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CT",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NORWALK/FAIRFIELD COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CT",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "STAMFORD/GREENWICH COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CT",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "CITY OF WATERBURY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "CT",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "DISTRICT OF COLUMBIA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "DC",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "DELAWARE STATEWIDE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "DE",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SARASOTA/BRADENTON/SARASOTA, MANATEE COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "TAMPA/HILLSBOROUGH COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ST. PETERSBURG/CLEARWATER/LARGO/PINELLAS COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LAKELAND COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "DAYTONA BEACH/DAYTONA/VOLUSIA, FLAGLER COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "FORT WALTON BEACH/OKALOOSA, WALTON COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "TALLAHASSEE/LEON COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ORLANDO/ORANGE, OSCEOLA, SEMINOLE COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "GAINESVILLE/ALACHUA, PUTNAM COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "FT.PIERC/ST.LUCIE, INDIAN RIVER, MARTIN COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "JACKSONVILLE-DUVAL, CLAY COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PENSACOLA/ESCAMBIA, SANTA ROSA COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ST. JOHNS COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PALM BAY/MELBOURNE/BREVARD COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "OCALA/MARION COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PANAMA CITY/BAY, JACKSON COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "WINTERHAVEN/POLK COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "HENDRY, HARDEE, HIGHLANDS COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "COLUMBIA, HAMILTON, LAFAYETTE, SUWANNEE COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PASCO COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "CITRUS, HERNANDO, LAKE, SUMTER COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MIAMI/DADE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "FORT LAUDERDALE/BROWARD COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PUNTA GORDA/CHARLOTTE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "FT MYERS/CAPE CORAL/LEE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MONROE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "WEST PALM BEACH/PALM BEACH COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NAPLES/COLLIER COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "FL",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ATLANTA/ROSWELL/DEKALB, FULTON COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "GA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "GEORGIA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "GA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ATHENS/CLARKE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "GA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "AUGUSTA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "GA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "COLUMBUS-MUSCOGEE / RUSSELL COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "GA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MARIETTA/COBB COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "GA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SAVANNAH/CHATHAM COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "GA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "GUAM COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "GU",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "HAWAII BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "HI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "HONOLULU COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "HI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SIOUX CITY/DAKOTA, WOODBURY COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "IA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "IOWA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "IA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "DES MOINES/POLK COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "IA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "IDAHO BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "ID",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "INDIANA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "IN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "FORT WAYNE/ALLEN COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "IN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SOUTH BEND/ST. JOSEPH COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "IN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "EVANSVILLE/VANDERBURGH COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "IN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "GARY/LAKE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "IN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BLOOMINGTON/MONROE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "IN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MUNCIE/DELAWARE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "IN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "RICHMOND/WAYNE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "IN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "TERRE HAUTE/VIGO COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "IN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LAFAYETTE/TIPPECANOE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "IN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "KOKOMO/HOWARD COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "IN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "COLUMBUS/BARTHOLOMEW COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "IN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ELKHART/ELKHART COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "IN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "KANSAS BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "KS",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "KANSAS CITY/WYANDOTTE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "KS",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "TOPEKA/SHAWNEE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "KS",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "WICHITA/SEDGWICK COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "KS",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "OVERLAND PARK/JOHNSON COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "KS",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LOUISVILLE METRO COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "KY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LEXINGTON-FAYETTE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "KY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "KENTUCKY BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "KY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BOWLING GREEN/WARREN COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "KY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "OWENSBORO/DAVIESS COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "KY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "COVINGTON/KENTON COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "KY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NEW ORLEANS/JEFFERSON PARISH COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "LA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BATON ROUGE/EAST BATON ROUGE PARISH COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "LA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SHREVEPORT/CADDO PARISH COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "LA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LAFAYETTE/ACADIANA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "LA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LOUISIANA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "LA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BOSTON COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "WORCESTER COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SPRINGFIELD COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LOWELL COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "CAMBRIDGE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NEW BEDFORD COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BROCKTON COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "QUINCY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LYNN COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "FALL RIVER COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LAWRENCE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MASSACHUSETTS BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BALTIMORE CITY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MD",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BALTIMORE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MD",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PRINCE GEORGE'S COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MD",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MARYLAND BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MD",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MONTGOMERY COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MD",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ANNE ARUNDEL COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MD",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PORTLAND COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "ME",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MAINE BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "ME",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "DETROIT COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "GRAND RAPIDS/KENT COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "WARREN/MACOMB COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "STERLING HEIGHTS/OAKLAND COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ANN ARBOR/WASHTENAW COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LANSING/INGHAM COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "FLINT/GENESEE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SAGINAW/SAGINAW COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "KALAMAZOO/KALAMAZOO COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MUSKEGON/MUSKEGON COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BATTLE CREEK/CALHOUN COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "HOLLAND/OTTAWA COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PORT HURON/ST. CLAIR COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MICHIGAN BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "JACKSON/JACKSON COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MONROE/MONROE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MINNEAPOLIS COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ST. PAUL COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ROCHESTER/SOUTHEAST MINNESOTA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "DAKOTA, ANOKA, WASHINGTON, SCOTT, CARVER COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NORTHEAST MINNESOTA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ST. CLOUD/CENTRAL MINNESOTA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MINNESOTA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ST. LOUIS CITY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MO",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ST. LOUIS COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MO",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "KANSAS CITY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MO",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SPRINGFIELD COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MO",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "COLUMBIA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MO",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MISSOURI BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MO",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "JACKSON COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MS",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "GULFPORT COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MS",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MISSISSIPPI BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MS",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "HATTIESBURG COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MS",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BILLINGS COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MT",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MONTANA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "MT",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "CHARLOTTE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NC",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "RALEIGH COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NC",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "GREENSBORO COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NC",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "WINSTON-SALEM/FORSYTH COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NC",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "DURHAM COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NC",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "FAYETTEVILLE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NC",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ASHEVILLE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NC",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NORTH CAROLINA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NC",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "FARGO COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "ND",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NORTH DAKOTA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "ND",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NEBRASKA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NE",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "OMAHA, COUNCIL BLUFFS COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NE",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LINCOLN COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NE",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BELLEVUE/SARPY COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NE",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MANCHESTER COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NH",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NEW HAMPSHIRE BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NH",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ATLANTIC CITY & COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NJ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BERGEN COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NJ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BURLINGTON COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NJ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "CAMDEN CITY & COUNTY/GLOUCESTER, CAPE MAY, CUMBERLAND COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NJ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ESSEX COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NJ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "HUDSON COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NJ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MERCER COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NJ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MIDDLESEX COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NJ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MONMOUTH COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NJ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MORRIS COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NJ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "OCEAN COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NJ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PASSAIC COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NJ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SOMERSET COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NJ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SUSSEX COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NJ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "UNION COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NJ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "WARREN COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NJ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NEWARK/ELIZABETH COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NJ",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ALBUQUERQUE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NM",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NEW MEXICO BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NM",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LAS CRUCES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NM",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SANTA FE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NM",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LAS VEGAS COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NV",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "RENO/SPARKS/WASHOE COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NV",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NEVADA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NV",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NEW YORK CITY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BUFFALO COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ROCHESTER COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NASSAU/SUFFOLK COUNTIES COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ALBANY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SYRACUSE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "YONKERS COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SCHENECTADY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "UTICA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BINGHAMTON COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NIAGARA FALLS COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ITHACA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ELMIRA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "KINGSTON COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "POUGHKEEPSIE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PLATTSBURGH COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "WATERTOWN COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NEW YORK BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "NY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "COLUMBUS COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "OH",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "CLEVELAND COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "OH",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "CINCINNATI COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "OH",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "TOLEDO COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "OH",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "AKRON COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "OH",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "DAYTON COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "OH",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "OHIO BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "OH",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "OKLAHOMA CITY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "OK",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "TULSA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "OK",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "OKLAHOMA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "OK",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PORTLAND COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "OR",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SALEM COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "OR",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "EUGENE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "OR",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MEDFORD COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "OR",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "OREGON BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "OR",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PHILADELPHIA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "PA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PITTSBURGH COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "PA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ALLENTOWN COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "PA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ERIE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "PA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "READING COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "PA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SCRANTON COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "PA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BETHLEHEM COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "PA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LANCASTER COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "PA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "HARRISBURG COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "PA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "YORK COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "PA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ALTOONA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "PA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PENNSYLVANIA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "PA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SAN JUAN COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "PR",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PONCE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "PR",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PUERTO RICO BALANCE OF COMMONWEALTH COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "PR",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "RHODE ISLAND STATEWIDE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "RI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "COLUMBIA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "SC",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "CHARLESTON COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "SC",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "GREENVILLE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "SC",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SOUTH CAROLINA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "SC",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SIOUX FALLS COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "SD",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SOUTH DAKOTA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "SD",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NASHVILLE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "TN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MEMPHIS COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "TN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "KNOXVILLE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "TN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "CHATTANOOGA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "TN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "TENNESSEE BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "TN",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "HOUSTON/HARRIS COUNTY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "TX",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "DALLAS COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "TX",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SAN ANTONIO COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "TX",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "AUSTIN COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "TX",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "FORT WORTH COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "TX",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "EL PASO COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "TX",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ARLINGTON COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "TX",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "CORPUS CHRISTI COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "TX",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PLANO COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "TX",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LAREDO COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "TX",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "LUBBOCK COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "TX",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "TEXAS BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "TX",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SALT LAKE CITY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "UT",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "PROVO COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "UT",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "UTAH BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "UT",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "VIRGINIA BEACH COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "VA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "NORFOLK COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "VA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "RICHMOND COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "VA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ARLINGTON COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "VA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "ALEXANDRIA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "VA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "VIRGINIA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "VA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "U.S. VIRGIN ISLANDS COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "VI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "VERMONT BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "VT",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SEATTLE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "WA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "SPOKANE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "WA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "TACOMA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "WA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "VANCOUVER COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "WA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "BELLEVUE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "WA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "KENT COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "WA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "EVERETT COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "WA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "WASHINGTON BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "WA",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MILWAUKEE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "WI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "MADISON COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "WI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "GREEN BAY COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "WI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "KENOSHA COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "WI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "WISCONSIN BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "WI",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "CHARLESTON COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "WV",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "WEST VIRGINIA BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "WV",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "CHEYENNE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "WY",
+    "target_label": "STATE",
+    "properties": {}
+  },
+  {
+    "source_id": "WYOMING BALANCE OF STATE COC",
+    "source_label": "ORGANIZATION",
+    "type": "LOCATED_IN",
+    "target_id": "WY",
+    "target_label": "STATE",
+    "properties": {}
   }
 ]
