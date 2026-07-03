@@ -1,10 +1,109 @@
---- PAGE 1 ERROR ---
-403 PERMISSION_DENIED. {'error': {'code': 403, 'message': "Permission 'aiplatform.endpoints.predict' denied on resource '//aiplatform.googleapis.com/projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash' (or it may not exist). Remediate access with this Troubleshooter URL or share it with your administrator - https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjNy04Yjc1LTdjZTctYWQ2NS1hMzdjNDdlNTQyNGISYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D .", 'status': 'PERMISSION_DENIED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'IAM_PERMISSION_DENIED', 'domain': 'aiplatform.googleapis.com', 'metadata': {'error_info_id': 'CiQwMTllZjBjNy04Yjc1LTdjZTctYWQ2NS1hMzdjNDdlNTQyNGISYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA==', 'resource': 'projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash', 'troubleshooter_url': 'https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjNy04Yjc1LTdjZTctYWQ2NS1hMzdjNDdlNTQyNGISYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D', 'permission': 'aiplatform.endpoints.predict'}}]}}
---- PAGE 2 ERROR ---
-403 PERMISSION_DENIED. {'error': {'code': 403, 'message': "Permission 'aiplatform.endpoints.predict' denied on resource '//aiplatform.googleapis.com/projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash' (or it may not exist). Remediate access with this Troubleshooter URL or share it with your administrator - https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjNy05OWZlLTc1ZTItYmU2NS04MWJjYWQxNGNhMTMSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D .", 'status': 'PERMISSION_DENIED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'IAM_PERMISSION_DENIED', 'domain': 'aiplatform.googleapis.com', 'metadata': {'troubleshooter_url': 'https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjNy05OWZlLTc1ZTItYmU2NS04MWJjYWQxNGNhMTMSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D', 'error_info_id': 'CiQwMTllZjBjNy05OWZlLTc1ZTItYmU2NS04MWJjYWQxNGNhMTMSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA==', 'permission': 'aiplatform.endpoints.predict', 'resource': 'projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash'}}]}}
---- PAGE 3 ERROR ---
-403 PERMISSION_DENIED. {'error': {'code': 403, 'message': "Permission 'aiplatform.endpoints.predict' denied on resource '//aiplatform.googleapis.com/projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash' (or it may not exist). Remediate access with this Troubleshooter URL or share it with your administrator - https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjNy1hN2I4LTdhMDEtYmIzZS0zZTg4OWE4ZWQ1NWMSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D .", 'status': 'PERMISSION_DENIED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'IAM_PERMISSION_DENIED', 'domain': 'aiplatform.googleapis.com', 'metadata': {'troubleshooter_url': 'https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjNy1hN2I4LTdhMDEtYmIzZS0zZTg4OWE4ZWQ1NWMSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D', 'error_info_id': 'CiQwMTllZjBjNy1hN2I4LTdhMDEtYmIzZS0zZTg4OWE4ZWQ1NWMSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA==', 'permission': 'aiplatform.endpoints.predict', 'resource': 'projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash'}}]}}
---- PAGE 4 ERROR ---
-403 PERMISSION_DENIED. {'error': {'code': 403, 'message': "Permission 'aiplatform.endpoints.predict' denied on resource '//aiplatform.googleapis.com/projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash' (or it may not exist). Remediate access with this Troubleshooter URL or share it with your administrator - https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjNy1iNWM2LTdiYjMtOWQ2OC0zMDM1MmM1ZmExNWUSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D .", 'status': 'PERMISSION_DENIED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'IAM_PERMISSION_DENIED', 'domain': 'aiplatform.googleapis.com', 'metadata': {'error_info_id': 'CiQwMTllZjBjNy1iNWM2LTdiYjMtOWQ2OC0zMDM1MmM1ZmExNWUSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA==', 'resource': 'projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash', 'troubleshooter_url': 'https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjNy1iNWM2LTdiYjMtOWQ2OC0zMDM1MmM1ZmExNWUSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D', 'permission': 'aiplatform.endpoints.predict'}}]}}
---- PAGE 5 ERROR ---
-403 PERMISSION_DENIED. {'error': {'code': 403, 'message': "Permission 'aiplatform.endpoints.predict' denied on resource '//aiplatform.googleapis.com/projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash' (or it may not exist). Remediate access with this Troubleshooter URL or share it with your administrator - https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjNy1jMzcxLTdlZDktYjZjMi1iY2M1MWNhMjc4MmQSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D .", 'status': 'PERMISSION_DENIED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'IAM_PERMISSION_DENIED', 'domain': 'aiplatform.googleapis.com', 'metadata': {'permission': 'aiplatform.endpoints.predict', 'resource': 'projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash', 'troubleshooter_url': 'https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjNy1jMzcxLTdlZDktYjZjMi1iY2M1MWNhMjc4MmQSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D', 'error_info_id': 'CiQwMTllZjBjNy1jMzcxLTdlZDktYjZjMi1iY2M1MWNhMjc4MmQSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA=='}}]}}
+--- PAGE 1 ---
+None
+--- PAGE 2 ---
+None
+--- PAGE 3 ---
+File #: 23-522 MEETING DATE: 6/20/2023
+
+successor to the Redevelopment Agency (the “Successor Agency”) and Resolution No. 2012-02 to
+confirm the Housing Authority’s role as the housing successor (the “Housing Successor”).
+
+As the Housing Successor, the Housing Authority retained all funds in the LMIHAF and is authorized
+to manage these affordable housing assets and to exercise the housing functions that the former
+Redevelopment Agency previously performed. While this account does not receive new TIF, the
+account does collect money from the repayment of loans previously provided by the Redevelopment
+Agency. The Housing Authority is required to expend funds in the LMIHAF to meet its enforceable
+obligations, if any, and for specified administrative and monitoring costs related to ensuring the long-
+term affordability of units subject to affordability restrictions. The Housing Authority may then expend
+a specified amount per fiscal year on homeless prevention and rapid rehousing services, and must
+use all remaining funds for the development of affordable housing. Unencumbered funds in the
+LMIHAF that exceed the greater of $1M or the aggregate amount deposited into the fund during the
+preceding four fiscal years, results in “excess surplus”.
+
+The Housing Authority is required to prepare and submit an annual report to the City Council
+regarding the LMIHAF (the “Annual Report”). The Annual Report sets forth certain details of the
+Housing Authority activities (assets and activities) during the fiscal year. One function of the Annual
+Report is to conduct an “Excess Surplus Test” which provides the amount of excess surplus in the
+LMIHAF, if any, and the length of time that the Housing Authority has had excess surplus and a plan
+to eliminate the excess surplus. Excess surplus, once identified in an Annual Report, must be
+encumbered by an eligible activity, within three fiscal years. Failure to encumber the excess surplus
+within the allocated timeframe requires that the Housing Authority either 1) transfer the excess
+surplus to another eligible jurisdiction for an eligible use or 2) transfer the excess surplus to the
+Department of Housing and Community Development to be used for certain eligible uses within 90
+days of the end of the third fiscal year.
+
+In Fiscal Year 2019/2020, the Housing Authority received a large deposit in excess of $6.5M due to a
+re-syndication of a Low Income Housing Tax Credit (LIHTC) project where the Housing Authority
+provided funds to the deal. As a result, excess surplus in excess of $3M was anticipated if the
+Housing Authority did not encumber funds within the Fiscal Year 2020/2021. To avoid forfeiting funds
+to the State, the City began looking for properties to purchase for future affordable housing
+opportunities.
+
+History of 17631 Cameron Lane and 17642 Beach Blvd. (Site)
+
+Ultimately, on August 19, 2020 and January 5, 2021, a total of $6,094,847 of LMIHAF funds were
+used to purchase the Site for use as a future affordable housing development. The purchase of the
+Site resolved the City's anticipated excess surplus situation.
+
+In 2018 the City began exploring locations to establish a Navigation Center to provide shelter and
+services to 174 individuals experiencing homelessness in Huntington Beach. After exploring several
+different sites, the City chose to build a temporary Navigation Center on the Site, understanding that
+at some point in the near future, affordable housing must be developed on the Site or the $6,094,847
+used to acquire the Site must be reimbursed to the LMIHAF.
+
+City of Huntington Beach Page 3 of 5 Printed on 6/16/2023
+powered by Legistar™
+--- PAGE 4 ---
+Here is the extracted text verbatim:
+
+File #: 23-522 MEETING DATE: 6/20/2023
+
+In December of 2020, a new address was assigned for both lots as 17642 Beach Boulevard with
+different suites assigned to the various structures and the 17631 Cameron Lane address was
+eliminated. This address change was made for multiple purposes including fire response, US postal
+service, and utilities as the two lots are accommodating one use.
+
+On March 22, 2022, a Request for Qualifications (RFQ) was released by the Housing Authority
+seeking a real estate developer to develop, finance, and manage a new mixed-use development,
+potentially consisting of a homeless shelter, a sobering center, support services, and transitional and
+affordable housing at various income levels. On June 7, 2022, the City Council authorized the
+Housing Authority's Executive Director to execute a no-cost Agreement with Jamboree Housing to
+provide exclusive negotiations and explore the development of the Site.
+
+Four Concepts for Use of the Site
+
+Since the execution of the Agreement, staff has explored various uses and potential development
+scenarios of the Site that would comply with zoning requirements, benefit the community, increase
+housing opportunities for low-income individuals and those experiencing homelessness or at-risk of
+experiencing homelessness, and with limited fiscal liability for the City.
+
+Staff has identified four concepts for potential uses of the Site, including the following:
+
+Concept 1: Healing Center
+
+Develop a full-scale Healing Center, consisting of a Navigation Center, sobering center, facilities for
+support services, and a combination of transitional, permanent supportive, and affordable housing.
+
+Concept 2: Pathways Project
+
+Develop a multi-use facility, consisting of a Navigation Center and permanent supportive housing.
+
+Concept 3: Permanent Supportive or Affordable Housing Options
+
+Develop only permanent supportive or affordable housing and identify an alternate location for a
+Navigation Center.
+
+Concept 4: Navigation Center Only
+
+Develop a permanent Navigation Center for individuals experiencing homelessness. Because a
+Navigation Center does not qualify as an affordable housing project, this option would require the
+City to reimburse the LMIHAF, most likely using General Funds.
+
+As an alternative, the City Council could choose to not develop the Site for any of the above options;
+however, long-term use of the Site for anything other than a qualifying affordable housing
+development would require repayment of the LMIHAF, which would trigger excess surplus for the
+
+City of Huntington Beach Page 4 of 5 Printed on 6/16/2023
+powered by Legistar™
+--- PAGE 5 ---
+None

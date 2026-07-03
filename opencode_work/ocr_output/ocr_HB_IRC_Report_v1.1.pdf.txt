@@ -1,10 +1,204 @@
---- PAGE 1 ERROR ---
-403 PERMISSION_DENIED. {'error': {'code': 403, 'message': "Permission 'aiplatform.endpoints.predict' denied on resource '//aiplatform.googleapis.com/projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash' (or it may not exist). Remediate access with this Troubleshooter URL or share it with your administrator - https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjNy1lZDJkLTdjZjUtOTRiMC0wNzRhZGIxZTU1MjISYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D .", 'status': 'PERMISSION_DENIED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'IAM_PERMISSION_DENIED', 'domain': 'aiplatform.googleapis.com', 'metadata': {'error_info_id': 'CiQwMTllZjBjNy1lZDJkLTdjZjUtOTRiMC0wNzRhZGIxZTU1MjISYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA==', 'permission': 'aiplatform.endpoints.predict', 'troubleshooter_url': 'https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjNy1lZDJkLTdjZjUtOTRiMC0wNzRhZGIxZTU1MjISYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D', 'resource': 'projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash'}}]}}
---- PAGE 2 ERROR ---
-403 PERMISSION_DENIED. {'error': {'code': 403, 'message': "Permission 'aiplatform.endpoints.predict' denied on resource '//aiplatform.googleapis.com/projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash' (or it may not exist). Remediate access with this Troubleshooter URL or share it with your administrator - https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjNy1mYWEzLTcyYzItYWJhYy0yYzVkMWJlOGRiYTESYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D .", 'status': 'PERMISSION_DENIED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'IAM_PERMISSION_DENIED', 'domain': 'aiplatform.googleapis.com', 'metadata': {'error_info_id': 'CiQwMTllZjBjNy1mYWEzLTcyYzItYWJhYy0yYzVkMWJlOGRiYTESYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA==', 'permission': 'aiplatform.endpoints.predict', 'troubleshooter_url': 'https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjNy1mYWEzLTcyYzItYWJhYy0yYzVkMWJlOGRiYTESYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D', 'resource': 'projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash'}}]}}
---- PAGE 3 ERROR ---
-403 PERMISSION_DENIED. {'error': {'code': 403, 'message': "Permission 'aiplatform.endpoints.predict' denied on resource '//aiplatform.googleapis.com/projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash' (or it may not exist). Remediate access with this Troubleshooter URL or share it with your administrator - https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjOC0wOGY0LTcyYTgtOWY4NS1jY2FmM2NjNDhiYzASYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D .", 'status': 'PERMISSION_DENIED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'IAM_PERMISSION_DENIED', 'domain': 'aiplatform.googleapis.com', 'metadata': {'troubleshooter_url': 'https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjOC0wOGY0LTcyYTgtOWY4NS1jY2FmM2NjNDhiYzASYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D', 'permission': 'aiplatform.endpoints.predict', 'error_info_id': 'CiQwMTllZjBjOC0wOGY0LTcyYTgtOWY4NS1jY2FmM2NjNDhiYzASYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA==', 'resource': 'projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash'}}]}}
---- PAGE 4 ERROR ---
-403 PERMISSION_DENIED. {'error': {'code': 403, 'message': "Permission 'aiplatform.endpoints.predict' denied on resource '//aiplatform.googleapis.com/projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash' (or it may not exist). Remediate access with this Troubleshooter URL or share it with your administrator - https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjOC0yMjJiLTc2M2UtYjQyMS1lYTUwMDI2Yzc3MjYSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D .", 'status': 'PERMISSION_DENIED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'IAM_PERMISSION_DENIED', 'domain': 'aiplatform.googleapis.com', 'metadata': {'troubleshooter_url': 'https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjOC0yMjJiLTc2M2UtYjQyMS1lYTUwMDI2Yzc3MjYSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D', 'error_info_id': 'CiQwMTllZjBjOC0yMjJiLTc2M2UtYjQyMS1lYTUwMDI2Yzc3MjYSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA==', 'resource': 'projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash', 'permission': 'aiplatform.endpoints.predict'}}]}}
---- PAGE 5 ERROR ---
-403 PERMISSION_DENIED. {'error': {'code': 403, 'message': "Permission 'aiplatform.endpoints.predict' denied on resource '//aiplatform.googleapis.com/projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash' (or it may not exist). Remediate access with this Troubleshooter URL or share it with your administrator - https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjOC0zMDcwLTdlZGItYjA5Ni1mZjAwNWQyMDUxODkSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D .", 'status': 'PERMISSION_DENIED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'IAM_PERMISSION_DENIED', 'domain': 'aiplatform.googleapis.com', 'metadata': {'troubleshooter_url': 'https://console.cloud.google.com/iam-admin/troubleshooter;errorId=CiQwMTllZjBjOC0zMDcwLTdlZGItYjA5Ni1mZjAwNWQyMDUxODkSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA%3D%3D', 'error_info_id': 'CiQwMTllZjBjOC0zMDcwLTdlZGItYjA5Ni1mZjAwNWQyMDUxODkSYHByb2plY3RzL25vYmxlLWJlYW5iYWctNDk3NDExLW00L2xvY2F0aW9ucy91cy1jZW50cmFsMS9wdWJsaXNoZXJzL2dvb2dsZS9tb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaA==', 'permission': 'aiplatform.endpoints.predict', 'resource': 'projects/noble-beanbag-497411-m4/locations/us-central1/publishers/google/models/gemini-2.5-flash'}}]}}
+--- PAGE 1 ---
+City of
+HUNTINGTON BEACH
+Infrastructure
+Report Card.
+
+City of Huntington Beach
+INFRASTRUCTURE REPORT CARD
+2024
+--- PAGE 2 ---
+TABLE OF CONTENTS
+EXECUTIVE SUMMARY.......................................................................................3
+INFRASTRUCTURE REPORT CARD..................................................................5
+WHY A REPORT CARD?......................................................................................6
+METHODOLOGY....................................................................................................8
+Project Structure....................................................................................8
+Community Input..................................................................................9
+Infrastructure Categories...................................................................10
+Evaluation Critera................................................................................11
+Grade Scale...........................................................................................11
+Long-Term Infrastructure Needs.....................................................13
+FINDINGS PER INFRASTRUCTURE CATEGORY........................................15
+Bridges....................................................................................................16
+Roads and Mobility..............................................................................20
+Non-Road Pavement...........................................................................27
+Wastewater............................................................................................31
+Drinking Water.....................................................................................36
+Storm Water..........................................................................................41
+Coastal Shoreline.................................................................................46
+Harbour..................................................................................................50
+Facilities (Non-Leased)......................................................................53
+Parks and Landscape.........................................................................60
+Information Services..........................................................................64
+COMMUNITY FEEDBACK................................................................................67
+Community Survey..............................................................................67
+OCC Meetings.......................................................................................70
+Infrastructure Tours..........................................................................70
+Next Steps.............................................................................................70
+STRATEGIC SOLUTIONS.................................................................................72
+ACKNOWLEDGEMENTS................................................................................75
+APPENDIX...........................................................................................................78
+--- PAGE 3 ---
+EXECUTIVE SUMMARY
+
+The 2024 Infrastructure Report Card for the
+City of Huntington Beach offers an evaluation
+of 13 infrastructure subcategories, aiming to
+highlight strengths and urgent challenges
+while creating a long-term plan for a resilient
+Huntington Beach. While Huntington Beach
+benefits from adequate services in areas
+like parks, the pier and plaza, and roads,
+several systems—including stormwater,
+wastewater, and city facilities—are aging and
+approaching the end of their useful life. Of
+particular concern are the rehabilitation of
+city facilities, alleys, and pump stations, which
+have been identified as critical objectives
+requiring immediate attention to prevent
+service disruptions and safety risks.
+
+City facilities, such as fire stations, libraries,
+and community centers, face significant
+infrastructure issues, including outdated HVAC
+systems, electrical failures, and structural
+degradation. In addition, many alleys
+
+throughout the city are deteriorating due to
+years of deferred maintenance, affecting
+residential accessibility and public safety.
+Pump stations, vital to the city's stormwater
+and wastewater management systems,
+are also in poor condition, with insufficient
+redundancy and outdated equipment that
+pose risks during extreme weather events and
+power outages. The increasing pressures of
+sea-level rise and climate change are placing
+additional stress on already aging systems.
+Without timely rehabilitation, these key
+infrastructure systems could face escalating
+repair costs and reduced reliability, further
+straining city resources.
+
+Huntington Beach's current infrastructure
+funding levels consist of 15% of the General
+Fund, of which not all of it goes directly
+to the replacement/maintenance of the
+infrastructure itself, but fall significantly
+short of the estimated $1.8 billion required
+
+3
+City of
+HUNTINGTON BEACH
+Infrastructure
+Report Card.
+--- PAGE 4 ---
+to address long-term infrastructure needs
+over the next 15 years. Critical upgrades
+and strategic investments in resilient
+infrastructure will be essential to protect the
+city’s assets and ensure the safety and well-
+being of its residents.
+
+To address these pressing needs, the report
+recommends implementing a list of identified
+capital improvement programs and operation
+and maintenance programs, and expanding
+
+funding mechanisms through innovative
+partnerships, grants, and alternative financing
+solutions. By prioritizing the rehabilitation of
+facilities, alleys, and pump stations, as well
+as upgrading aging infrastructure across
+all categories, Huntington Beach can build
+a more sustainable and resilient future.
+Proactive planning and investment will be
+key to maintaining reliable infrastructure that
+supports the community’s long-term growth
+and prosperity.
+
+Huntington Beach City Gym and Pool
+
+4
+
+City of
+HUNTINGTON BEACH
+Infrastructure
+Report Card.
+--- PAGE 5 ---
+City of
+HUNTINGTON BEACH
+Infrastructure
+Report Card.
+
+INFRASTRUCTURE GRADES
+
+OVERALL
+C
+
+Total Needs 2024–2039: $1.8B
+
+A: Exceptional – Fit for the future
+B: Good – Adequate now
+C: Mediocre – Requires attention
+D: Poor – At risk
+F: Failing/Critical – Unfit for purpose
+
+COASTAL
+C
+$23M
+
+NON-ROAD
+PAVEMENT
+
+D
+$87M
+
+HARBOUR
+D
+$19M
+
+ROADS
+B
+$270M
+
+FACILITIES
+D
+$180M
+
+STORMWATER
+D
+$877M
+
+PARKS
+C
+$129M
+
+WASTEWATER
+C
+$126M
+
+INFORMATION
+SYSTEMS
+
+C
+$21M
+
+WATER
+C
+$69M
+
+BRIDGES
+B
+$45M
+
+HB
+
+5
+
+HB
+City of
+HUNTINGTON BEACH
+Infrastructure
+Report Card.

@@ -11,13 +11,14 @@ TARGETS = [
     (r"G:\buckp moto\Download\andrew-do-forensic-audit-report-commissioned-by-county-phase-1.pdf", "Andrew Do Forensic Audit Phase 1"),
     (r"G:\buckp moto\Download\Future Development of 17642 Beach Blvd. - NO ACTION TAKEN (2).pdf", "17642 Future Development - No Action Taken"),
     (r"G:\buckp moto\Download\HB_IRC_Report_v1.1.pdf", "HB IRC Report v1.1"),
-    (r"G:\DL BACKUP\T10000018579_2026-Jun-02-112324\SITE ASSESSMENT REPORT  - SITE ASSESSMENT REPORT - Additonal Assessment Report 17642 Beach Blvd - 18334.0004.00.pdf", "17642 Beach Additional Assessment"),
+    (r"G:\DL BACKUP\T10000018579_2026-Jun-02-112324\SITE ASSESSMENT REPORT  - SITE ASSESSMENT REPORT - Additonal Assessment Report 17642 Beach Boulevard (003).pdf", "17642 Beach Additional Assessment"),
 ]
 
-print("Init Vertex AI...")
-creds, proj = google.auth.default()
-client = genai.Client(vertexai=True, project=proj, location="us-central1")
-print(f"Project: {proj}")
+print("Init Gemini AI Studio Client (bypassing Vertex AI quota/permissions)...")
+api_key = os.environ.get("GEMINI_API_KEY")
+if not api_key:
+    raise ValueError("GEMINI_API_KEY environment variable is not set!")
+client = genai.Client(api_key=api_key)
 
 for fpath, desc in TARGETS:
     if not os.path.exists(fpath):
@@ -28,7 +29,17 @@ for fpath, desc in TARGETS:
     safe = re.sub(r'[^\w\-\.]', '_', fname)[:50]
     out_txt = os.path.join(OUT, f"ocr_{safe}.txt")
     
-    if os.path.exists(out_txt) and os.path.getsize(out_txt) > 500:
+    is_failed = False
+    if os.path.exists(out_txt):
+        try:
+            with open(out_txt, "r", encoding="utf-8", errors="ignore") as tf:
+                content_sample = tf.read(2000)
+                if "PERMISSION_DENIED" in content_sample or "Permission 'aiplatform.endpoints.predict' denied" in content_sample:
+                    is_failed = True
+        except Exception:
+            pass
+            
+    if os.path.exists(out_txt) and os.path.getsize(out_txt) > 500 and not is_failed:
         print(f"\n[CACHED] {desc}")
         continue
     

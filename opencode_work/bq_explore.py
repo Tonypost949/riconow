@@ -6,7 +6,7 @@ PROJECT = "noble-beanbag-497411-m4"
 client = bigquery.Client(project=PROJECT)
 
 DATASETS = ["ppp_rico", "hb_church_osint", "national_audits", "nppes_export", "ai_sandbox"]
-OUTPUT_DIR = r"C:\Users\HP\OneDrive\Documents"
+OUTPUT_DIR = r"C:\Users\HP\OneDrive\Documents\opencode_work"
 
 summary = []
 
