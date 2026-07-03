@@ -3,6 +3,7 @@ import sys
 import json
 import re
 import time
+import uuid
 from datetime import datetime
 from google.cloud import bigquery
 
@@ -16,6 +17,7 @@ from google.cloud import bigquery
 
 # Project and Dataset configurations
 PHASE2_PROJECT = "project-743aab84-f9a5-4ec7-954"
+DATASET_ID = "npi_forensic"
 BASELINE_PROJECT = "noble-beanbag-497411-m4"
 ACTIVE_WORKSPACE = r"C:\Users\HP\OneDrive\Documents\AG2OSINTNEOMAXX"
 BRAIN_DIR = r"C:\Users\HP\.gemini\antigravity\brain\71e7b1d1-f50b-477e-a713-942e8319b97d"
@@ -135,6 +137,158 @@ class AegisEngine:
                 barnes_structural_hits = res_struct[0].get("count", 0) if res_struct else 0
                 correlations["barnes_structural_hits"] = barnes_structural_hits
                 safe_print(f" -> Verified live table 'orange_county_structural_failure': {barnes_structural_hits} Barnes-Shea hits.")
+
+                # ==================================================================
+                #                NPI CONTINUOUS FORENSIC ANOMALY MONITORING
+                # ==================================================================
+                safe_print(f"\n{MAGENTA}{BOLD}[MONITOR] RUNNING NPI ANOMALY DETECTORS...{RESET}")
+                
+                # Query 1: Address Cluster Detection
+                q_address_cluster = f"""
+                WITH known_oc_hubs AS (
+                  SELECT '11770 WARNER AVE STE 215' AS hub_address, 'FOUNTAIN VALLEY' AS hub_name, 5270 AS known_parcels
+                  UNION ALL SELECT '3187 RED HILL AVE STE 213', 'COSTA MESA', 3572
+                  UNION ALL SELECT '220 NEWPORT CENTER DR', 'NEWPORT BEACH', 3249
+                ),
+                new_registrations AS (
+                  SELECT
+                    e.entity_id,
+                    e.name AS entity_name,
+                    e.jurisdiction,
+                    ea.address_string AS registered_agent,
+                    e.ingestion_timestamp AS discovered_at
+                  FROM `{PHASE2_PROJECT}.{DATASET_ID}.entities` e
+                  JOIN `{PHASE2_PROJECT}.{DATASET_ID}.entity_addresses` ea ON e.entity_id = ea.entity_id
+                )
+                SELECT
+                  n.entity_id,
+                  h.hub_name,
+                  h.hub_address,
+                  h.known_parcels,
+                  n.entity_name,
+                  n.jurisdiction,
+                  n.registered_agent,
+                  n.discovered_at,
+                  CASE WHEN n.jurisdiction NOT IN ('CA', 'California') THEN 'OUT-OF-STATE_FUNNEL' ELSE 'LOCAL' END AS funnel_type
+                FROM new_registrations n
+                JOIN known_oc_hubs h
+                  ON LOWER(n.registered_agent) LIKE CONCAT('%', LOWER(REPLACE(h.hub_address, ' ', '%')), '%')
+                   OR LOWER(n.entity_name) LIKE CONCAT('%', LOWER(REPLACE(h.hub_address, ' ', '%')), '%')
+                ORDER BY n.discovered_at DESC
+                """
+                addr_alerts = list(self.client.query(q_address_cluster).result())
+                safe_print(f" -> Address Hub Cluster Check: Found {len(addr_alerts)} registrations mapping to known OC hubs.")
+                for row in addr_alerts[:5]:
+                    safe_print(f"    {RED}{BOLD}[ALERT: ADDRESS_CLUSTER]{RESET} Entity: {row.entity_name} | Hub: {row.hub_name} | Type: {row.funnel_type}")
+                    # Log alert to BigQuery
+                    alert_id = str(uuid.uuid4())
+                    details = {
+                        "entity_name": row.entity_name,
+                        "entity_id": row.entity_id,
+                        "hub_name": row.hub_name,
+                        "hub_address": row.hub_address,
+                        "registered_agent": row.registered_agent,
+                        "funnel_type": row.funnel_type
+                    }
+                    self.client.insert_rows_json(f"{PHASE2_PROJECT}.{DATASET_ID}.alerts_flagged", [{
+                        "alert_id": alert_id,
+                        "timestamp": datetime.utcnow().isoformat(),
+                        "category": "ADDRESS_CLUSTER",
+                        "severity": "CRITICAL" if row.funnel_type == "OUT-OF-STATE_FUNNEL" else "WARNING",
+                        "details": json.dumps(details)
+                    }])
+
+                # Query 2: Hub Degree Centrality Anomaly Alert
+                q_degree_anomaly = f"""
+                WITH person_degrees AS (
+                  SELECT
+                    person_id,
+                    name,
+                    COUNT(DISTINCT entity_id) AS controlled_entities,
+                    ARRAY_AGG(DISTINCT entity_id) AS entity_list
+                  FROM `{PHASE2_PROJECT}.{DATASET_ID}.edges_officer_of`
+                  JOIN `{PHASE2_PROJECT}.{DATASET_ID}.nodes_person` USING (person_id)
+                  GROUP BY person_id, name
+                ),
+                baseline AS (
+                  SELECT AVG(controlled_entities) AS avg_degree FROM person_degrees
+                )
+                SELECT
+                  pd.person_id,
+                  pd.name,
+                  pd.controlled_entities,
+                  pd.entity_list,
+                  b.avg_degree,
+                  pd.controlled_entities / NULLIF(b.avg_degree, 0) AS degree_ratio
+                FROM person_degrees pd
+                CROSS JOIN baseline b
+                WHERE pd.controlled_entities > b.avg_degree * 5
+                ORDER BY degree_ratio DESC
+                """
+                degree_alerts = list(self.client.query(q_degree_anomaly).result())
+                safe_print(f" -> Hub Centrality Spikes Check: Found {len(degree_alerts)} portfolio consolidation anomalies.")
+                for row in degree_alerts[:5]:
+                    safe_print(f"    {YELLOW}{BOLD}[ALERT: HUB_DEGREE_ANOMALY]{RESET} Person: {row.name} | Entities Controlled: {row.controlled_entities} (Ratio: {row.degree_ratio:.1f}x)")
+                    alert_id = str(uuid.uuid4())
+                    details = {
+                        "person_id": row.person_id,
+                        "name": row.name,
+                        "controlled_entities": row.controlled_entities,
+                        "avg_degree": row.avg_degree,
+                        "degree_ratio": row.degree_ratio,
+                        "entity_list": list(row.entity_list)
+                    }
+                    self.client.insert_rows_json(f"{PHASE2_PROJECT}.{DATASET_ID}.alerts_flagged", [{
+                        "alert_id": alert_id,
+                        "timestamp": datetime.utcnow().isoformat(),
+                        "category": "DEGREE_ANOMALY",
+                        "severity": "CRITICAL",
+                        "details": json.dumps(details)
+                    }])
+
+                # Query 3: Cross-Jurisdiction Funnel Tracker
+                q_cross_funnel = f"""
+                SELECT
+                  e.jurisdiction AS source_jurisdiction,
+                  p.name AS controlling_person,
+                  p.person_id,
+                  COUNT(DISTINCT e.entity_id) AS entities_controlled,
+                  ARRAY_AGG(DISTINCT e.name) AS entity_names,
+                  MAX(CASE
+                    WHEN LOWER(ea.address_string) LIKE '%11770 warner%' THEN 'FOUNTAIN VALLEY HUB'
+                    WHEN LOWER(ea.address_string) LIKE '%3187 red hill%' THEN 'COSTA MESA HUB'
+                    WHEN LOWER(ea.address_string) LIKE '%220 newport center%' THEN 'NEWPORT BEACH HUB'
+                    ELSE 'UNKNOWN_HUB'
+                  END) AS oc_hub_link
+                FROM `{PHASE2_PROJECT}.{DATASET_ID}.edges_officer_of` r
+                JOIN `{PHASE2_PROJECT}.{DATASET_ID}.nodes_person` p ON r.person_id = p.person_id
+                JOIN `{PHASE2_PROJECT}.{DATASET_ID}.entities` e ON r.entity_id = e.entity_id
+                LEFT JOIN `{PHASE2_PROJECT}.{DATASET_ID}.entity_addresses` ea ON e.entity_id = ea.entity_id
+                WHERE e.jurisdiction != 'CA'
+                GROUP BY e.jurisdiction, p.name, p.person_id
+                HAVING COUNT(DISTINCT e.entity_id) >= 2
+                ORDER BY entities_controlled DESC
+                """
+                funnel_alerts = list(self.client.query(q_cross_funnel).result())
+                safe_print(f" -> Cross-Jurisdiction Funnel Check: Found {len(funnel_alerts)} out-of-state-to-local clusters.")
+                for row in funnel_alerts[:5]:
+                    safe_print(f"    {CYAN}{BOLD}[ALERT: CROSS_JURISDICTION_FUNNEL]{RESET} Controlling Person: {row.controlling_person} | Source: {row.source_jurisdiction} | OC Hub: {row.oc_hub_link}")
+                    alert_id = str(uuid.uuid4())
+                    details = {
+                        "source_jurisdiction": row.source_jurisdiction,
+                        "controlling_person": row.controlling_person,
+                        "person_id": row.person_id,
+                        "entities_controlled": row.entities_controlled,
+                        "entity_names": list(row.entity_names),
+                        "oc_hub_link": row.oc_hub_link
+                    }
+                    self.client.insert_rows_json(f"{PHASE2_PROJECT}.{DATASET_ID}.alerts_flagged", [{
+                        "alert_id": alert_id,
+                        "timestamp": datetime.utcnow().isoformat(),
+                        "category": "CROSS_JURISDICTION",
+                        "severity": "CRITICAL" if row.oc_hub_link != "UNKNOWN_HUB" else "WARNING",
+                        "details": json.dumps(details)
+                    }])
 
             except Exception as e:
                 safe_print(f" {RED}[!] BigQuery Execution error: {e}{RESET}")
