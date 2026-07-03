@@ -13,6 +13,10 @@
 !/opencode_work/
 !/opencode_work/**
 
+# Explicitly whitelist the new scratch program folder
+!/new_program_scratch/
+!/new_program_scratch/**
+
 # Whitelist global git config files
 !/.gitignore
 
