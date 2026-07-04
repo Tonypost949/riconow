@@ -138105,5 +138105,21 @@
     "properties": {
       "name": "MAKALLON ATLANTA HUNTINGTON BEACH II LLC"
     }
+  },
+  {
+    "id": "SHU CHIN TSENG",
+    "label": "PERSON",
+    "properties": {
+      "name": "Shu Chin Tseng",
+      "role": "REGISTERED_AGENT"
+    }
+  },
+  {
+    "id": "KIMBERLY TAVARES",
+    "label": "PERSON",
+    "properties": {
+      "name": "Kimberly Tavares",
+      "role": "REGISTERED_AGENT"
+    }
   }
 ]

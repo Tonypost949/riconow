@@ -1,20 +1,19 @@
 """
 RICO Network Graph Generator — Gemini Multi-Agent Pipeline
-Uses google-genai (current) with role-based agent prompts.
+Uses google-genai with ADC (Application Default Credentials).
 Phases: Entity Extraction → Graph Construction → Intelligence Summary
 
 Usage:  C:\Python314\python.exe ag2_rico_graph.py
+Prereq: gcloud auth application-default login
 """
-import os
 import csv
 import json
 from pathlib import Path
 from google import genai
 from google.genai import types
 
-# ── Gemini Config ──────────────────────────────────────────────
-API_KEY = "AQ.Ab8RN6LbHISSWmyUkozTf8BqYi_kevG5zVn2fdEfp4YNvke6FQ"
-client = genai.Client(api_key=API_KEY)
+# ── Gemini Config — ADC (no API key) ──────────────────────────
+client = genai.Client()  # Uses ADC automatically
 
 WORK_DIR = Path(r"C:\Users\HP\OneDrive\Documents\opencode_work")
 CSV_FILES = {
@@ -25,6 +24,8 @@ CSV_FILES = {
     "mercy_crossref": WORK_DIR / "mercy_targeted_crossref.csv",
     "ppp_rico": WORK_DIR / "ppp_rico_rico_matches.csv",
 }
+
+MODEL = "gemini-2.5-flash"
 
 
 # ── CSV Loading ────────────────────────────────────────────────
@@ -104,11 +105,7 @@ Keep under 2000 words. Use bullet points. Be specific with dollar amounts and da
 
 
 # ── Agent Runner ───────────────────────────────────────────────
-MODEL = "gemini-2.5-flash"
-
-
 def run_agent(system_prompt: str, user_prompt: str) -> str:
-    """Run a single agent turn via Gemini."""
     response = client.models.generate_content(
         model=MODEL,
         contents=user_prompt,
@@ -125,7 +122,7 @@ def run_agent(system_prompt: str, user_prompt: str) -> str:
 def main():
     print("=" * 60)
     print("RICO NETWORK GRAPH GENERATOR")
-    print(f"Model: {MODEL} via Google AI Studio")
+    print(f"Model: {MODEL} via ADC")
     print("=" * 60)
 
     csv_context = build_csv_context()

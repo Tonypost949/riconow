@@ -166582,5 +166582,55 @@
       "confidence": 0.85,
       "source": "Enrichment Autopilot"
     }
+  },
+  {
+    "source_id": "SHU CHIN TSENG",
+    "source_label": "PERSON",
+    "type": "OFFICER_OF",
+    "target_id": "BELAVITA LLC",
+    "target_label": "ORGANIZATION",
+    "properties": {
+      "role": "REGISTERED_AGENT"
+    }
+  },
+  {
+    "source_id": "SHU CHIN TSENG",
+    "source_label": "PERSON",
+    "type": "OFFICER_OF",
+    "target_id": "BELINGER LLC",
+    "target_label": "ORGANIZATION",
+    "properties": {
+      "role": "REGISTERED_AGENT"
+    }
+  },
+  {
+    "source_id": "SHU CHIN TSENG",
+    "source_label": "PERSON",
+    "type": "OFFICER_OF",
+    "target_id": "MESAVILLE HOLDINGS LLC",
+    "target_label": "ORGANIZATION",
+    "properties": {
+      "role": "REGISTERED_AGENT"
+    }
+  },
+  {
+    "source_id": "SHU CHIN TSENG",
+    "source_label": "PERSON",
+    "type": "OFFICER_OF",
+    "target_id": "BELLALANCE LLC",
+    "target_label": "ORGANIZATION",
+    "properties": {
+      "role": "REGISTERED_AGENT"
+    }
+  },
+  {
+    "source_id": "KIMBERLY TAVARES",
+    "source_label": "PERSON",
+    "type": "OFFICER_OF",
+    "target_id": "PENINSULA VILLAGE LLC",
+    "target_label": "ORGANIZATION",
+    "properties": {
+      "role": "REGISTERED_AGENT"
+    }
   }
 ]
