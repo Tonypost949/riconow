@@ -6,8 +6,8 @@
 /*
 
 # Explicitly whitelist the active workspace and its contents
-!/AG2OSINTNEOMAXX/
-!/AG2OSINTNEOMAXX/**
+# !/AG2OSINTNEOMAXX/
+# !/AG2OSINTNEOMAXX/**
 
 # Explicitly whitelist the shared forensic code directory
 !/opencode_work/
@@ -76,3 +76,23 @@ New Text Document*.txt
 
 # Ignore giant extracted directories inside new_program_scratch
 new_program_scratch/unzipped_data/
+new_program_scratch/README-Diego-HP-ProBook.md
+
+# Ignore nested repositories and secondary project directories under opencode_work
+opencode_work/OsintNeoAi/
+opencode_work/Official_GeoTracker_T10000018579/
+opencode_work/Private_EDR_2025_Real/
+opencode_work/Public_Shelter_Records/
+opencode_work/ZenAndroidApp/
+opencode_work/osint-pipeline/
+opencode_work/osintneoai_temp/
+opencode_work/sentinel-edition/
+
+# Ignore loose scripts/files in opencode_work root
+opencode_work/*.py
+opencode_work/*.html
+opencode_work/*.md
+opencode_work/*.ps1
+
+
+
