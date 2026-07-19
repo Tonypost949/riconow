@@ -1,0 +1,6 @@
+{
+  "summary":  "A detailed architectural analysis and master plan to consolidate riconow, osint-agent, NPI, and OSINTNeoAI repositories into a unified OSINTNeoAI-Core platform. The plan includes file inventories, capabilities mapping, duplicate identification, reusable components categorization, a recommended directory structure, and a target graph database schema mapping specified nodes and relationships.",
+  "updatedAt":  "2026-07-03T09:50:48.259220600Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

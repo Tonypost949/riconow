@@ -1,0 +1,30 @@
+{
+  "id":  "98624bd0-aeac-45b2-93a5-148ef8f20bec",
+  "name":  "c:\\Users\\HP\\OneDrive\\Documents\\AG2OSINTNEOMAXX",
+  "projectResources":  {
+    "resources":  [
+      {
+        "gitFolder":  {
+          "folderUri":  "file:///c%3A%5CUsers%5CHP%5COneDrive%5CDocuments%5CAG2OSINTNEOMAXX",
+          "defaultBranch":  "main"
+        }
+      }
+    ]
+  },
+  "permissionGrants":  {
+    "permissionGrants":  {
+      "allow":  [
+        "read_url(app.emergent.sh)",
+        "read_url(task-automation-demo-1.preview.emergentagent.com)",
+        "mcp(datacloud_bigquery_remote/get_table_info)",
+        "read_url(opncd.ai)"
+      ]
+    }
+  },
+  "settings":  {
+    "fileAccessPolicy":  "AGENT_SETTING_POLICY_ALLOW",
+    "internetPolicy":  "AGENT_SETTING_POLICY_ASK",
+    "autoExecutionPolicy":  "CASCADE_COMMANDS_AUTO_EXECUTION_EAGER",
+    "artifactReviewMode":  "ARTIFACT_REVIEW_MODE_TURBO"
+  }
+}

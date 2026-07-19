@@ -1,0 +1,4 @@
+{
+  "summary":  "Python script to ingest Dehashed leaks, Orange County structural failures, parsed OSINT Neo chats, and Adobe Acrobat CSV tracker files into BigQuery. Ensures schema alignment, serializes nested arrays, and cleans data.",
+  "updatedAt":  "2026-07-02T03:03:21.998204800Z"
+}

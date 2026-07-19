@@ -1,0 +1,5 @@
+{
+  "summary":  "Continuous Anomaly Detection Pipeline walkthrough and verification report. Describes how the BigQuery tables were created and populated, and how the continuous anomaly detection loops (Aegis engine) execute.",
+  "updatedAt":  "2026-07-03T20:45:04.866407800Z",
+  "userFacing":  true
+}

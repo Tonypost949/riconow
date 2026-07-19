@@ -1,0 +1,4 @@
+{
+  "summary":  "A script to parse the raw deepseek_investigation_matches.json file, extract matches containing Anaheim-specific terms like Gilbert, East, or Covenant, and format them into a clean details file.",
+  "updatedAt":  "2026-07-01T20:16:33.185076500Z"
+}

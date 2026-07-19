@@ -1,0 +1,23 @@
+{
+  "userSettings": {
+    "browserJsExecutionPolicy": "BROWSER_JS_EXECUTION_POLICY_TURBO",
+    "gcpRegion": "global",
+    "globalPermissionGrants": {
+      "allow": [
+        "read_url(drive.google.com)",
+        "mcp(datacloud_bigquery_remote/list_dataset_ids)",
+        "mcp(datacloud_bigquery_remote/list_table_ids)",
+        "mcp(datacloud_bigquery_remote/execute_sql_readonly)",
+        "read_url(github.com)",
+        "read_url(geotracker.waterboards.ca.gov)",
+        "read_url(https://osintcabal.org/livecenter/live.html)",
+        "read_url(https://osintcabal.org/livecenter/live.html)",
+        "mcp(bigquery/list_table_ids)"
+      ]
+    },
+    "remoteControlHostname": "diego-hp-probook-galactic-titan",
+    "themeMode": "THEME_MODE_DARK",
+    "useAiCredits": true,
+    "useG1Credits": true
+  }
+}

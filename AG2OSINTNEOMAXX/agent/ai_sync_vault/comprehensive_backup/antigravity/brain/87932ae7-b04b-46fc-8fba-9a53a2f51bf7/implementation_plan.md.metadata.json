@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan to extract and map all US Continuums of Care (CoCs) from the forensic pattern master markdown into the unified graph data model (nodes.json and edges.json) following the established schema pattern.",
+  "updatedAt":  "2026-07-03T18:24:52.592220700Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

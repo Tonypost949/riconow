@@ -1,0 +1,19 @@
+# Sensitive files - never commit
+rclone.conf
+client_secret*.json
+token_live_agent.json
+credentials.json
+*.env
+.env
+
+# Large chunk files
+opencode_work/chunk_*.dat
+
+# Agent conversation logs with embedded secrets
+.system_generated/
+
+# OS
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc

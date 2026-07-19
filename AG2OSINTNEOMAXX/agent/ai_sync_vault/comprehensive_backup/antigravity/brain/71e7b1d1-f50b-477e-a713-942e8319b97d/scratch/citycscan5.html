@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katana‑style City Recon</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      background: #0b0e14;
+      color: #c8d0dc;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      padding: 20px;
+      margin: 0;
+    }
+    .container { max-width: 1100px; margin: 0 auto; }
+    h1 { color: #7ab7ff; }
+    .sub { color: #8895aa; margin-bottom: 20px; }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .controls input {
+      flex: 1;
+      min-width: 200px;
+      padding: 12px 16px;
+      border-radius: 8px;
+      border: 1px solid #2a3344;
+      background: #141a24;
+      color: #e0e8f0;
+      font-size: 15px;
+    }
+    .controls button {
+      padding: 12px 28px;
+      background: #1a6bff;
+      border: none;
+      border-radius: 8px;
+      color: #fff;
+      font-weight: 600;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    .controls button:hover { background: #2a7bff; }
+    .controls button:disabled { opacity: 0.5; cursor: not-allowed; }
+    .results { display: flex; flex-direction: column; gap: 12px; }
+    .card {
+      background: #141a24;
+      border: 1px solid #1f2a3a;
+      border-radius: 10px;
+      padding: 16px 20px;
+    }
+    .card .domain { font-weight: 600; color: #7ab7ff; font-size: 17px; }
+    .card .status { font-size: 14px; margin-top: 6px; }
+    .card .status .ok { color: #4caf50; }
+    .card .status .fail { color: #f44336; }
+    .card .detail { font-size: 13px; color: #8895aa; margin-top: 4px; }
+    .card .paths { margin-top: 8px; font-size: 13px; }
+    .card .paths .found { color: #ffa726; }
+    .card .paths .notfound { color: #4a5568; }
+    .badge {
+      display: inline-block;
+      padding: 2px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left: 8px;
+    }
+    .badge.live { background: #1b3a1b; color: #4caf50; }
+    .badge.dead { background: #3a1b1b; color: #f44336; }
+    .log {
+      margin-top: 16px;
+      background: #0b0e14;
+      border: 1px solid #1f2a3a;
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-family: 'Courier New', monospace;
+      font-size: 12px;
+      max-height: 300px;
+      overflow-y: auto;
+      color: #6a7a8e;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+    .footer { margin-top: 20px; font-size: 12px; color: #4a5a6e; text-align: center; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>🔍 Katana‑style Recon</h1>
+  <div class="sub">Checks reachability, server headers, and 25+ admin paths via a public CORS proxy.<br>
+  All city domains are pre‑loaded — click <strong>Load Cities</strong> then <strong>Run Scan</strong>.</div>
+
+  <div class="controls">
+    <input type="text" id="domainInput" value="hbpd.org" placeholder="e.g. hbpd.org, cityofirvine.org">
+    <button id="scanBtn">▶ Run Scan</button>
+    <button id="presetBtn" style="background:#2a3344;">Load Cities</button>
+  </div>
+
+  <div id="results" class="results"></div>
+  <div id="log" class="log">Ready.</div>
+  <div class="footer">Runs entirely in your browser — uses corsproxy.io to bypass CORS.</div>
+</div>
+
+<script>
+  (function() {
+    const domainInput = document.getElementById('domainInput');
+    const scanBtn = document.getElementById('scanBtn');
+    const presetBtn = document.getElementById('presetBtn');
+    const resultsDiv = document.getElementById('results');
+    const logDiv = document.getElementById('log');
+
+    // --- All city domains (and police sites) ---
+    const cityDomains = [
+      'hbpd.org',
+      'huntingtonbeachca.gov',
+      'volunteer.huntingtonbeachca.gov',
+      'newportbeachca.gov',
+      'nbpd.org',
+      'santamonica.gov',
+      'santamonicapd.org',
+      'cityofirvine.org',
+      'irvinepd.org'
+    ];
+
+    // --- Common admin / sensitive paths to check ---
+    const adminPaths = [
+      '/admin', '/cpanel', '/webmail', '/login', '/wp-admin',
+      '/administrator', '/backup', '/temp', '/config', '/.env',
+      '/phpmyadmin', '/mysql', '/server-status', '/logs', '/shell',
+      '/cgi-bin', '/vendor', '/composer.json', '/package.json',
+      '/.git', '/.svn', '/robots.txt', '/sitemap.xml',
+      '/.htaccess', '/.aws', '/.ssh'
+    ];
+
+    // --- Public CORS proxy (free, no API key) ---
+    const PROXY = 'https://corsproxy.io/?';
+
+    function log(msg) {
+      const ts = new Date().toLocaleTimeString();
+      logDiv.textContent += `\n[${ts}] ${msg}`;
+      logDiv.scrollTop = logDiv.scrollHeight;
+    }
+
+    // --- Check a single URL through the proxy ---
+    async function checkUrl(url) {
+      try {
+        const resp = await fetch(PROXY + encodeURIComponent(url), {
+          signal: AbortSignal.timeout(8000)
+        });
+        return { url, status: resp.status, ok: resp.ok, statusText: resp.statusText };
+      } catch (e) {
+        return { url, status: 0, ok: false, statusText: e.message };
+      }
+    }
+
+    // --- Scan one domain ---
+    async function scanDomain(domain) {
+      if (!domain) return null;
+      const start = performance.now();
+
+      // Try HTTPS first, then HTTP
+      let base = 'https://' + domain;
+      let main = await checkUrl(base);
+      if (!main.ok) {
+        base = 'http://' + domain;
+        main = await checkUrl(base);
+        if (!main.ok) {
+          return {
+            domain,
+            reachable: false,
+            baseUrl: null,
+            server: 'N/A',
+            paths: [],
+            elapsed: (performance.now() - start).toFixed(0)
+          };
+        }
+      }
+
+      // Get server header (from main response)
+      let server = 'Unknown';
+      try {
+        // We need a full response to get headers; the proxy may not forward headers.
+        // We'll do a separate fetch with HEAD via proxy, but many proxies don't forward HEAD.
+        // Instead, we'll use a simple GET and extract the Server header if possible.
+        const resp = await fetch(PROXY + encodeURIComponent(base), {
+          signal: AbortSignal.timeout(8000)
+        });
+        server = resp.headers.get('server') || resp.headers.get('x-powered-by') || 'Unknown';
+      } catch {
+        server = 'Unknown';
+      }
+
+      // Check each admin path
+      const pathResults = [];
+      for (const path of adminPaths) {
+        const url = base + path;
+        const res = await checkUrl(url);
+        const found = res.ok && (res.status >= 200 && res.status < 400);
+        pathResults.push({ path, status: res.status, found });
+        // small delay to avoid rate limit
+        await new Promise(r => setTimeout(r, 100));
+      }
+
+      const foundPaths = pathResults.filter(p => p.found);
+      const elapsed = (performance.now() - start).toFixed(0);
+
+      return {
+        domain,
+        reachable: true,
+        baseUrl: base,
+        server,
+        paths: pathResults,
+        foundPaths,
+        elapsed
+      };
+    }
+
+    // --- Render a result card ---
+    function renderResult(result) {
+      if (!result) return '<div class="card">No result.</div>';
+
+      if (!result.reachable) {
+        return `
+          <div class="card">
+            <div class="domain">${result.domain}</div>
+            <div class="status"><span class="fail">✗ Not reachable</span> <span class="badge dead">DEAD</span></div>
+            <div class="detail">⏱ ${result.elapsed}ms</div>
+          </div>
+        `;
+      }
+
+      let pathsHtml = '';
+      if (result.foundPaths.length > 0) {
+        pathsHtml = '<div class="paths">🔓 Exposed paths: ';
+        pathsHtml += result.foundPaths.map(p =>
+          `<span class="found">${p.path} (${p.status})</span>`
+        ).join(' ');
+        pathsHtml += '</div>';
+      } else {
+        pathsHtml = '<div class="paths"><span class="notfound">✓ No common admin paths exposed</span></div>';
+      }
+
+      return `
+        <div class="card">
+          <div class="domain">${result.domain} <span class="badge live">LIVE</span></div>
+          <div class="status"><span class="ok">✓ Reachable</span></div>
+          <div class="detail">🖥 Server: ${result.server}</div>
+          <div class="detail">⏱ ${result.elapsed}ms</div>
+          ${pathsHtml}
+        </div>
+      `;
+    }
+
+    // --- Run scan on a list of domains ---
+    async function runScan(domains) {
+      if (!domains || domains.length === 0) return;
+      scanBtn.disabled = true;
+      resultsDiv.innerHTML = '';
+      logDiv.textContent = 'Starting scan...';
+
+      for (const domain of domains) {
+        const trimmed = domain.trim();
+        if (!trimmed) continue;
+        log(`Scanning ${trimmed}...`);
+        const result = await scanDomain(trimmed);
+        const html = renderResult(result);
+        const wrapper = document.createElement('div');
+        wrapper.innerHTML = html;
+        resultsDiv.appendChild(wrapper.firstElementChild);
+        log(`Done: ${trimmed} — ${result.reachable ? 'LIVE' : 'DEAD'} (${result.elapsed}ms)`);
+      }
+
+      scanBtn.disabled = false;
+      log('Scan complete.');
+    }
+
+    // --- Event listeners ---
+    scanBtn.addEventListener('click', () => {
+      const input = domainInput.value.trim();
+      if (!input) return;
+      const domains = input.split(',').map(s => s.trim()).filter(Boolean);
+      runScan(domains);
+    });
+
+    presetBtn.addEventListener('click', () => {
+      domainInput.value = cityDomains.join(', ');
+    });
+
+    // Auto-run on load with default list
+    window.addEventListener('load', () => {
+      domainInput.value = cityDomains.join(', ');
+      setTimeout(() => {
+        runScan(cityDomains);
+      }, 600);
+    });
+  })();
+</script>
+</body>
+</html>

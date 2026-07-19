@@ -1,0 +1,4 @@
+{
+  "summary":  "A script to filter matches specifically for gilbert, east st, or covenant from deepseek_investigation_matches_formatted.txt and save them with full surrounding content in a separate file.",
+  "updatedAt":  "2026-07-01T20:15:05.239552700Z"
+}

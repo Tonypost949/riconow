@@ -1,0 +1,119 @@
+{
+  "mcpServers": {
+    "notebooks": {
+      "command": "node",
+      "args": [
+        "c:\\Users\\HP\\.antigravity-ide\\extensions\\googlecloudtools.datacloud-0.6.1-universal\\mcp_servers\\cli\\mcp_proxy_bundle.js",
+        "notebooks-antigravityide"
+      ]
+    },
+    "visualization": {
+      "command": "node",
+      "args": [
+        "c:\\Users\\HP\\.antigravity-ide\\extensions\\googlecloudtools.datacloud-0.6.1-universal\\mcp_servers\\cli\\mcp_proxy_bundle.js",
+        "visualization-antigravityide"
+      ]
+    },
+    "gmp-code-assist": {
+      "serverUrl": "https://mapscodeassist.googleapis.com/mcp"
+    },
+    "vertex-ai-search": {
+      "serverUrl": "https://discoveryengine.googleapis.com/mcp",
+      "authProviderType": "google_credentials"
+    },
+    "google-developer-knowledge": {
+      "serverUrl": "https://developerknowledge.googleapis.com/mcp",
+      "authProviderType": "google_credentials"
+    },
+    "datacloud_bigquery_remote": {
+      "serverUrl": "https://bigquery.googleapis.com/mcp",
+      "authProviderType": "google_credentials",
+      "headers": {
+        "User-Agent": "datacloud.antigravity ide"
+      },
+      "oauth": {
+        "scopes": [
+          "https://www.googleapis.com/auth/bigquery",
+          "https://www.googleapis.com/auth/cloud-platform"
+        ]
+      }
+    },
+    "datacloud_spanner_remote": {
+      "serverUrl": "https://spanner.googleapis.com/mcp",
+      "authProviderType": "google_credentials",
+      "headers": {
+        "User-Agent": "datacloud.antigravity ide"
+      },
+      "oauth": {
+        "scopes": [
+          "https://www.googleapis.com/auth/spanner.admin",
+          "https://www.googleapis.com/auth/spanner.data"
+        ]
+      }
+    },
+    "datacloud_alloydb_remote": {
+      "serverUrl": "https://alloydb.${REGION}.rep.googleapis.com/mcp",
+      "authProviderType": "google_credentials",
+      "headers": {
+        "User-Agent": "datacloud.antigravity ide"
+      },
+      "oauth": {
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud-platform"
+        ]
+      }
+    },
+    "datacloud_cloud-sql_remote": {
+      "serverUrl": "https://sqladmin.googleapis.com/mcp",
+      "authProviderType": "google_credentials",
+      "headers": {
+        "User-Agent": "datacloud.antigravity ide"
+      },
+      "oauth": {
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud-platform"
+        ]
+      }
+    },
+    "datacloud_knowledge_catalog_remote": {
+      "serverUrl": "https://dataplex.googleapis.com/mcp",
+      "authProviderType": "google_credentials",
+      "headers": {
+        "User-Agent": "datacloud.antigravity ide"
+      },
+      "oauth": {
+        "scopes": [
+          "https://www.googleapis.com/auth/cloud-platform"
+        ]
+      }
+    },
+    "datacloud_dataproc_remote": {
+      "serverUrl": "https://dataproc-${REGION}.googleapis.com/mcp",
+      "authProviderType": "google_credentials",
+      "headers": {
+        "User-Agent": "datacloud.antigravity ide"
+      },
+      "oauth": {
+        "scopes": [
+          "https://www.googleapis.com/auth/dataproc"
+        ]
+      }
+    },
+    "alloydb-postgresql": {
+      "serverUrl": "https://alloydb.googleapis.com/mcp",
+      "authProviderType": "google_credentials"
+    },
+    "google-compute-engine": {
+      "serverUrl": "https://compute.googleapis.com/mcp",
+      "authProviderType": "google_credentials"
+    },
+    "google-cloud-firestore": {
+      "serverUrl": "https://firestore.googleapis.com/mcp",
+      "authProviderType": "google_credentials"
+    },
+    "bigquery": {
+      "serverUrl": "https://bigquery.googleapis.com/mcp",
+      "authProviderType": "google_credentials"
+    }
+  }
+}

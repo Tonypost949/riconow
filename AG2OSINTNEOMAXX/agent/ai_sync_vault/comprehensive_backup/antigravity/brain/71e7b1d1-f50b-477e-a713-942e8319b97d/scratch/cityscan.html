@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto‑Download Recon Tool</title>
+  <style>
+    body {
+      background: #0b0e14;
+      color: #c8d0dc;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      flex-direction: column;
+      text-align: center;
+    }
+    h1 { color: #7ab7ff; font-size: 28px; }
+    p { color: #8895aa; max-width: 500px; }
+    .spin { display: inline-block; animation: spin 1s linear infinite; }
+    @keyframes spin { 100% { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <h1>⏳ Generating your tool...</h1>
+  <p class="spin">⬇️</p>
+  <p>Your file will download automatically in a moment.</p>
+  <p style="font-size:12px; color:#4a5a6e;">If it doesn't, check your downloads folder or allow pop‑ups.</p>
+
+  <script>
+    (function() {
+      // --- The complete recon tool as a string ---
+      const toolHTML = `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Recon — Katana‑Style</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: #0b0e14;
+            color: #c8d0dc;
+            padding: 20px;
+            margin: 0;
+        }
+        .container { max-width: 1100px; margin: 0 auto; }
+        h1 { color: #7ab7ff; font-size: 24px; margin-bottom: 4px; }
+        .sub { color: #8895aa; font-size: 14px; margin-bottom: 24px; }
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .controls input {
+            flex: 1;
+            min-width: 200px;
+            padding: 12px 16px;
+            border-radius: 8px;
+            border: 1px solid #2a3344;
+            background: #141a24;
+            color: #e0e8f0;
+            font-size: 15px;
+        }
+        .controls button {
+            padding: 12px 28px;
+            background: #1a6bff;
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            font-weight: 600;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .controls button:hover { background: #2a7bff; }
+        .controls button:disabled { opacity: 0.5; cursor: not-allowed; }
+        .results { display: flex; flex-direction: column; gap: 12px; }
+        .card {
+            background: #141a24;
+            border: 1px solid #1f2a3a;
+            border-radius: 10px;
+            padding: 16px 20px;
+        }
+        .card .domain { font-weight: 600; color: #7ab7ff; font-size: 17px; }
+        .card .status { font-size: 14px; margin-top: 6px; }
+        .card .status .ok { color: #4caf50; }
+        .card .status .fail { color: #f44336; }
+        .card .status .warn { color: #ffa726; }
+        .card .detail { font-size: 13px; color: #8895aa; margin-top: 4px; }
+        .card .paths { margin-top: 8px; font-size: 13px; }
+        .card .paths .found { color: #ffa726; }
+        .card .paths .notfound { color: #4a5568; }
+        .badge {
+            display: inline-block;
+            padding: 2px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+        .badge.live { background: #1b3a1b; color: #4caf50; }
+        .badge.dead { background: #3a1b1b; color: #f44336; }
+        .badge.unknown { background: #2a2a1b; color: #ffa726; }
+        .log {
+            margin-top: 16px;
+            background: #0b0e14;
+            border: 1px solid #1f2a3a;
+            border-radius: 8px;
+            padding: 12px 16px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            max-height: 300px;
+            overflow-y: auto;
+            color: #6a7a8e;
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+        .footer { margin-top: 20px; font-size: 12px; color: #4a5a6e; text-align: center; }
+        @media (max-width: 600px) {
+            .controls input { min-width: 140px; }
+            .card { padding: 12px 14px; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🔍 City Recon</h1>
+    <div class="sub">Katana-style OSINT — checks reachability, server headers, and common admin paths</div>
+
+    <div class="controls">
+        <input type="text" id="domainInput" value="hbpd.org" placeholder="Enter domain (e.g. hbpd.org)">
+        <button id="scanBtn">▶ Run Scan</button>
+        <button id="presetBtn" style="background:#2a3344;">Load Cities</button>
+    </div>
+
+    <div id="results" class="results"></div>
+    <div id="log" class="log">Ready.</div>
+    <div class="footer">Runs entirely in your browser — no data is sent anywhere.</div>
+</div>
+
+<script>
+    (function() {
+        const domainInput = document.getElementById('domainInput');
+        const scanBtn = document.getElementById('scanBtn');
+        const presetBtn = document.getElementById('presetBtn');
+        const resultsDiv = document.getElementById('results');
+        const logDiv = document.getElementById('log');
+
+        const cityDomains = [
+            'hbpd.org',
+            'huntingtonbeachca.gov',
+            'volunteer.huntingtonbeachca.gov',
+            'newportbeachca.gov',
+            'nbpd.org',
+            'santamonica.gov',
+            'santamonicapd.org',
+            'cityofirvine.org',
+            'irvinepd.org'
+        ];
+
+        const adminPaths = [
+            '/admin', '/cpanel', '/webmail', '/login', '/wp-admin',
+            '/administrator', '/backup', '/temp', '/config', '/.env',
+            '/phpmyadmin', '/mysql', '/server-status', '/logs', '/shell',
+            '/cgi-bin', '/vendor', '/composer.json', '/package.json',
+            '/.git', '/.svn', '/robots.txt', '/sitemap.xml'
+        ];
+
+        function log(msg) {
+            const ts = new Date().toLocaleTimeString();
+            logDiv.textContent += '\\n[' + ts + '] ' + msg;
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+
+        function getStatusText(status) {
+            if (status >= 200 && status < 300) return 'ok';
+            if (status >= 300 && status < 400) return 'warn';
+            if (status >= 400) return 'fail';
+            return 'unknown';
+        }
+
+        async function checkPath(baseUrl, path) {
+            try {
+                const url = baseUrl + path;
+                const resp = await fetch(url, {
+                    method: 'HEAD',
+                    mode: 'cors',
+                    cache: 'no-store',
+                    signal: AbortSignal.timeout(5000)
+                });
+                return { path, status: resp.status, statusText: resp.statusText, found: true };
+            } catch {
+                return { path, status: 0, statusText: 'ERR', found: false };
+            }
+        }
+
+        async function scanDomain(domain) {
+            if (!domain) return;
+            const start = performance.now();
+            let baseUrl = null;
+            let ok = false;
+            const protocols = ['https://', 'http://'];
+
+            for (const proto of protocols) {
+                try {
+                    const testUrl = proto + domain;
+                    const resp = await fetch(testUrl, {
+                        method: 'HEAD',
+                        mode: 'cors',
+                        cache: 'no-store',
+                        signal: AbortSignal.timeout(5000)
+                    });
+                    baseUrl = testUrl;
+                    ok = true;
+                    break;
+                } catch {
+                    continue;
+                }
+            }
+
+            if (!ok) {
+                return {
+                    domain,
+                    reachable: false,
+                    baseUrl: null,
+                    server: 'N/A',
+                    paths: [],
+                    elapsed: (performance.now() - start).toFixed(0)
+                };
+            }
+
+            let server = 'Unknown';
+            try {
+                const resp = await fetch(baseUrl, {
+                    method: 'HEAD',
+                    mode: 'cors',
+                    cache: 'no-store',
+                    signal: AbortSignal.timeout(5000)
+                });
+                server = resp.headers.get('server') || 'Unknown';
+            } catch {}
+
+            const pathResults = [];
+            const batchSize = 5;
+            for (let i = 0; i < adminPaths.length; i += batchSize) {
+                const batch = adminPaths.slice(i, i + batchSize);
+                const promises = batch.map(p => checkPath(baseUrl, p));
+                const results = await Promise.all(promises);
+                pathResults.push(...results);
+                await new Promise(r => setTimeout(r, 100));
+            }
+
+            const foundPaths = pathResults.filter(r => r.found && r.status < 400);
+            const elapsed = (performance.now() - start).toFixed(0);
+
+            return {
+                domain,
+                reachable: true,
+                baseUrl,
+                server,
+                paths: pathResults,
+                foundPaths,
+                elapsed
+            };
+        }
+
+        function renderResult(result) {
+            if (!result) return '<div class="card">No result.</div>';
+            if (!result.reachable) {
+                return '<div class="card">' +
+                    '<div class="domain">' + result.domain + '</div>' +
+                    '<div class="status"><span class="fail">✗ Not reachable</span> <span class="badge dead">DEAD</span></div>' +
+                    '<div class="detail">⏱ ' + result.elapsed + 'ms</div>' +
+                    '</div>';
+            }
+
+            let pathsHtml = '';
+            if (result.foundPaths.length > 0) {
+                pathsHtml = '<div class="paths">🔓 Exposed paths: ';
+                pathsHtml += result.foundPaths.map(p =>
+                    '<span class="found">' + p.path + ' (' + p.status + ')</span>'
+                ).join(' ');
+                pathsHtml += '</div>';
+            } else {
+                pathsHtml = '<div class="paths"><span class="notfound">✓ No common admin paths exposed</span></div>';
+            }
+
+            return '<div class="card">' +
+                '<div class="domain">' + result.domain + ' <span class="badge live">LIVE</span></div>' +
+                '<div class="status"><span class="ok">✓ Reachable</span></div>' +
+                '<div class="detail">🖥 Server: ' + result.server + '</div>' +
+                '<div class="detail">⏱ ' + result.elapsed + 'ms</div>' +
+                pathsHtml +
+                '</div>';
+        }
+
+        async function runScan(domains) {
+            if (!domains || domains.length === 0) return;
+            scanBtn.disabled = true;
+            resultsDiv.innerHTML = '';
+            logDiv.textContent = 'Scanning...';
+
+            for (const domain of domains) {
+                const trimmed = domain.trim();
+                if (!trimmed) continue;
+                log('Scanning ' + trimmed + '...');
+                const result = await scanDomain(trimmed);
+                const html = renderResult(result);
+                const wrapper = document.createElement('div');
+                wrapper.innerHTML = html;
+                resultsDiv.appendChild(wrapper.firstElementChild);
+                log('Done: ' + trimmed + ' — ' + (result.reachable ? 'LIVE' : 'DEAD') + ' (' + result.elapsed + 'ms)');
+            }
+
+            scanBtn.disabled = false;
+            log('Scan complete.');
+        }
+
+        scanBtn.addEventListener('click', function() {
+            const input = domainInput.value.trim();
+            if (!input) return;
+            const domains = input.split(',').map(function(s) { return s.trim(); }).filter(Boolean);
+            runScan(domains);
+        });
+
+        presetBtn.addEventListener('click', function() {
+            domainInput.value = cityDomains.join(', ');
+        });
+
+        window.addEventListener('load', function() {
+            domainInput.value = cityDomains.join(', ');
+            setTimeout(function() {
+                runScan(cityDomains);
+            }, 500);
+        });
+    })();
+</script>
+</body>
+</html>`;
+
+      // --- Auto-download the tool ---
+      const blob = new Blob([toolHTML], { type: 'text/html;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'city_recon.html';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+
+      // Also show a message
+      document.querySelector('h1').textContent = '✅ File downloaded!';
+      document.querySelector('.spin').textContent = '📁';
+      document.querySelector('p').textContent = 'Check your downloads folder for city_recon.html';
+    })();
+  </script>
+</body>
+</html>

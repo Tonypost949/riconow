@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan to consolidate the OSINT Knowledge Base by copying existing briefings and compiling a unified interactive browser dashboard (`knowledge_base.html`) for searching dossiers, exploring the 69-case master spreadsheet, and rendering key network relationships.",
+  "updatedAt":  "2026-07-07T01:33:14.069305400Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

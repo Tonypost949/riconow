@@ -1,0 +1,577 @@
+{
+  "targets": [
+    {
+      "city": "Philadelphia",
+      "location": "13th & Market Transit Concourse",
+      "type": "Municipal",
+      "indicator": "Tunnel",
+      "risk": "High",
+      "lat": 39.9526,
+      "lon": -75.1622
+    },
+    {
+      "city": "Philadelphia",
+      "location": "Broad Street Line – Snyder Station",
+      "type": "Municipal",
+      "indicator": "Tunnel",
+      "risk": "High",
+      "lat": 39.923,
+      "lon": -75.1724
+    },
+    {
+      "city": "Philadelphia",
+      "location": "30th Street Station Lower Levels",
+      "type": "Municipal",
+      "indicator": "Underground",
+      "risk": "Medium",
+      "lat": 39.9558,
+      "lon": -75.182
+    },
+    {
+      "city": "Cleveland",
+      "location": "Tower City Center Sublevels",
+      "type": "Contractor-Managed",
+      "indicator": "Underground",
+      "risk": "High",
+      "lat": 41.4975,
+      "lon": -81.694
+    },
+    {
+      "city": "Cleveland",
+      "location": "RTA Red Line – West 25th Station",
+      "type": "Municipal",
+      "indicator": "Tunnel",
+      "risk": "Medium",
+      "lat": 41.4841,
+      "lon": -81.7019
+    },
+    {
+      "city": "Cleveland",
+      "location": "Abandoned Warehouse – Flats East",
+      "type": "Contractor-Managed",
+      "indicator": "Underground",
+      "risk": "High",
+      "lat": 41.5005,
+      "lon": -81.704
+    },
+    {
+      "city": "San Diego",
+      "location": "Trolley Station – 12th & Imperial",
+      "type": "Municipal",
+      "indicator": "Tunnel",
+      "risk": "Medium",
+      "lat": 32.7051,
+      "lon": -117.1534
+    },
+    {
+      "city": "San Diego",
+      "location": "Old Naval Base Utility Tunnels",
+      "type": "Contractor-Managed",
+      "indicator": "Tunnel",
+      "risk": "High",
+      "lat": 32.7355,
+      "lon": -117.2148
+    },
+    {
+      "city": "San Diego",
+      "location": "Civic Center Underground Parking",
+      "type": "Municipal",
+      "indicator": "Underground",
+      "risk": "Medium",
+      "lat": 32.7176,
+      "lon": -117.1632
+    }
+  ],
+  "extracted_infrastructure": [
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "Wills Eye Hospital",
+      "type": "Medical Facility",
+      "lat": 39.9480201,
+      "lon": -75.1550189
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "15th-16th & Locust",
+      "type": "Transit Hub",
+      "lat": 39.9485309,
+      "lon": -75.167004
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "9th-10th & Locust",
+      "type": "Transit Hub",
+      "lat": 39.9472633,
+      "lon": -75.1568659
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "12th-13th & Locust",
+      "type": "Transit Hub",
+      "lat": 39.9478496,
+      "lon": -75.161588
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "Lombard-South",
+      "type": "Transit Hub",
+      "lat": 39.9441504,
+      "lon": -75.1653951
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "Spring Garden",
+      "type": "Transit Hub",
+      "lat": 39.9624091,
+      "lon": -75.1614309
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "Race-Vine",
+      "type": "Transit Hub",
+      "lat": 39.9568762,
+      "lon": -75.1626318
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "Suburban Station",
+      "type": "Transit Hub",
+      "lat": 39.9542026,
+      "lon": -75.1673687
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "Chinatown",
+      "type": "Transit Hub",
+      "lat": 39.9559058,
+      "lon": -75.1532615
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "Franklin Square",
+      "type": "Transit Hub",
+      "lat": 39.9553408,
+      "lon": -75.1504455
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "Jefferson Station",
+      "type": "Transit Hub",
+      "lat": 39.9527752,
+      "lon": -75.1580261
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "8th Street",
+      "type": "Transit Hub",
+      "lat": 39.9511591,
+      "lon": -75.1537918
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "8th & Market",
+      "type": "Transit Hub",
+      "lat": 39.9512871,
+      "lon": -75.1535469
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "11th Street",
+      "type": "Transit Hub",
+      "lat": 39.9517977,
+      "lon": -75.1583456
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "5th Street",
+      "type": "Transit Hub",
+      "lat": 39.9505503,
+      "lon": -75.1488907
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "13th Street",
+      "type": "Transit Hub",
+      "lat": 39.952184,
+      "lon": -75.1615338
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "15th Street",
+      "type": "Transit Hub",
+      "lat": 39.9526346,
+      "lon": -75.1651258
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "Walnut-Locust",
+      "type": "Transit Hub",
+      "lat": 39.9488158,
+      "lon": -75.1643881
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "City Hall",
+      "type": "Transit Hub",
+      "lat": 39.9531287,
+      "lon": -75.1642021
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "8th & Market",
+      "type": "Transit Hub",
+      "lat": 39.9509527,
+      "lon": -75.1536208
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "19th Street",
+      "type": "Transit Hub",
+      "lat": 39.9533805,
+      "lon": -75.1715791
+    },
+    {
+      "associated_target": "13th & Market Transit Concourse",
+      "name": "22nd Street",
+      "type": "Transit Hub",
+      "lat": 39.9540498,
+      "lon": -75.1767086
+    },
+    {
+      "associated_target": "Broad Street Line – Snyder Station",
+      "name": "Tasker-Morris",
+      "type": "Transit Hub",
+      "lat": 39.9298966,
+      "lon": -75.1684917
+    },
+    {
+      "associated_target": "Broad Street Line – Snyder Station",
+      "name": "Snyder",
+      "type": "Transit Hub",
+      "lat": 39.9237275,
+      "lon": -75.1695817
+    },
+    {
+      "associated_target": "Broad Street Line – Snyder Station",
+      "name": "Kindred Hospital South Philadelphia",
+      "type": "Medical Facility",
+      "lat": 39.9265511,
+      "lon": -75.1702417
+    },
+    {
+      "associated_target": "Broad Street Line – Snyder Station",
+      "name": "Oregon",
+      "type": "Transit Hub",
+      "lat": 39.9169429,
+      "lon": -75.1710579
+    },
+    {
+      "associated_target": "30th Street Station Lower Levels",
+      "name": "Penn Medicine",
+      "type": "Transit Hub",
+      "lat": 39.9478543,
+      "lon": -75.1903505
+    },
+    {
+      "associated_target": "30th Street Station Lower Levels",
+      "name": "34th Street",
+      "type": "Transit Hub",
+      "lat": 39.9559238,
+      "lon": -75.1914953
+    },
+    {
+      "associated_target": "30th Street Station Lower Levels",
+      "name": "30th Street",
+      "type": "Transit Hub",
+      "lat": 39.9550324,
+      "lon": -75.18347
+    },
+    {
+      "associated_target": "30th Street Station Lower Levels",
+      "name": "Philadelphia 30th Street Station",
+      "type": "Transit Hub",
+      "lat": 39.9559304,
+      "lon": -75.1819051
+    },
+    {
+      "associated_target": "30th Street Station Lower Levels",
+      "name": "37th Street",
+      "type": "Transit Hub",
+      "lat": 39.9510529,
+      "lon": -75.1971594
+    },
+    {
+      "associated_target": "30th Street Station Lower Levels",
+      "name": "36th Street",
+      "type": "Transit Hub",
+      "lat": 39.953932,
+      "lon": -75.1946267
+    },
+    {
+      "associated_target": "30th Street Station Lower Levels",
+      "name": "33rd Street",
+      "type": "Transit Hub",
+      "lat": 39.9552169,
+      "lon": -75.1891538
+    },
+    {
+      "associated_target": "30th Street Station Lower Levels",
+      "name": "Megabus",
+      "type": "Transit Hub",
+      "lat": 39.9527289,
+      "lon": -75.181964
+    },
+    {
+      "associated_target": "Tower City Center Sublevels",
+      "name": "79 A/B 51A/B/C 22 26",
+      "type": "Transit Hub",
+      "lat": 41.4982284,
+      "lon": -81.69685
+    },
+    {
+      "associated_target": "Tower City Center Sublevels",
+      "name": "Tower City",
+      "type": "Transit Hub",
+      "lat": 41.4977756,
+      "lon": -81.694568
+    },
+    {
+      "associated_target": "Tower City Center Sublevels",
+      "name": "Flats East Bank",
+      "type": "Transit Hub",
+      "lat": 41.4994692,
+      "lon": -81.7035835
+    },
+    {
+      "associated_target": "Tower City Center Sublevels",
+      "name": "Settlers Landing",
+      "type": "Transit Hub",
+      "lat": 41.4964182,
+      "lon": -81.7004621
+    },
+    {
+      "associated_target": "Tower City Center Sublevels",
+      "name": "South Harbor",
+      "type": "Transit Hub",
+      "lat": 41.5092672,
+      "lon": -81.6882614
+    },
+    {
+      "associated_target": "Tower City Center Sublevels",
+      "name": "East 9th–North Coast",
+      "type": "Transit Hub",
+      "lat": 41.506534,
+      "lon": -81.6939953
+    },
+    {
+      "associated_target": "Tower City Center Sublevels",
+      "name": "West 3rd",
+      "type": "Transit Hub",
+      "lat": 41.5041542,
+      "lon": -81.6991606
+    },
+    {
+      "associated_target": "Tower City Center Sublevels",
+      "name": "Tower City",
+      "type": "Transit Hub",
+      "lat": 41.4977263,
+      "lon": -81.6936162
+    },
+    {
+      "associated_target": "Tower City Center Sublevels",
+      "name": "Cleveland Amtrak",
+      "type": "Transit Hub",
+      "lat": 41.5057496,
+      "lon": -81.6962779
+    },
+    {
+      "associated_target": "Tower City Center Sublevels",
+      "name": "Amtrak",
+      "type": "Transit Hub",
+      "lat": 41.5054075,
+      "lon": -81.696443
+    },
+    {
+      "associated_target": "Tower City Center Sublevels",
+      "name": "West Bank Dock",
+      "type": "Transit Hub",
+      "lat": 41.4982448,
+      "lon": -81.7059411
+    },
+    {
+      "associated_target": "Tower City Center Sublevels",
+      "name": "East Bank Dock",
+      "type": "Transit Hub",
+      "lat": 41.499007,
+      "lon": -81.7049922
+    },
+    {
+      "associated_target": "Tower City Center Sublevels",
+      "name": "BrewDog Cleveland Outpost",
+      "type": "Transit Hub",
+      "lat": 41.4930527,
+      "lon": -81.6990535
+    },
+    {
+      "associated_target": "Tower City Center Sublevels",
+      "name": "Collision Bend Brewing Company",
+      "type": "Transit Hub",
+      "lat": 41.4984495,
+      "lon": -81.7039636
+    },
+    {
+      "associated_target": "Tower City Center Sublevels",
+      "name": "Cleveland Water Taxi Main Hub",
+      "type": "Transit Hub",
+      "lat": 41.4973767,
+      "lon": -81.7077586
+    },
+    {
+      "associated_target": "Tower City Center Sublevels",
+      "name": "Flats East Bank",
+      "type": "Transit Hub",
+      "lat": 41.4991082,
+      "lon": -81.7058314
+    },
+    {
+      "associated_target": "RTA Red Line – West 25th Station",
+      "name": "West 25th–Ohio City",
+      "type": "Transit Hub",
+      "lat": 41.4847091,
+      "lon": -81.7012276
+    },
+    {
+      "associated_target": "RTA Red Line – West 25th Station",
+      "name": "Grace Hospital",
+      "type": "Medical Facility",
+      "lat": 41.4806953,
+      "lon": -81.6908685
+    },
+    {
+      "associated_target": "Trolley Station – 12th & Imperial",
+      "name": "Convention Center / 5th Avenue Ferry Landing",
+      "type": "Transit Hub",
+      "lat": 32.7047188,
+      "lon": -117.162892
+    },
+    {
+      "associated_target": "Trolley Station – 12th & Imperial",
+      "name": "5th Avenue",
+      "type": "Transit Hub",
+      "lat": 32.7166889,
+      "lon": -117.1597872
+    },
+    {
+      "associated_target": "Trolley Station – 12th & Imperial",
+      "name": "12th & Imperial Transit Center",
+      "type": "Transit Hub",
+      "lat": 32.7056605,
+      "lon": -117.1533713
+    },
+    {
+      "associated_target": "Trolley Station – 12th & Imperial",
+      "name": "Barrio Logan",
+      "type": "Transit Hub",
+      "lat": 32.6980605,
+      "lon": -117.1467326
+    },
+    {
+      "associated_target": "Trolley Station – 12th & Imperial",
+      "name": "Convention Center",
+      "type": "Transit Hub",
+      "lat": 32.7090678,
+      "lon": -117.1635664
+    },
+    {
+      "associated_target": "Trolley Station – 12th & Imperial",
+      "name": "Gaslamp Quarter",
+      "type": "Transit Hub",
+      "lat": 32.7068957,
+      "lon": -117.159622
+    },
+    {
+      "associated_target": "Trolley Station – 12th & Imperial",
+      "name": "25th/Commercial",
+      "type": "Transit Hub",
+      "lat": 32.7053945,
+      "lon": -117.1400514
+    },
+    {
+      "associated_target": "Trolley Station – 12th & Imperial",
+      "name": "Park & Market",
+      "type": "Transit Hub",
+      "lat": 32.7109822,
+      "lon": -117.1537613
+    },
+    {
+      "associated_target": "Trolley Station – 12th & Imperial",
+      "name": "City College",
+      "type": "Transit Hub",
+      "lat": 32.7162975,
+      "lon": -117.1542201
+    },
+    {
+      "associated_target": "Civic Center Underground Parking",
+      "name": "Broadway Pier",
+      "type": "Transit Hub",
+      "lat": 32.7152509,
+      "lon": -117.1736031
+    },
+    {
+      "associated_target": "Civic Center Underground Parking",
+      "name": "San Diego",
+      "type": "Transit Hub",
+      "lat": 32.7169643,
+      "lon": -117.1700668
+    },
+    {
+      "associated_target": "Civic Center Underground Parking",
+      "name": "Seaport Village",
+      "type": "Transit Hub",
+      "lat": 32.7119019,
+      "lon": -117.1685734
+    },
+    {
+      "associated_target": "Civic Center Underground Parking",
+      "name": "Courthouse",
+      "type": "Transit Hub",
+      "lat": 32.7166453,
+      "lon": -117.1659105
+    },
+    {
+      "associated_target": "Civic Center Underground Parking",
+      "name": "America Plaza",
+      "type": "Transit Hub",
+      "lat": 32.716457,
+      "lon": -117.1688218
+    },
+    {
+      "associated_target": "Civic Center Underground Parking",
+      "name": "Civic Center",
+      "type": "Transit Hub",
+      "lat": 32.7167939,
+      "lon": -117.162314
+    },
+    {
+      "associated_target": "Civic Center Underground Parking",
+      "name": "County Center/Little Italy",
+      "type": "Transit Hub",
+      "lat": 32.7214084,
+      "lon": -117.169937
+    },
+    {
+      "associated_target": "Civic Center Underground Parking",
+      "name": "Santa Fe Depot",
+      "type": "Transit Hub",
+      "lat": 32.7169625,
+      "lon": -117.169815
+    },
+    {
+      "associated_target": "Civic Center Underground Parking",
+      "name": "Johnny Ritchey SDHS Transit Center",
+      "type": "Transit Hub",
+      "lat": 32.7218053,
+      "lon": -117.1512276
+    }
+  ]
+}

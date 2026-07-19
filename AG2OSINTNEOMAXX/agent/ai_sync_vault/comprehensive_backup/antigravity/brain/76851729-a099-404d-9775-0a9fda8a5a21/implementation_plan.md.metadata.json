@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan for introducing an IMAP-based Gmail scanner to ingest email metadata into BigQuery without requiring OAuth.",
+  "updatedAt":  "2026-07-19T04:17:16.461542Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

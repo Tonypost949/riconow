@@ -1,0 +1,49 @@
+{
+  "id":  "9bafe221-b183-4393-a8b4-9da0e7aab2ae",
+  "name":  "c:\\Users\\HP\\OneDrive\\Documents\\OsintNeoAi",
+  "projectResources":  {
+    "resources":  [
+      {
+        "gitFolder":  {
+          "folderUri":  "file:///c%3A%5CUsers%5CHP%5COneDrive%5CDocuments%5COsintNeoAi",
+          "defaultBranch":  "main"
+        }
+      }
+    ]
+  },
+  "environments":  {
+    "environments":  [
+      {
+        "id":  "c41d4667-a904-4ca8-befb-687d3fadd908",
+        "name":  "random-test-branch",
+        "resources":  {
+          "resources":  [
+            {
+              "folderUri":  "file:///C:/Users/HP/.gemini/antigravity/worktrees/OsintNeoAi/random-test-branch"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "permissionGrants":  {
+    "permissionGrants":  {
+      "allow":  [
+        "read_url(sandbox:///mnt/agents/output/001_schema_v2.sql)",
+        "read_url(developers.googleblog.com)",
+        "read_url(machinelearningmastery.com)",
+        "read_url(data.egovoc.com)",
+        "read_url(claude.ai)",
+        "mcp(bigquery/list_dataset_ids)",
+        "mcp(bigquery/execute_sql_readonly)",
+        "read_url(opncd.ai)"
+      ]
+    }
+  },
+  "settings":  {
+    "fileAccessPolicy":  "AGENT_SETTING_POLICY_ALLOW",
+    "internetPolicy":  "AGENT_SETTING_POLICY_ASK",
+    "autoExecutionPolicy":  "CASCADE_COMMANDS_AUTO_EXECUTION_EAGER",
+    "artifactReviewMode":  "ARTIFACT_REVIEW_MODE_TURBO"
+  }
+}

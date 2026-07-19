@@ -1,0 +1,4 @@
+{
+  "summary":  "A script to safely parse and dump the deepseek search matches from deepseek_investigation_matches.json into a readable UTF-8 text file.",
+  "updatedAt":  "2026-07-01T20:11:19.465927700Z"
+}

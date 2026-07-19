@@ -1,0 +1,4 @@
+{
+  "summary":  "A script to list all tables in the ppp_rico BigQuery dataset and print their schemas to understand how to perform cross-referencing.",
+  "updatedAt":  "2026-07-01T20:15:31.868497900Z"
+}
