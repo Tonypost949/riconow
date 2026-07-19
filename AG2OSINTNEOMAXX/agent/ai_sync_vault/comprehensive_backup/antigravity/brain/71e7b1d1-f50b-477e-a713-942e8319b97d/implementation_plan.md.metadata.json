@@ -1,6 +1,0 @@
-{
-  "summary":  "Implementation plan for continuous NPI BigQuery pipeline anomaly monitoring, including the address junction table schema extension, a local-to-BQ graph bulk loader, and integration of detection queries into the Aegis correlation engine.",
-  "updatedAt":  "2026-07-03T20:34:04.496963200Z",
-  "requestFeedback":  true,
-  "userFacing":  true
-}

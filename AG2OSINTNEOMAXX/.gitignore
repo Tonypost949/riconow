@@ -12,6 +12,9 @@ opencode_work/chunk_*.dat
 # Agent conversation logs with embedded secrets
 .system_generated/
 
+# Brain backups - contain embedded OAuth tokens and secrets in transcripts
+agent/ai_sync_vault/comprehensive_backup/antigravity/brain/
+
 # OS
 .DS_Store
 Thumbs.db

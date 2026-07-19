@@ -1,5 +1,0 @@
-- [x] Create `agent/scan_gmail_imap.py`
-- [x] Verify script with a dry-run
-- [/] Execute IMAP scanner and ingest metadata to BigQuery
-- [x] Backup workspace changes to the 3 mandatory locations
-- [ ] Verify changes and complete walkthrough

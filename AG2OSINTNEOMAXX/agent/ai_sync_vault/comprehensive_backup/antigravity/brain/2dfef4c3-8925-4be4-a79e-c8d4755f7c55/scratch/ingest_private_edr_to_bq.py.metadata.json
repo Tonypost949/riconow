@@ -1,4 +1,0 @@
-{
-  "summary":  "Ingest file inventory of Private_EDR_2025_Real folder into BigQuery real_edr_inventory table with correct schema.",
-  "updatedAt":  "2026-07-08T02:34:50.681187600Z"
-}

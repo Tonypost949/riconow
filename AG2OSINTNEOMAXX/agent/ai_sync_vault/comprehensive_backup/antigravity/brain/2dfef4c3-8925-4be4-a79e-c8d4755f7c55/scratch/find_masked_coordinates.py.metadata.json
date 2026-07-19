@@ -1,4 +1,0 @@
-{
-  "summary":  "Find masked addresses and coordinates in EDR reports. Writes output directly to a file to prevent CP1252 console encoding errors.",
-  "updatedAt":  "2026-07-09T16:24:35.199633400Z"
-}

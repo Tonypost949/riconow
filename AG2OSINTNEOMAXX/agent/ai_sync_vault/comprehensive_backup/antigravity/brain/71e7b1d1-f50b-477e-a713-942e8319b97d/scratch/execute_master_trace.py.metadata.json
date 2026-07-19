@@ -1,4 +1,0 @@
-{
-  "summary":  "Corrected master trace script to route queries across the appropriate GCP projects: project-743aab84-f9a5-4ec7-954 for Phase 2 data and noble-beanbag-497411-m4 for historical and national databases.",
-  "updatedAt":  "2026-07-02T17:56:09.883176200Z"
-}
